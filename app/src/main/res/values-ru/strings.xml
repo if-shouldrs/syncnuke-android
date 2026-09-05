@@ -57,4 +57,13 @@
     <string name="pref_subtitle_style_bold">Полужирный стиль</string>
     <string name="pref_subtitle_style_bold_on">Использовать полужирный шрифт как обычный</string>
     <string name="pref_subtitle_style_bold_off">Использовать стандартный шрифт по умолчанию</string>
+    <!-- Sync settings -->
+    <string name="pref_sync_header">Синхронизация</string>
+    <string name="pref_sync_enabled">Включить синхронизацию</string>
+    <string name="pref_sync_enabled_on">Синхронизировать воспроизведение с другими пользователями</string>
+    <string name="pref_sync_enabled_off">Воспроизводить видео локально без синхронизации</string>
+    <string name="pref_sync_server">Адрес сервера</string>
+    <string name="pref_sync_port">Порт сервера</string>
+    <string name="pref_sync_username">Имя пользователя</string>
+    <string name="pref_sync_room">Название комнаты</string>
 </resources>

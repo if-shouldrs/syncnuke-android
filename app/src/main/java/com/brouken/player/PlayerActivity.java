@@ -97,6 +97,7 @@ import androidx.media3.ui.TimeBar;
 
 import com.brouken.player.dtpv.DoubleTapPlayerView;
 import com.brouken.player.dtpv.youtube.YouTubeOverlay;
+import com.brouken.player.sync.ExoPlayerAdapter;
 import com.getkeepsafe.taptargetview.TapTarget;
 import com.getkeepsafe.taptargetview.TapTargetView;
 import com.google.android.material.snackbar.Snackbar;
@@ -110,6 +111,8 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
+
+import io.github.syncnuke.client.SyncManager;
 
 public class PlayerActivity extends Activity {
 
@@ -138,6 +141,8 @@ public class PlayerActivity extends Activity {
     private boolean isScaling = false;
     private boolean isScaleStarting = false;
     private float scaleFactor = 1.0f;
+    private SyncManager syncManager;
+    private ExoPlayerAdapter videoPlayer;
 
     private static final int REQUEST_CHOOSER_VIDEO = 1;
     private static final int REQUEST_CHOOSER_SUBTITLE = 2;
@@ -343,6 +348,9 @@ public class PlayerActivity extends Activity {
                 if (player == null) {
                     return;
                 }
+                if (videoPlayer != null) {
+                    videoPlayer.beginScrubbing(position);
+                }
                 restorePlayState = player.isPlaying();
                 if (restorePlayState) {
                     player.pause();
@@ -358,6 +366,9 @@ public class PlayerActivity extends Activity {
 
             @Override
             public void onScrubMove(TimeBar timeBar, long position) {
+                if (videoPlayer != null) {
+                    videoPlayer.updateScrubbingPosition(position);
+                }
                 reportScrubbing(position);
             }
 
@@ -371,6 +382,9 @@ public class PlayerActivity extends Activity {
                     if (player != null) {
                         player.setPlayWhenReady(true);
                     }
+                }
+                if (videoPlayer != null) {
+                    videoPlayer.endScrubbing(position);
                 }
             }
         });
@@ -739,16 +753,19 @@ public class PlayerActivity extends Activity {
         if (isTvBox && Build.VERSION.SDK_INT >= 31) {
             updateSubtitleStyle(this);
         }
+        startSyncServer();
     }
 
     @Override
     protected void onPause() {
+        stopSyncServer();
         super.onPause();
         savePlayer();
     }
 
     @Override
     public void onStop() {
+        stopSyncServer();
         super.onStop();
         alive = false;
         if (Build.VERSION.SDK_INT >= 31) {
@@ -1179,11 +1196,23 @@ public class PlayerActivity extends Activity {
         boolean isNetworkUri = Utils.isSupportedNetworkUri(mPrefs.mediaUri);
         haveMedia = mPrefs.mediaUri != null;
 
+        closeSyncManager();
+
         if (player != null) {
             player.removeListener(playerListener);
             player.clearMediaItems();
             player.release();
             player = null;
+        }
+
+        // Clean up the old videoPlayer before creating a new one
+        if (videoPlayer != null) {
+            try {
+                videoPlayer.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            videoPlayer = null;
         }
 
         trackSelector = new DefaultTrackSelector(this);
@@ -1245,6 +1274,7 @@ public class PlayerActivity extends Activity {
         }
 
         player = playerBuilder.build();
+        videoPlayer = new ExoPlayerAdapter(player);
 
         AudioAttributes audioAttributes = new AudioAttributes.Builder()
                 .setUsage(C.USAGE_MEDIA)
@@ -1375,6 +1405,43 @@ public class PlayerActivity extends Activity {
             playerView.setControllerShowTimeoutMs(PlayerActivity.CONTROLLER_TIMEOUT);
             player.setPlayWhenReady(true);
         }
+
+        startSyncServer();
+    }
+
+    private void startSyncServer() {
+        if (!mPrefs.syncEnabled) {
+            return;
+        }
+
+        stopSyncServer();
+
+        SyncManager manager = SyncManager.getInstance(videoPlayer);
+        if (!manager.equals(syncManager)) {
+            syncManager = manager;
+        }
+
+        syncManager.start(
+                mPrefs.syncProtocol,
+                mPrefs.syncServer,
+                mPrefs.syncPort,
+                mPrefs.syncUsername,
+                mPrefs.syncRoom,
+                mPrefs.syncPassword
+        );
+    }
+
+    private void stopSyncServer() {
+        if (syncManager != null) {
+            syncManager.stop();
+        }
+    }
+
+    private void closeSyncManager() {
+        if (syncManager != null) {
+            syncManager.close();
+            syncManager = null;
+        }
     }
 
     private void savePlayer() {
@@ -1419,6 +1486,13 @@ public class PlayerActivity extends Activity {
             player.removeListener(playerListener);
             player.clearMediaItems();
             player.release();
+            closeSyncManager();
+            try {
+                videoPlayer.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            videoPlayer = null;
             player = null;
         }
         titleView.setVisibility(View.GONE);
@@ -2319,4 +2393,5 @@ public class PlayerActivity extends Activity {
             }
         }
     }
+
 }

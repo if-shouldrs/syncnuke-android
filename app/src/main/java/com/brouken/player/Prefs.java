@@ -48,6 +48,15 @@ class Prefs {
     private static final String PREF_KEY_SUBTITLE_STYLE_EMBEDDED = "subtitleStyleEmbedded";
     private static final String PREF_KEY_SUBTITLE_STYLE_BOLD = "subtitleStyleBold";
 
+    // Sync settings
+    private static final String PREF_KEY_SYNC_ENABLED = "syncEnabled";
+    private static final String PREF_KEY_SYNC_USERNAME = "syncUsername";
+    private static final String PREF_KEY_SYNC_PASSWORD = "syncPassword";
+    private static final String PREF_KEY_SYNC_ROOM = "syncRoom";
+    private static final String PREF_KEY_SYNC_SERVER = "syncServer";
+    private static final String PREF_KEY_SYNC_PROTOCOL = "syncProtocol";
+    private static final String PREF_KEY_SYNC_PORT = "syncPort";
+
     public static final String TRACK_DEFAULT = "default";
     public static final String TRACK_DEVICE = "device";
 
@@ -81,6 +90,15 @@ class Prefs {
     public String languageAudio = TRACK_DEVICE;
     public boolean subtitleStyleEmbedded = true;
     public boolean subtitleStyleBold = false;
+
+    // Sync settings
+    public boolean syncEnabled;
+    public String syncProtocol;
+    public String syncServer;
+    public int syncPort;
+    public String syncUsername;
+    public String syncPassword;
+    public String syncRoom;
 
     private LinkedHashMap positions;
 
@@ -130,6 +148,28 @@ class Prefs {
         languageAudio = mSharedPreferences.getString(PREF_KEY_LANGUAGE_AUDIO, languageAudio);
         subtitleStyleEmbedded = mSharedPreferences.getBoolean(PREF_KEY_SUBTITLE_STYLE_EMBEDDED, subtitleStyleEmbedded);
         subtitleStyleBold = mSharedPreferences.getBoolean(PREF_KEY_SUBTITLE_STYLE_BOLD, subtitleStyleBold);
+
+        // Sync settings
+        try {
+            syncEnabled = mSharedPreferences.getBoolean(PREF_KEY_SYNC_ENABLED, syncEnabled);
+        } catch (ClassCastException e) {
+            try {
+                syncEnabled = Boolean.parseBoolean(mSharedPreferences.getString(PREF_KEY_SYNC_ENABLED, String.valueOf(syncEnabled)));
+            } catch (Exception ex) {
+                // Fallback to default if parsing fails
+                syncEnabled = false;
+            }
+        }
+        syncUsername = mSharedPreferences.getString(PREF_KEY_SYNC_USERNAME, syncUsername);
+        syncPassword = mSharedPreferences.getString(PREF_KEY_SYNC_PASSWORD, syncPassword);
+        syncRoom = mSharedPreferences.getString(PREF_KEY_SYNC_ROOM, syncRoom);
+        syncProtocol = mSharedPreferences.getString(PREF_KEY_SYNC_PROTOCOL, syncProtocol);
+        syncServer = mSharedPreferences.getString(PREF_KEY_SYNC_SERVER, syncServer);
+        try {
+            syncPort = Integer.parseInt(mSharedPreferences.getString(PREF_KEY_SYNC_PORT, String.valueOf(syncPort)));
+        } catch (NumberFormatException e) {
+            syncPort = 8999;
+        }
     }
 
     public void updateMedia(final Context context, final Uri uri, final String type) {

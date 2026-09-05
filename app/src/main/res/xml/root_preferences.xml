@@ -69,6 +69,59 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory app:title="@string/pref_sync_header">
+
+        <SwitchPreferenceCompat
+            app:key="syncEnabled"
+            app:defaultValue="false"
+            app:summaryOn="@string/pref_sync_enabled_on"
+            app:summaryOff="@string/pref_sync_enabled_off"
+            app:title="@string/pref_sync_enabled" />
+
+        <EditTextPreference
+            app:key="syncUsername"
+            app:defaultValue="User"
+            app:title="@string/pref_sync_username"
+            app:dependency="syncEnabled"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="syncPassword"
+            app:defaultValue=""
+            app:title="@string/pref_sync_password"
+            app:dependency="syncEnabled" />
+
+        <EditTextPreference
+            app:key="syncRoom"
+            app:defaultValue="Default"
+            app:title="@string/pref_sync_room"
+            app:dependency="syncEnabled"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="syncProtocol"
+            app:defaultValue="datasaver"
+            app:title="@string/pref_sync_protocol"
+            app:dependency="syncEnabled"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="syncServer"
+            app:defaultValue="localhost"
+            app:title="@string/pref_sync_server"
+            app:dependency="syncEnabled"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="syncPort"
+            app:defaultValue="8999"
+            android:inputType="number"
+            app:title="@string/pref_sync_port"
+            app:dependency="syncEnabled"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
     <PreferenceCategory app:title="@string/pref_dangerous_header">
 
         <Preference
