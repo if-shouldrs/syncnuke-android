@@ -116,6 +116,6 @@ dependencies {
     implementation 'com.sigpwned:chardet4j:78.1.0'
     implementation project(path: ':doubletapplayerview')
     implementation project(path: ':android-file-chooser')
-    implementation 'io.github.syncnuke:syncnuke-core:0.2.0'
+    implementation 'io.github.syncnuke:syncnuke-core:0.3.0'
     implementation fileTree(dir: "libs", include: ["lib-*.aar"])
 }
