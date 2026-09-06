@@ -168,7 +168,7 @@ class Prefs {
         try {
             syncPort = Integer.parseInt(mSharedPreferences.getString(PREF_KEY_SYNC_PORT, String.valueOf(syncPort)));
         } catch (NumberFormatException e) {
-            syncPort = 8999;
+            syncPort = 65344;
         }
     }
 

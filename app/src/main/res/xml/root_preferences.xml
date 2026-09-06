@@ -107,14 +107,14 @@
 
         <EditTextPreference
             app:key="syncServer"
-            app:defaultValue="localhost"
+            app:defaultValue="master.syncnuke.com"
             app:title="@string/pref_sync_server"
             app:dependency="syncEnabled"
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
             app:key="syncPort"
-            app:defaultValue="8999"
+            app:defaultValue="65344"
             android:inputType="number"
             app:title="@string/pref_sync_port"
             app:dependency="syncEnabled"
