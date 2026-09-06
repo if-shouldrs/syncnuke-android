@@ -1,3 +1,5 @@
+> **Note:** This is a work-in-progress fork of the original project, adding SyncNuke support; the official upstream README is preserved below.
+
 # Just (Video) Player 
 
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/moneytoo/Player.svg?logo=github&label=GitHub&cacheSeconds=3600)](https://github.com/moneytoo/Player/releases/latest)
