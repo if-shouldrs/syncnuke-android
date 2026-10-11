@@ -5,7 +5,7 @@ import android.os.Handler
 import android.os.Looper
 import android.util.Log
 import io.github.syncnuke.client.SyncManager
-import io.github.syncnuke.player.VideoPlayer
+import io.github.syncnuke.player.MediaPlayer
 import io.github.syncnuke.player.data.PlaybackState
 import io.github.syncnuke.player.data.PlayerState
 import org.videolan.vlc.PlaybackService
@@ -89,7 +89,7 @@ class SyncNukeController(
 }
 
 /** All VLC access stays on the main thread; SyncNuke polls immutable snapshots. */
-private class VlcPlayerAdapter(private val service: PlaybackService) : VideoPlayer {
+private class VlcPlayerAdapter(private val service: PlaybackService) : MediaPlayer {
     private val handler = Handler(Looper.getMainLooper())
     @Volatile var active = true
         private set
