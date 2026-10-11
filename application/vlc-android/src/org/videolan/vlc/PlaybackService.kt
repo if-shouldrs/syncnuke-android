@@ -189,6 +189,7 @@ import org.videolan.vlc.util.RendererLiveData
 import org.videolan.vlc.util.SchedulerCallback
 import org.videolan.vlc.util.TextUtils
 import org.videolan.vlc.util.ThumbnailsProvider
+import org.videolan.vlc.sync.SyncNukeController
 import org.videolan.vlc.util.Util
 import org.videolan.vlc.util.VLCAudioFocusHelper
 import org.videolan.vlc.util.awaitMedialibraryStarted
@@ -220,6 +221,7 @@ class PlaybackService : MediaBrowserServiceCompat(), LifecycleOwner, CoroutineSc
         get() = playlistManager.player.mediaplayer
     private lateinit var keyguardManager: KeyguardManager
     internal lateinit var settings: SharedPreferences
+    private var syncNuke: SyncNukeController? = null
     private val binder = LocalBinder()
     internal lateinit var medialibrary: Medialibrary
     private lateinit var artworkMap: MutableMap<String, Uri>
@@ -326,6 +328,7 @@ class PlaybackService : MediaBrowserServiceCompat(), LifecycleOwner, CoroutineSc
     private val mediaPlayerListener = MediaPlayer.EventListener { event ->
         when (event.type) {
             MediaPlayer.Event.Playing -> {
+                syncNuke?.update()
                 if (BuildConfig.DEBUG) Log.i(TAG, "MediaPlayer.Event.Playing")
                 executeUpdate(true)
                 lastTime = getTime()
@@ -742,6 +745,7 @@ class PlaybackService : MediaBrowserServiceCompat(), LifecycleOwner, CoroutineSc
         NotificationHelper.createNotificationChannels(applicationContext)
         settings = Settings.getInstance(this)
         playlistManager = PlaylistManager(this)
+        syncNuke = SyncNukeController(this, settings)
         Util.checkCpuCompatibility(this)
 
         medialibrary = Medialibrary.getInstance()
@@ -911,6 +915,8 @@ class PlaybackService : MediaBrowserServiceCompat(), LifecycleOwner, CoroutineSc
     }
 
     override fun onDestroy() {
+        syncNuke?.close()
+        syncNuke = null
         serviceFlow.value = null
         dispatcher.onServicePreSuperOnDestroy()
         PlaylistManager.playingState.value = false
@@ -998,6 +1004,7 @@ class PlaybackService : MediaBrowserServiceCompat(), LifecycleOwner, CoroutineSc
     fun onMediaPlayerEvent(event: MediaPlayer.Event) = mediaPlayerListener.onEvent(event)
 
     fun onPlaybackStopped(systemExit: Boolean) {
+        syncNuke?.stop()
         if (!systemExit) hideNotification(isForeground)
         removePopup()
         if (wakeLock.isHeld) wakeLock.release()
@@ -1110,7 +1117,10 @@ class PlaybackService : MediaBrowserServiceCompat(), LifecycleOwner, CoroutineSc
         NotificationManagerCompat.from(this@PlaybackService).cancel(NotificationIds.PLAYBACK.id)
     }
 
-    fun onNewPlayback() = mediaSession.setSessionActivity(sessionPendingIntent)
+    fun onNewPlayback() {
+        syncNuke?.stop()
+        mediaSession.setSessionActivity(sessionPendingIntent)
+    }
 
     fun onPlaylistLoaded() {
         notifyTrackChanged()

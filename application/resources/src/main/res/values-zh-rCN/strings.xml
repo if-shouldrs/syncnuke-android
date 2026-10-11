@@ -1405,4 +1405,12 @@
     <string name="feedback_email_warning_explanation">分享反馈的最简单方式是使用 %1$s 功能。为此，请在设置中启用远程访问，按照说明操作，然后在菜单中选择 %2$s 选项。</string>
     <string name="feedback_email_warning_remote_action">打开设置</string>
     <string name="feedback_email_warning_try_anyway">仍然尝试</string>
+    <string name="pref_sync_header">同步</string>
+    <string name="pref_sync_enabled">启用同步</string>
+    <string name="pref_sync_enabled_on">与其他用户同步播放</string>
+    <string name="pref_sync_enabled_off">在不同步的情况下本地播放视频</string>
+    <string name="pref_sync_server">服务器地址</string>
+    <string name="pref_sync_port">服务器端口</string>
+    <string name="pref_sync_username">用户名</string>
+    <string name="pref_sync_room">房间名称</string>
     </resources>

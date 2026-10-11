@@ -1447,4 +1447,14 @@
     <string name="feedback_email_warning_try_anyway">Try anyway</string>
     <string name="forum_url" translatable="false">https://forum.videolan.org/viewforum.php?f=35</string>
     <string name="doc_url" translatable="false">https://docs.videolan.me/vlc-user/android/</string>
+    <string name="pref_sync_header">Synchronization</string>
+    <string name="pref_sync_enabled">Enable synchronization</string>
+    <string name="pref_sync_enabled_on">Sync playback with other users</string>
+    <string name="pref_sync_enabled_off">Play videos locally without synchronization</string>
+    <string name="pref_sync_server">Server address</string>
+    <string name="pref_sync_port">Server port</string>
+    <string name="pref_sync_username">Username</string>
+    <string name="pref_sync_password">Password</string>
+    <string name="pref_sync_room">Room name</string>
+    <string name="pref_sync_protocol">Sync protocol</string>
 </resources>

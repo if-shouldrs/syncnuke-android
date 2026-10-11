@@ -154,6 +154,7 @@ task generateSources(type: Jar) {
 }
 
 dependencies {
+    implementation 'io.github.syncnuke:syncnuke-core:0.3.0'
     devApi project(':libvlcjni:libvlc')
     devApi project(':medialibrary')
     debugApi "org.videolan.android:libvlc-all:$rootProject.ext.libvlcVersion"

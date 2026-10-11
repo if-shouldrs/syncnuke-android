@@ -26,8 +26,10 @@ import android.content.SharedPreferences
 import android.media.AudioManager
 import android.os.Build
 import android.os.Bundle
+import android.text.InputType
 import androidx.core.content.getSystemService
 import androidx.preference.CheckBoxPreference
+import androidx.preference.EditTextPreference
 import androidx.preference.Preference
 import org.videolan.libvlc.util.AndroidUtil
 import org.videolan.resources.AndroidDevices
@@ -61,6 +63,15 @@ class PreferencesVideoControls : BasePreferenceFragment(), SharedPreferences.OnS
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        findPreference<EditTextPreference>("syncPassword")?.setOnBindEditTextListener {
+            it.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
+        }
+        findPreference<EditTextPreference>("syncPort")?.apply {
+            setOnBindEditTextListener { it.inputType = InputType.TYPE_CLASS_NUMBER }
+            setOnPreferenceChangeListener { _, value ->
+                (value as? String)?.toIntOrNull()?.let { it in 1..65535 } == true
+            }
+        }
         val audioBoostPref = findPreference<CheckBoxPreference>(KEY_AUDIO_BOOST)
         val volumeGesturePref = findPreference<CheckBoxPreference>(ENABLE_VOLUME_GESTURE)
         findPreference<Preference>(POPUP_KEEPSCREEN)?.isVisible = !AndroidUtil.isOOrLater

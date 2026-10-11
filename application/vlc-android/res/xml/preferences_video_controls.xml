@@ -183,4 +183,57 @@
     </PreferenceCategory>
 
 
+    <PreferenceCategory app:title="@string/pref_sync_header">
+
+        <SwitchPreferenceCompat app:iconSpaceReserved="false"
+            app:key="syncEnabled"
+            app:defaultValue="false"
+            app:summaryOn="@string/pref_sync_enabled_on"
+            app:summaryOff="@string/pref_sync_enabled_off"
+            app:title="@string/pref_sync_enabled" />
+
+        <EditTextPreference app:iconSpaceReserved="false"
+            app:key="syncUsername"
+            app:defaultValue="User"
+            app:title="@string/pref_sync_username"
+            app:dependency="syncEnabled"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference app:iconSpaceReserved="false"
+            app:key="syncPassword"
+            app:defaultValue=""
+            app:title="@string/pref_sync_password"
+            app:dependency="syncEnabled" />
+
+        <EditTextPreference app:iconSpaceReserved="false"
+            app:key="syncRoom"
+            app:defaultValue="Default"
+            app:title="@string/pref_sync_room"
+            app:dependency="syncEnabled"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference app:iconSpaceReserved="false"
+            app:key="syncProtocol"
+            app:defaultValue="datasaver"
+            app:title="@string/pref_sync_protocol"
+            app:dependency="syncEnabled"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference app:iconSpaceReserved="false"
+            app:key="syncServer"
+            app:defaultValue="master.syncnuke.com"
+            app:title="@string/pref_sync_server"
+            app:dependency="syncEnabled"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference app:iconSpaceReserved="false"
+            app:key="syncPort"
+            app:defaultValue="65344"
+            android:inputType="number"
+            app:title="@string/pref_sync_port"
+            app:dependency="syncEnabled"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
 </androidx.preference.PreferenceScreen>
