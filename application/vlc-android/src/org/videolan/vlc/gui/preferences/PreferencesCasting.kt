@@ -43,6 +43,7 @@ class PreferencesCasting : BasePreferenceFragment(), SharedPreferences.OnSharedP
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        configureSyncPreferences()
         preferenceScreen.sharedPreferences!!.registerOnSharedPreferenceChangeListener(this)
     }
 
