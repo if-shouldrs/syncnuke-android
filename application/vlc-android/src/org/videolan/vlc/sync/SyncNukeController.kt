@@ -109,7 +109,9 @@ private class VlcPlayerAdapter(private val service: PlaybackService) : MediaPlay
     private fun capture() {
         status = PlayerState().apply {
             playbackState = if (service.isPlaying) PlaybackState.PLAYING else PlaybackState.PAUSED
-            position = service.getTime().coerceAtLeast(0) / 1000.0
+            // The service's UI progress cache advances only every ~950 ms.
+            // Pair this sample's timestamp with the live player clock instead.
+            position = service.playlistManager.player.mediaplayer.time.coerceAtLeast(0) / 1000.0
             playbackSpeed = service.rate.toDouble().takeIf { it.isFinite() && it > 0 } ?: 1.0
             lastUpdateTime = System.currentTimeMillis()
         }
