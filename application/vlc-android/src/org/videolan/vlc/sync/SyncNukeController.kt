@@ -1,8 +1,11 @@
 package org.videolan.vlc.sync
 
+import android.content.Context
 import android.content.SharedPreferences
+import android.os.Build
 import android.os.Handler
 import android.os.Looper
+import android.provider.Settings
 import android.util.Log
 import io.github.syncnuke.client.SyncManager
 import io.github.syncnuke.player.MediaPlayer
@@ -10,6 +13,10 @@ import io.github.syncnuke.player.data.PlaybackState
 import io.github.syncnuke.player.data.PlayerState
 import org.videolan.vlc.PlaybackService
 import java.util.concurrent.Executors
+
+internal fun defaultSyncUsername(context: Context): String =
+    Settings.Global.getString(context.contentResolver, "device_name")
+        ?.takeIf { it.isNotBlank() } ?: Build.MODEL
 
 /** Keeps SyncNuke independent of the video activity and of VLC's player ownership. */
 class SyncNukeController(
@@ -39,7 +46,7 @@ class SyncNukeController(
             settings.getString("syncProtocol", "datasaver") ?: "datasaver",
             settings.getString("syncServer", "master.syncnuke.com") ?: "master.syncnuke.com",
             settings.getString("syncPort", "65344") ?: "65344",
-            settings.getString("syncUsername", "User") ?: "User",
+            settings.getString("syncUsername", null) ?: defaultSyncUsername(service),
             settings.getString("syncRoom", "Default") ?: "Default",
             settings.getString("syncPassword", "") ?: ""
         )

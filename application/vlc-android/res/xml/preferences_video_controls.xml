@@ -194,7 +194,6 @@
 
         <EditTextPreference app:iconSpaceReserved="false"
             app:key="syncUsername"
-            app:defaultValue="User"
             app:title="@string/pref_sync_username"
             app:dependency="syncEnabled"
             app:useSimpleSummaryProvider="true" />

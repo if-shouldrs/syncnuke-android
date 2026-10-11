@@ -54,6 +54,7 @@ import org.videolan.tools.coerceInOrDefault
 import org.videolan.tools.readableString
 import org.videolan.vlc.R
 import org.videolan.vlc.gui.video.VideoPlayerActivity
+import org.videolan.vlc.sync.defaultSyncUsername
 
 class PreferencesVideoControls : BasePreferenceFragment(), SharedPreferences.OnSharedPreferenceChangeListener  {
 
@@ -63,6 +64,9 @@ class PreferencesVideoControls : BasePreferenceFragment(), SharedPreferences.OnS
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        findPreference<EditTextPreference>("syncUsername")?.apply {
+            if (text == null) text = defaultSyncUsername(requireContext())
+        }
         findPreference<EditTextPreference>("syncPassword")?.setOnBindEditTextListener {
             it.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
         }
