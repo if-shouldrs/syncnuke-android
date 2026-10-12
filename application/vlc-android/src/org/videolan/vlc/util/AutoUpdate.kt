@@ -29,12 +29,10 @@ import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.os.Build
 import android.util.Log
-import android.util.Patterns
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import okio.BufferedSink
 import okio.buffer
 import okio.sink
 import org.videolan.tools.KEY_LAST_UPDATE_TIME
@@ -45,7 +43,7 @@ import org.videolan.vlc.R
 import org.videolan.vlc.getUpdateUri
 import java.io.File
 import java.io.IOException
-import java.net.URL
+import org.json.JSONArray
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
@@ -55,11 +53,24 @@ import java.util.concurrent.TimeUnit
 object AutoUpdate {
     private const val TAG = "AutoUpdate"
 
+    private fun releaseVersion(value: String): List<Int>? {
+        val match = Regex("^v?([0-9]+)\\.([0-9]+)\\.([0-9]+)$").matchEntire(value) ?: return null
+        return match.groupValues.drop(1).map { it.toIntOrNull() ?: return null }
+    }
+
+    private fun compareVersions(left: List<Int>, right: List<Int>): Int {
+        for (index in left.indices) {
+            val comparison = left[index].compareTo(right[index])
+            if (comparison != 0) return comparison
+        }
+        return 0
+    }
+
     /**
-     * Checks if an update is available in the nightlies
+     * Checks for a newer SyncNuke GitHub release with a compatible APK
      *
      * @param context [Application] used to get the settings
-     * @param skipChecks If true, the checks are skipped
+     * @param skipChecks If true, bypass the six-hour check interval
      * @param listener Function called when an update is found
      */
     suspend fun checkUpdate(context: Application, skipChecks:Boolean = false, listener: (String, Date) -> Unit) = withContext(Dispatchers.IO) {
@@ -81,47 +92,49 @@ object AutoUpdate {
             } else {
                 Build.CPU_ABI
             }
-
-            //get this abi:
-
-            val abiCodes = mapOf(Pair("armeabi-v7a", "armv7"), Pair("arm64-v8a", "arm64"), Pair("x86", "x86"), Pair("x86_64", "x86_64"))
-            if (!abiCodes.containsKey(arch)) throw Exception("Unsupported architecture")
-            val abi = abiCodes[arch]
-            Log.i(TAG, "Checking for update for abi! $abi")
-
-
-            val buildTime = if (skipChecks) "2000-01-01" else context.getString(R.string.build_time)
-
-            val localFormat = SimpleDateFormat("yyyy-MM-dd", Locale.US)
-            val webFormat = SimpleDateFormat("yyyyMMdd", Locale.US)
-            val buildDate = localFormat.parse(buildTime)
-            val url = URL("http://artifacts.videolan.org/vlc-android/nightly-$abi/")
             val client = OkHttpClient.Builder().readTimeout(10, TimeUnit.SECONDS).connectTimeout(5, TimeUnit.SECONDS).build()
-
-
-            val request = Request.Builder().url(url).build()
+            val request = Request.Builder()
+                .url("https://api.github.com/repos/if-shouldrs/syncnuke-android/releases?per_page=100")
+                .header("Accept", "application/vnd.github+json")
+                .build()
             client.newCall(request).execute().use { response ->
-                val body = response.body?.string() ?: return@withContext
-                val m = Patterns.WEB_URL.matcher(body)
-                var found = false
-                while (m.find() && !found) {
-                    val decodedUrl = m.group()
-                    val splitUrl = decodedUrl.split('-')
-                    try {
-                        val nightlyDate = webFormat.parse(splitUrl[splitUrl.size - 2])
-                        nightlyDate?.let {
-                            if (nightlyDate.time > (buildDate?.time ?: Long.MAX_VALUE)) {
-                                Log.i(TAG, "Found update: $decodedUrl")
-                                withContext(Dispatchers.Main) {
-                                    listener.invoke("http://artifacts.videolan.org/vlc-android/nightly-$abi/$decodedUrl", nightlyDate)
-                                }
-                                found = true
-
+                if (!response.isSuccessful) throw IOException("Release check failed: ${response.code}")
+                val releases = JSONArray(response.body?.string() ?: return@withContext)
+                val currentVersion = releaseVersion(BuildConfig.VLC_VERSION_NAME) ?: return@withContext
+                var newestVersion = currentVersion
+                var updateUrl: String? = null
+                var updateDate = Date(0)
+                val dateFormat = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.US).apply {
+                    timeZone = java.util.TimeZone.getTimeZone("UTC")
+                }
+                for (index in 0 until releases.length()) {
+                    val release = releases.getJSONObject(index)
+                    if (release.optBoolean("draft") || release.optBoolean("prerelease")) continue
+                    val version = releaseVersion(release.optString("tag_name")) ?: continue
+                    if (compareVersions(version, newestVersion) <= 0) continue
+                    val prefix = "SyncNuke-Android-${version.joinToString(".")}" +
+                            (if (BuildConfig.DEBUG) "-debug" else "")
+                    val assets = release.optJSONArray("assets") ?: continue
+                    var matchingUrl: String? = null
+                    for (assetIndex in 0 until assets.length()) {
+                        val asset = assets.getJSONObject(assetIndex)
+                        val name = asset.optString("name")
+                        if (name == "$prefix-$arch.apk" ||
+                            (matchingUrl == null && name == "$prefix-all.apk")) {
+                            val url = asset.optString("browser_download_url")
+                            if (url.startsWith("https://github.com/if-shouldrs/syncnuke-android/releases/download/")) {
+                                matchingUrl = url
                             }
                         }
-                    } catch (e: Exception) {
-                        e.printStackTrace()
                     }
+                    if (matchingUrl != null) {
+                        newestVersion = version
+                        updateUrl = matchingUrl
+                        updateDate = dateFormat.parse(release.getString("published_at")) ?: Date(0)
+                    }
+                }
+                updateUrl?.let { url ->
+                    withContext(Dispatchers.Main) { listener.invoke(url, updateDate) }
                 }
             }
         } catch (e: Exception) {
@@ -138,9 +151,14 @@ object AutoUpdate {
      */
     suspend fun downloadAndInstall(context: Application, updateURL: String, loading: (Boolean) -> Unit) = withContext(Dispatchers.IO) {
         withContext(Dispatchers.Main) { loading.invoke(true) }
-        download(context, updateURL)
-        withContext(Dispatchers.Main) { loading.invoke(false) }
-        installAPK(context)
+        try {
+            download(context, updateURL)
+            installAPK(context)
+        } catch (e: IOException) {
+            Log.e(TAG, "Unable to download SyncNuke update", e)
+        } finally {
+            withContext(Dispatchers.Main) { loading.invoke(false) }
+        }
     }
 
     /**
@@ -153,12 +171,13 @@ object AutoUpdate {
     private fun download(context: Application, url: String) {
         val client = OkHttpClient.Builder().readTimeout(10, TimeUnit.SECONDS).connectTimeout(5, TimeUnit.SECONDS).build()
         val request = Request.Builder().url(url).build()
-        val response = client.newCall(request).execute()
-
-        val downloadedFile = File(context.cacheDir, "update.apk")
-        val sink: BufferedSink = downloadedFile.sink().buffer()
-        sink.writeAll(response.body!!.source())
-        sink.close()
+        client.newCall(request).execute().use { response ->
+            if (!response.isSuccessful) throw IOException("APK download failed: ${response.code}")
+            val body = response.body ?: throw IOException("Empty APK response")
+            File(context.cacheDir, "update.apk").sink().buffer().use { sink ->
+                sink.writeAll(body.source())
+            }
+        }
     }
 
     /**
