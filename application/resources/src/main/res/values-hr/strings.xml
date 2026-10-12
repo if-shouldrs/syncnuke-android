@@ -37,7 +37,7 @@
     <string name="play_as_audio">Reproduciraj zvučni zapis</string>
     <string name="play_as_video">Reproduciraj video zapis</string>
     <string name="video_app_switch_title">Pozadinski/Slika-u-Slici (PIP) način rada</string>
-    <string name="video_app_switch_summary">Odaberite VLC ponašanje kada prebacite na drugu aplikaciju sa video repodukcije</string>
+    <string name="video_app_switch_summary">Odaberite SyncNuke ponašanje kada prebacite na drugu aplikaciju sa video repodukcije</string>
     <string name="play_pip_title">Reproduciraj video snimke u Slika-u-slici načinu rada</string>
     <string name="play_as_audio_background">Reproduciraj video snimke u pozadini</string>
     <string name="insert_next">Umetni sljedeće</string>
@@ -187,7 +187,7 @@
     <string name="streams">Strujanja</string>
     <string name="open_mrl_dialog_msg">Upišite mrežno strujanje: npr. http://, mms:// ili rtsp://</string>
     <string name="encountered_error_title">Geška izvođenja</string>
-    <string name="encountered_error_message">VLC je naišao na grešku s ovim medijem.\nPokušajte osvježiti medijsku zbirku.</string>
+    <string name="encountered_error_message">SyncNuke je naišao na grešku s ovim medijem.\nPokušajte osvježiti medijsku zbirku.</string>
     <string name="invalid_location">Lokacija %1$s se ne može reproducirati.</string>
     <string name="search">Pretraživanje</string>
 
@@ -212,7 +212,7 @@
     <string name="hold_to_stop">Drži za zasutavljanje</string>
 
     <!-- About -->
-    <string name="app_name_full">VLC za Android</string>
+    <string name="app_name_full">SyncNuke</string>
     <string name="revision">Izdanje</string>
     <string name="about">O aplikaciji</string>
     <string name="vlc_authors">Autori VLC-a.</string>
@@ -298,8 +298,8 @@
     <string name="enable_play_on_headset_insertion">Nastavi pri spajanju slušalica</string>
     <string name="enable_play_on_headset_insertion_summary">Pauziraj u protivnom</string>
     <string name="aout">Zvučni izlaz</string>
-    <string name="aout_summary">Promjena načina izlaza koji VLC koristi za zvučni zapis.</string>
-    <string name="audio_ducking_title">Smanji VLC glasnoću zvuka pri obavijestima</string>
+    <string name="aout_summary">Promjena načina izlaza koji SyncNuke koristi za zvučni zapis.</string>
+    <string name="audio_ducking_title">Smanji SyncNuke glasnoću zvuka pri obavijestima</string>
     <string name="audio_ducking_summary">Pomaže da čujete zvučne obavijesti, navođenje navigacije ili govor pomoćnika</string>
     <string name="casting_category">Emitiranje</string>
     <string name="casting_passthrough_title">Prolaz zvuka</string>
@@ -358,7 +358,7 @@
     <string name="start_logging">Pokreni zapisivanje</string>
     <string name="stop_logging">Zaustavi zapisivanje</string>
     <string name="clear_log">Obriši zapis</string>
-    <string name="log_service_title">VLC zapisivanje zapisa</string>
+    <string name="log_service_title">SyncNuke zapisivanje zapisa</string>
     <string name="log_service_text">Otvori konzolu zapisa</string>
     <string name="copy_to_clipboard">Kopiraj u međuspremnik</string>
     <string name="copied_to_clipboard">Kopirano u međuspremnik</string>
@@ -368,9 +368,9 @@
     <string name="custom_libvlc_options">Korisničke postavke libVLC-a</string>
     <string name="custom_libvlc_options_invalid">Pogrešne postavke libVLC-a!</string>
 
-    <string name="serious_crash">Nažalost, dogodile su se ozbiljne greške i VLC se morao zatvoriti.</string>
-    <string name="help_us_send_log">Pomozite nam poboljšati VLC slanjem sljedećeg zapisa rušenja:</string>
-    <string name="restart_vlc">Ponovno pokreni VLC</string>
+    <string name="serious_crash">Nažalost, dogodile su se ozbiljne greške i SyncNuke se morao zatvoriti.</string>
+    <string name="help_us_send_log">Pomozite nam poboljšati SyncNuke slanjem sljedećeg zapisa rušenja:</string>
+    <string name="restart_vlc">Ponovno pokreni SyncNuke</string>
     <string name="send_log">Pošalji zapis</string>
     <string name="sending_log">Slanje zapisa…</string>
 
@@ -412,19 +412,19 @@
     <string name="music_now_playing">Trenutno se reporducira</string>
 
     <!-- Widget -->
-    <string name="widget_name_w">VLC bijeli widget</string>
-    <string name="widget_name_b">VLC tamni widget</string>
-    <string name="allow_storage_access_title">Dopusti VLC-u pristup glazbenim i video datotekama</string>
-    <string name="allow_storage_access_description">Vlc treba dozvolu za pristup medijskim datotekama na ovom uređaju.</string>
-    <string name="allow_settings_access_ringtone_title">Dopusti VLC-u postavljanje melodije zvona</string>
-    <string name="allow_settings_access_ringtone_description">Vlc treba dozvolu za postavljanje ove pjesme kao melodije zvona.</string>
-    <string name="allow_settings_access_brightness_title">Dopusti VLC-u promjenu svjetline</string>
-    <string name="allow_settings_access_brightness_description">Vlc treba dozvolu za promjenu svjetline.</string>
-    <string name="allow_draw_overlays_title">Dopusti VLC skočni prozor preko drugih aplikacija</string>
-    <string name="allow_sdraw_overlays_description">Vlc treba dozvolu za prikaz video snimke u skočnom prozor preko drugih aplikacija.</string>
+    <string name="widget_name_w">SyncNuke bijeli widget</string>
+    <string name="widget_name_b">SyncNuke tamni widget</string>
+    <string name="allow_storage_access_title">Dopusti SyncNuke-u pristup glazbenim i video datotekama</string>
+    <string name="allow_storage_access_description">SyncNuke treba dozvolu za pristup medijskim datotekama na ovom uređaju.</string>
+    <string name="allow_settings_access_ringtone_title">Dopusti SyncNuke-u postavljanje melodije zvona</string>
+    <string name="allow_settings_access_ringtone_description">SyncNuke treba dozvolu za postavljanje ove pjesme kao melodije zvona.</string>
+    <string name="allow_settings_access_brightness_title">Dopusti SyncNuke-u promjenu svjetline</string>
+    <string name="allow_settings_access_brightness_description">SyncNuke treba dozvolu za promjenu svjetline.</string>
+    <string name="allow_draw_overlays_title">Dopusti SyncNuke skočni prozor preko drugih aplikacija</string>
+    <string name="allow_sdraw_overlays_description">SyncNuke treba dozvolu za prikaz video snimke u skočnom prozor preko drugih aplikacija.</string>
     <string name="permission_ask_again">Odobri dozvolu</string>
-    <string name="exit_app">Zatvori VLC</string>
-    <string name="exit_app_msg">Sigurno želite zatvoriti VLC?</string>
+    <string name="exit_app">Zatvori SyncNuke</string>
+    <string name="exit_app_msg">Sigurno želite zatvoriti SyncNuke?</string>
     <!-- Plugins -->
     <string name="plugins">Priključci</string>
     <string name="download_on_device">Preuzimanje</string>
@@ -484,8 +484,8 @@
     <string name="browser_storages">Pohrane</string>
     <string name="msg_delete_failed">Neuspjelo brisanje medija %1$s</string>
     <string name="renderer_list_title">Prikazi</string>
-    <string name="sdcard_permission_dialog_title">Morate odobriti VLC-u dozvolu pisanja na vašoj SD kartici</string>
-    <string name="sdcard_permission_dialog_message">VLC ne može obrisati ovu datoteku bez dozvole zapisivanja.\nIdite u svoju SD karticu i odaberite \"Odaberi\".\nMožda ćete trebati odabrati i \"Prikaži SD karticu\" prvu stavku u gornjem desnom izborniku</string>
+    <string name="sdcard_permission_dialog_title">Morate odobriti SyncNuke-u dozvolu pisanja na vašoj SD kartici</string>
+    <string name="sdcard_permission_dialog_message">SyncNuke ne može obrisati ovu datoteku bez dozvole zapisivanja.\nIdite u svoju SD karticu i odaberite \"Odaberi\".\nMožda ćete trebati odabrati i \"Prikaži SD karticu\" prvu stavku u gornjem desnom izborniku</string>
     <string name="dialog_sd_wizard">Prikaži mi</string>
     <string name="renderers_disconnect">Prekini povezivanje</string>
     <string name="audio_digital_output_enabled">Digitalni izlaz zvuka omogućen</string>
@@ -522,10 +522,10 @@
     <string name="videos_groups_title">Grupe videozapisa</string>
     <string name="video_remote_disable">Udvostruči zaslon</string>
     <string name="removed_from_playlist_anonymous">Stavka(e) uklonjena/e/ s popisa izvođenja</string>
-    <string name="welcome_title">Dobrodošli u VLC!</string>
+    <string name="welcome_title">Dobrodošli u SyncNuke!</string>
     <string name="welcome_subtitle">Besplatan izvođač medija otvorenog koda</string>
-    <string name="permission_media">VLC treba dozvolu za pristup medijskim datotekama na ovom uređaju.</string>
-    <string name="medialibrary_scan_explanation">VLC može automatski pretražiti uređaj kako bi organizirao medijsku kolekciju.</string>
+    <string name="permission_media">SyncNuke treba dozvolu za pristup medijskim datotekama na ovom uređaju.</string>
+    <string name="medialibrary_scan_explanation">SyncNuke može automatski pretražiti uređaj kako bi organizirao medijsku kolekciju.</string>
     <string name="done">Završeno</string>
     <string name="light_theme">Svijetla tema</string>
     <string name="add">Dodaj</string>
@@ -629,7 +629,7 @@
     <string name="timeout_infinite">Beskonačno</string>
     <string name="video_hud_timeout_summary">%ss</string>
     <string name="remove_from_history">Ukloni iz povijesti</string>
-    <string name="start_vlc">Pokreni VLC</string>
+    <string name="start_vlc">Pokreni SyncNuke</string>
     <string name="jump_delay_summary">%s s</string>
     <string name="move_up">Pomakni prema gore</string>
     <string name="move_down">Pomakni prema dolje</string>
@@ -644,7 +644,7 @@
     <string name="opacity">Neprozirnost</string>
     <string name="widget_background">Pozadina</string>
     <string name="widget_foreground">Prednji plan</string>
-    <string name="open_vlc">Otvori VLC</string>
+    <string name="open_vlc">Otvori SyncNuke</string>
     <string name="ascending">Uzlazno</string>
     <string name="descending">Silazno</string>
     <string name="screenshot_error">Greška tijekom snimanja snimke ekrana</string>

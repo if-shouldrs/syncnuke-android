@@ -43,7 +43,7 @@
     <string name="play_as_video">Putar sebagai video</string>
     <string name="return_to_video">Ketuk lama gambar sampul untuk memulihkan videonya</string>
     <string name="video_app_switch_title">Mode latar belakang/PiP</string>
-    <string name="video_app_switch_summary">Pilih perilaku VLC saat Anda beralih ke aplikasi lain selagi pemutaran video berlangsung</string>
+    <string name="video_app_switch_summary">Pilih perilaku SyncNuke saat Anda beralih ke aplikasi lain selagi pemutaran video berlangsung</string>
     <string name="play_pip_title">Putar video dalam mode Picture-in-picture</string>
     <string name="play_as_audio_background">Putar video di latar belakang</string>
     <string name="append">Tambahkan ke antrean putar</string>
@@ -244,7 +244,7 @@
     <string name="hold_to_stop">Tahan untuk berhenti</string>
 
     <!-- About -->
-    <string name="app_name_full">VLC untuk Android</string>
+    <string name="app_name_full">SyncNuke</string>
     <string name="revision">Revisi</string>
     <string name="about">Tentang</string>
     <string name="about_vlc_text">VLC untuk Android™ merupakan bagian dari VLC media player, pemutar media terbuka yang populer. Versi Android™ dapat membuka semua jenis file dan salurang media langsung.</string>
@@ -398,8 +398,8 @@
     <string name="replaygain_track">Trek</string>
     <string name="replaygain_album">Album</string>
     <string name="aout">Output audio</string>
-    <string name="aout_summary">Ubah metode yang digunakan VLC untuk mengeluarkan suara</string>
-    <string name="audio_ducking_title">Rendahkan volume VLC bila ada notifikasi</string>
+    <string name="aout_summary">Ubah metode yang digunakan SyncNuke untuk mengeluarkan suara</string>
+    <string name="audio_ducking_title">Rendahkan volume SyncNuke bila ada notifikasi</string>
     <string name="audio_ducking_summary">Bantu untuk dengar notifikasi audio, instruksi navigasi atau asisten berbicara</string>
     <string name="casting_category">salurkan/tampilkan pada layar lain</string>
     <string name="remote_access">Akses jarak jauh</string>
@@ -466,7 +466,7 @@
     <string name="clear_media_db">Hapus database media</string>
     <string name="clear_media_database_summary">Hapus database untuk mulai kembali</string>
     <string name="clear_app_data">Bersihkan data aplikasi</string>
-    <string name="clear_app_data_summary">Bersihkan data VLC untuk Android</string>
+    <string name="clear_app_data_summary">Bersihkan data SyncNuke untuk Android</string>
     <string name="clear_history">Kosongkan riwayat</string>
     <string name="clear_history_message">Anda akan kehilangan riwayat Anda, daftar putar Anda sekarang dan juga kemajuan Anda</string>
     <string name="set_locale">Pilih bahasa</string>
@@ -490,7 +490,7 @@
     <string name="start_logging">Mulai mencatat</string>
     <string name="stop_logging">Hentikan mencatat</string>
     <string name="clear_log">Hapus log</string>
-    <string name="log_service_title">Perekaman log VLC</string>
+    <string name="log_service_title">Perekaman log SyncNuke</string>
     <string name="log_service_text">Buka konsol log</string>
     <string name="copy_to_clipboard">Salin ke clipboard</string>
     <string name="copied_to_clipboard">Salin catatan ke papan klip.</string>
@@ -500,9 +500,9 @@
     <string name="dump_logcat_failure">Gagal membuang logcat.</string>
     <string name="custom_libvlc_options">Opsi kustom libVLC</string>
     <string name="custom_libvlc_options_invalid">Opsi libVLC tidak sah!</string>
-    <string name="serious_crash">Sayang sekali, kesalahan serius telah terjadi dan VLC harus di tutup.</string>
-    <string name="help_us_send_log">Bantu kami meningkatkan VLC dengan mengirimkan catatan kerusakan berikut:</string>
-    <string name="restart_vlc">Nyalakan ulang VLC</string>
+    <string name="serious_crash">Sayang sekali, kesalahan serius telah terjadi dan SyncNuke harus di tutup.</string>
+    <string name="help_us_send_log">Bantu kami meningkatkan SyncNuke dengan mengirimkan catatan kerusakan berikut:</string>
+    <string name="restart_vlc">Nyalakan ulang SyncNuke</string>
     <string name="send_log">Kirim catatan</string>
     <string name="sending_log">Mengirim catatan…</string>
 
@@ -538,7 +538,7 @@
     <string name="medialibrary_directories">Folder pustaka media</string>
 
     <!--What's new-->
-    <string name="whats_new_title">Apa hal yang baru di VLC untuk Android %s</string>
+    <string name="whats_new_title">Apa hal yang baru di SyncNuke untuk Android %s</string>
     <!-- Accessibility -->
     <string name="more_actions">Tindakan Selengkapnya</string>
     <string name="back_quit_lock">Tekan Kembali lagi untuk menutup video</string>
@@ -547,27 +547,27 @@
     <string name="music_now_playing">Sekarang Diputar</string>
 
     <!-- Widget -->
-    <string name="widget_name_w">VLC Widget Putih</string>
-    <string name="widget_name_b">VLC Widget Gelap</string>
-    <string name="widget_name_mini_player">VLC pemutar mini</string>
+    <string name="widget_name_w">SyncNuke Widget Putih</string>
+    <string name="widget_name_b">SyncNuke Widget Gelap</string>
+    <string name="widget_name_mini_player">SyncNuke pemutar mini</string>
     <string name="widget_old_text">Kami telah memperbaharui widget kami!</string>
     <string name="widget_old_description_start">Kabar gembira! Kami merilis gawit (widget) yang ditingkatkan.\nMereka menawarkan daya respons dan penyesuaian yang lebih</string>
     <string name="whats_next">Apa selanjutnya?</string>
     <string name="widget_old_description_end">Kami mendeteksi bahwa Anda sudah memiliki widget dalam launcher Anda. Sayangnya, mereka tidak kompatibel dengan widget yang telah kami tingkatkan.\nBergantung launcher Anda, Anda mungkin harus menghapus yang lama untuk menggantinya.</string>
     <string name="click_here">Klik di sini untuk mempelajari lebih lanjut.</string>
-    <string name="allow_storage_access_title">Izinkan VLC untuk mengakses file video dan audio</string>
-    <string name="allow_storage_access_description">VLC membutuhkan anda untuk memberi akses ke file media dalam perangkat ini.</string>
-    <string name="partial_content">VLC tidak dapat mengakses semua file Anda</string>
+    <string name="allow_storage_access_title">Izinkan SyncNuke untuk mengakses file video dan audio</string>
+    <string name="allow_storage_access_description">SyncNuke membutuhkan anda untuk memberi akses ke file media dalam perangkat ini.</string>
+    <string name="partial_content">SyncNuke tidak dapat mengakses semua file Anda</string>
     <string name="partial_content_description">Dimulai dengan Android 11, aplikasi membutuhkan izin khusus untuk mengakses semua file milik perangkat.\n\n%s</string>
     <string name="never_ask_again">Tidak perlu ditanyakan kembali</string>
-    <string name="allow_settings_access_ringtone_title">Izinkan VLC untuk menyetel nada dering</string>
-    <string name="allow_settings_access_ringtone_description">VLC membutuhkan anda untuk memberikan akses untuk mengatur lagu ini sebagai nada dering anda.</string>
-    <string name="allow_settings_access_brightness_title">Izinkan VLC untuk mengubah mode kecerahan</string>
-    <string name="allow_settings_access_brightness_description">VLC membutuhkan anda untuk memberikan akses untuk mengubah mode kecerahan.</string>
-    <string name="allow_draw_overlays_title">Izinkan pemutar VLC tampil di aplikasi lain</string>
-    <string name="allow_sdraw_overlays_description">VLC membutuhkan anda untuk memberikan tampilan video anda di aplikasi lain.</string>
-    <string name="allow_pip">Perbolehkan pemutar VLC meluncurkan Picture in Picture</string>
-    <string name="allow_pip_description">VLC memerlukan Anda untuk memperbolehkan izin ini untuk menampilkan video Anda dalam mode Picture in Picture.</string>
+    <string name="allow_settings_access_ringtone_title">Izinkan SyncNuke untuk menyetel nada dering</string>
+    <string name="allow_settings_access_ringtone_description">SyncNuke membutuhkan anda untuk memberikan akses untuk mengatur lagu ini sebagai nada dering anda.</string>
+    <string name="allow_settings_access_brightness_title">Izinkan SyncNuke untuk mengubah mode kecerahan</string>
+    <string name="allow_settings_access_brightness_description">SyncNuke membutuhkan anda untuk memberikan akses untuk mengubah mode kecerahan.</string>
+    <string name="allow_draw_overlays_title">Izinkan pemutar SyncNuke tampil di aplikasi lain</string>
+    <string name="allow_sdraw_overlays_description">SyncNuke membutuhkan anda untuk memberikan tampilan video anda di aplikasi lain.</string>
+    <string name="allow_pip">Perbolehkan pemutar SyncNuke meluncurkan Picture in Picture</string>
+    <string name="allow_pip_description">SyncNuke memerlukan Anda untuk memperbolehkan izin ini untuk menampilkan video Anda dalam mode Picture in Picture.</string>
     <string name="permission_ask_again">Memberikan izin</string>
     <string name="pick_file">Pilih sebuah file</string>
     <string name="permission_not_granted">Izin tidak diberikan</string>
@@ -576,9 +576,9 @@
     <string name="permission_onboarding_no_perm">Anda tidak akan bisa menjelajah otomasi media Anda.\nAnda hanya akan bisa memutar stream atau media jaringan</string>
     <string name="permission_onboarding_perm_media">Anda hanya akan bisa menjelajahi otomatis file media standar</string>
     <string name="permission_onboarding_perm_all">Anda hanya akan bisa menjelajahi otomatis seluruh file Anda untuk memutar seluruh tipe media bahkan yang anes, atau file terkompresi</string>
-    <string name="exit_app">Tutup VLC</string>
-    <string name="exit_app_msg">Apakah anda yakin ingin keluar VLC?</string>
-    <string name="widget_explanation_title">Widget VLC</string>
+    <string name="exit_app">Tutup SyncNuke</string>
+    <string name="exit_app_msg">Apakah anda yakin ingin keluar SyncNuke?</string>
+    <string name="widget_explanation_title">Widget SyncNuke</string>
     <string name="widget_explanation_size">Widget hadir dalam berbagai ukuran dan rasa</string>
     <string name="widget_explanation_resize">Untuk mengubah jenis widget, tekan lama dan gunakan pegangan untuk mengubah ukurannya sesuai ukuran yang Anda suka</string>
     <string name="widget_explanation_end">Widget sangat dapat disesuaikan. Bebaskan kreativitas Anda dan buat mereka terlihat seperti Anda!</string>
@@ -621,7 +621,7 @@
     <string name="length">Panjang</string>
     <string name="tv_settings_hint">Tekan lama tombol OK untuk centang/hapus centang direktori</string>
     <string name="ml_external_storage_title">Penyimpanan eksternal baru terdeteksi</string>
-    <string name="ml_external_storage_msg">Apakah anda ingin VLC menambahkan perangkat %1$s ke pustaka media?</string>
+    <string name="ml_external_storage_msg">Apakah anda ingin SyncNuke menambahkan perangkat %1$s ke pustaka media?</string>
     <string name="ml_external_storage_accept">Ya</string>
     <string name="ml_external_storage_decline">Tidak</string>
     <string name="auto_last_added_media">Terakhir ditambahkan</string>
@@ -652,7 +652,7 @@
     <string name="msg_delete_failed">Gagal menghapus media %1$s</string>
     <string name="renderer_list_title">Tampilan</string>
     <string name="sdcard_permission_dialog_title">Anda memiliki akses membaca VLB untuk Kartu SD anda</string>
-    <string name="sdcard_permission_dialog_message">VLC tidak dapat menghapus file ini tanpa izin akses menulis.\nSilakan pilih Kartu SD anda dan klik tanda \"Pilih\".\nAnda mungkin harus klik pada pilihan \"Tampilan kartu SD\"  terlebih dahulu pada menu bagian kanan atas</string>
+    <string name="sdcard_permission_dialog_message">SyncNuke tidak dapat menghapus file ini tanpa izin akses menulis.\nSilakan pilih Kartu SD anda dan klik tanda \"Pilih\".\nAnda mungkin harus klik pada pilihan \"Tampilan kartu SD\"  terlebih dahulu pada menu bagian kanan atas</string>
     <string name="dialog_sd_wizard">Tunjukkan padaku</string>
     <string name="renderers_disconnect">Koneksi Terputus</string>
     <string name="audio_digital_failed">Gagal mengubah status Audio Digital Output</string>
@@ -667,7 +667,7 @@
     <string name="playback_rewind">Mundur</string>
     <string name="playback_forward">Maju cepat</string>
     <string name="ml_wizard_scan_checkbox">Memindai perangkat untuk konten media</string>
-    <string name="ml_wizard_description">Pilih apakah VLC akan memindai penyimpanan perangkat Anda untuk mengorganisir perpustakaan media Anda atau hanya menggunakannya sebagai pemutar sederhana dengan peramban yang terintegrasi.</string>
+    <string name="ml_wizard_description">Pilih apakah SyncNuke akan memindai penyimpanan perangkat Anda untuk mengorganisir perpustakaan media Anda atau hanya menggunakannya sebagai pemutar sederhana dengan peramban yang terintegrasi.</string>
     <string name="tv_my_new_videos">Video baru saya</string>
     <string name="cast_option_title">Transmisikan media di layar lain</string>
     <string name="otg_device_title">Perangkat OTG</string>
@@ -700,26 +700,26 @@
     <string name="ctx_player_subs_track">Trek terjemahan</string>
     <string name="ctx_pip_title">Pemutar Pop-Up</string>
     <string name="device_dialog_title">perangkat eksternal dimasukkan</string>
-    <string name="device_dialog_message">Anda baru saja memasang perangkat penyimpanan baru ke TV anda, apakah anda ingin membukanya dengan VLC?</string>
+    <string name="device_dialog_message">Anda baru saja memasang perangkat penyimpanan baru ke TV anda, apakah anda ingin membukanya dengan SyncNuke?</string>
     <string name="videos_folders_title">Video berdasarkan folder </string>
     <string name="videos_groups_title">Grup video</string>
     <string name="video_save_clone_mode">Mau mengaktifkan mode klon secara otomatis?</string>
     <string name="video_remote_enable">Beralih ke mode kendali jarak jauh</string>
     <string name="video_remote_disable">Layar duplikat</string>
     <string name="removed_from_playlist_anonymous">Item dihapuskan dari daftar putar</string>
-    <string name="welcome_title">Selamat datang di VLC!</string>
+    <string name="welcome_title">Selamat datang di SyncNuke!</string>
     <string name="welcome_subtitle">Pemutar multimedia gratis dan sumber terbuka</string>
-    <string name="permission_media">VLC membutuhkan izin untuk mengakses media di perangkat anda.</string>
-    <string name="medialibrary_scan_explanation">VLC dapat otomatis memindai perangkat anda untuk mengatur koleksi media anda.</string>
+    <string name="permission_media">SyncNuke membutuhkan izin untuk mengakses media di perangkat anda.</string>
+    <string name="medialibrary_scan_explanation">SyncNuke dapat otomatis memindai perangkat anda untuk mengatur koleksi media anda.</string>
     <string name="onboarding_theme_title">Anggap saja seperti dirumah sendiri</string>
     <string name="done">Selesai</string>
     <string name="onboarding_scan_title">Temukan media Anda secara otomatis</string>
-    <string name="onboarding_all_set">VLC sudah siap!</string>
+    <string name="onboarding_all_set">SyncNuke sudah siap!</string>
     <string name="onboarding_permission_given">Sekarang Anda dapat menemukan media Anda secara otomatis, menggunakan subtitle eksternal dan juga memutar stream dan media network</string>
-    <string name="daynight_system_explanation">VLC secara otomatis akan beralih ke mode gelap sesuai dengan pengaturan sistem</string>
-    <string name="daynight_legacy_explanation">VLC secara otomatis akan beralih ke mode terang sesuai dengan pengaturan sistem</string>
-    <string name="onboarding_scanning_enable">Biarkan VLC memindai perangkat saya untuk konten media</string>
-    <string name="onboarding_scan_customize">Biarkan saya memilih folder mana yang akan dipindai VLC</string>
+    <string name="daynight_system_explanation">SyncNuke secara otomatis akan beralih ke mode gelap sesuai dengan pengaturan sistem</string>
+    <string name="daynight_legacy_explanation">SyncNuke secara otomatis akan beralih ke mode terang sesuai dengan pengaturan sistem</string>
+    <string name="onboarding_scanning_enable">Biarkan SyncNuke memindai perangkat saya untuk konten media</string>
+    <string name="onboarding_scan_customize">Biarkan saya memilih folder mana yang akan dipindai SyncNuke</string>
     <string name="button_medialibrary_preferences">Pergi ke preferensi Pustaka Media</string>
     <string name="light_theme">Tema terang</string>
     <string name="add">Tambah</string>
@@ -751,13 +751,13 @@
     <string name="display_in_grid">Tampil dalam kisi</string>
     <string name="dump_db_succes">Database dibuang di akar penyimpanan internal</string>
     <string name="dump_db_failure">Gagal untuk mengumpulkan basis data</string>
-    <string name="send_crash_title">Pelapor kerusakan VLC</string>
-    <string name="send_crash_description">Dengan mengirimkan kerusakan anda, anda telah membantu kami mengembangkan stabilitas VLC.</string>
+    <string name="send_crash_title">Pelapor kerusakan SyncNuke</string>
+    <string name="send_crash_description">Dengan mengirimkan kerusakan anda, anda telah membantu kami mengembangkan stabilitas SyncNuke.</string>
     <string name="send_crash_warning">Pastikan anda menghapus data sensitif yang tidak anda ingin kirim.</string>
     <string name="include_medialib">Termasuk database anda</string>
     <string name="vlc_reporter">Pelapor VLC</string>
-    <string name="welcome_beta_title">VLC Beta</string>
-    <string name="welcome_beta_description">Selamat datang di program beta VLC.\nSilahkan catat versi ini mungkin memiliki beberapa celah,</string>
+    <string name="welcome_beta_title">SyncNuke Beta</string>
+    <string name="welcome_beta_description">Selamat datang di program beta SyncNuke.\nSilahkan catat versi ini mungkin memiliki beberapa celah,</string>
     <string name="welcome_beta_description_bugs">Jika anda memperhatikan sebuah celah, silahkan laporkan ini ke forum kami atau pelacak celah.</string>
     <string name="send">Kirim</string>
     <string name="send_crash_action_title">Apa yang ingin anda lakukan?</string>
@@ -797,8 +797,8 @@
     <string name="recently_played">Terakhir diputar</string>
     <string name="recently_added">Terakhir ditambahkan</string>
     <string name="playback_multiple_errors">Banyak media tidak dapat diputar</string>
-    <string name="clear_media_db_message">Anda akan kehilangan kemajuan Anda, bookmark dan juga daftar putar yang telah Anda buat tetapi pengaturan VLC untuk Android Anda akan disimpan</string>
-    <string name="clear_app_data_message">Anda akan kehilangan kemajuan Anda, boomark, daftar putar dan juga seluruh pengaturan VLC</string>
+    <string name="clear_media_db_message">Anda akan kehilangan kemajuan Anda, bookmark dan juga daftar putar yang telah Anda buat tetapi pengaturan SyncNuke untuk Android Anda akan disimpan</string>
+    <string name="clear_app_data_message">Anda akan kehilangan kemajuan Anda, boomark, daftar putar dan juga seluruh pengaturan SyncNuke</string>
     <string name="clear">Bersihkan</string>
     <string name="abrepeat_add_first_marker">Set titik mulai</string>
     <string name="abrepeat_add_second_marker">Set titik akhir</string>
@@ -880,7 +880,7 @@
     <string name="air_action_next">Item selanjutnya dalam pemutaran</string>
     <string name="air_action_previous">Item sebelumnya dalam pemutaran</string>
     <string name="allow_otg">Izinkan akses OTG</string>
-    <string name="allow_otg_description">Silahkan pilih OTG drive anda untuk mengizinkan akses ke VLC.</string>
+    <string name="allow_otg_description">Silahkan pilih OTG drive anda untuk mengizinkan akses ke SyncNuke.</string>
     <string name="timeout_infinite">Tak Terbatas</string>
     <string name="video_hud_timeout">Kontrol pemutar video menyembunyikan penundaan</string>
     <string name="video_hud_timeout_summary">%ss</string>
@@ -920,7 +920,7 @@
     <string name="optional_features_warning">Fitur ini masih dalam beta dan mungkin akan menyebabkan crash dan ketidakstabilan</string>
     <string name="network_indexing">Pengindeksan jaringan</string>
     <string name="network_indexing_warning">Pengindeksan jaringan saat ini sedang berada dalam beta.\nMasalah yang diketahui:\n• Performa yang lambat\n\nJika anda menemukan masalah lain, tolong laporkan masalah tersebut pada forum kami.</string>
-    <string name="start_vlc">Mulai VLC</string>
+    <string name="start_vlc">Mulai SyncNuke</string>
     <string name="jump_delay">Maju/mundur delay waktu</string>
     <string name="long_jump_delay">Ketuk lama maju/mundur delay waktu</string>
     <string name="jump_delay_summary">%s detik</string>
@@ -938,7 +938,7 @@
     <string name="lock_use_sensor_summary">Saat orientasi dikunci, gunakan sensor untuk memungkinkan orientasi sebaliknya</string>
     <string name="start">Mulai</string>
     <string name="notification_permission">Izin notifikasi</string>
-    <string name="notification_permission_explanation">VLC memerlukan izin Anda untuk mengirim notifikasi.\nAplikasi hanya akan memberi tahu Anda saat memindai media atau menggunakan video khusus Gambar dalam Gambar.\nMenolaknya tidak akan menghalangi VLC untuk bekerja, namun notifikasi akan disembunyikan.</string>
+    <string name="notification_permission_explanation">SyncNuke memerlukan izin Anda untuk mengirim notifikasi.\nAplikasi hanya akan memberi tahu Anda saat memindai media atau menggunakan video khusus Gambar dalam Gambar.\nMenolaknya tidak akan menghalangi SyncNuke untuk bekerja, namun notifikasi akan disembunyikan.</string>
     <string name="permission">Izin</string>
     <string name="customize">Kustomisasi</string>
     <string name="selection_count">%d terpilih </string>
@@ -984,7 +984,7 @@
     <string name="widget_show_configure_summary">Bahkan jika tidak terlihat, Anda bisa mengetuk pojok kanan atas untuk membuka konfigurasinya</string>
     <string name="seek_backward_content_description">Seek %s detik ke belakang</string>
     <string name="seek_forward_content_description">Seek %s detik ke depan</string>
-    <string name="open_vlc">Buka VLC</string>
+    <string name="open_vlc">Buka SyncNuke</string>
     <string name="playing">Sedang memutar</string>
     <string name="disable_track">Non aktifkan trek</string>
     <string name="ascending">Naik</string>

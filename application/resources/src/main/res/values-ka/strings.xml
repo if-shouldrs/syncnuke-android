@@ -50,7 +50,7 @@
     <string name="play_as_video">ვიდეოფაილად გაშვება</string>
     <string name="return_to_video">დიდხანს შეეხეთ გარეკანს ვიდეოს აღსადგენად</string>
     <string name="video_app_switch_title">ფონური/ეკრანი-ეკრანში</string>
-    <string name="video_app_switch_summary">აირჩიეთ, როგორ მოიქცეს VLC, გაშვებული ვიდეოდან სხვა პროგრამაზე გადასვლისას</string>
+    <string name="video_app_switch_summary">აირჩიეთ, როგორ მოიქცეს SyncNuke, გაშვებული ვიდეოდან სხვა პროგრამაზე გადასვლისას</string>
     <string name="play_pip_title">გაეშვას ვიდეო ეკრანი-ეკრანში</string>
     <string name="play_as_audio_background">გაეშვას ვიდეო ფონურად</string>
     <string name="append">დასაკრავ სიაში დამატება</string>
@@ -315,7 +315,7 @@
     <string name="hold_to_stop">დააჭირეთ შესაწყვეტად</string>
 
     <!-- About -->
-    <string name="app_name_full">VLC Android</string>
+    <string name="app_name_full">SyncNuke</string>
     <string name="revision">გამოცემა</string>
     <string name="about">შესახებ</string>
     <string name="about_vlc_text">VLC Android™ არის ამ სისტემისთვის მორგებული ცნობილი და ღია წყაროს მქონე მედიაფაილების დამკვრელი VLC media player. მოცემულ Android™-ვერსიას შეუძლია ყველა სახის ფაილისა და ქსელური ნაკადის გაშვება.</string>
@@ -499,8 +499,8 @@
     <string name="replaygain_track">ჩანაწერი</string>
     <string name="replaygain_album">ალბომი</string>
     <string name="aout">ხმის გამოტანა</string>
-    <string name="aout_summary">იმ სისტემის შეცვლა, რომელსაც VLC იყენებს ხმის გამოტანისთვის.</string>
-    <string name="audio_ducking_title">VLC ხმას დაუწევს შეტყობინების მიღებისას</string>
+    <string name="aout_summary">იმ სისტემის შეცვლა, რომელსაც SyncNuke იყენებს ხმის გამოტანისთვის.</string>
+    <string name="audio_ducking_title">SyncNuke ხმას დაუწევს შეტყობინების მიღებისას</string>
     <string name="audio_ducking_summary">უკეთ გასაგები იქნება ხმოვანი შეტყობინებები, გზამკვლევის მითითებები ან ხმოვანი თანაშემწის საუბარი</string>
     <string name="casting_category">გადაცემა</string>
     <string name="remote_access">დაშორებული წვდომა</string>
@@ -577,7 +577,7 @@
     <string name="clear_media_db">ფაილების მონაცემთა კრებულის გასუფთავება</string>
     <string name="clear_media_database_summary">გასუფთავდება მონაცემთა კრებული ახლიდან დასაწყებად</string>
     <string name="clear_app_data">პროგრამის მონაცემების გასუფთავება</string>
-    <string name="clear_app_data_summary">გასუფთავდება VLC Android მონაცემებისგან</string>
+    <string name="clear_app_data_summary">გასუფთავდება SyncNuke Android მონაცემებისგან</string>
     <string name="clear_history">ისტორიის გასუფთავება</string>
     <string name="clear_history_message">დაკარგავთ ისტორიას, მიმდინარე სიებსა და დამახსოვრებულ წერტილებს</string>
     <string name="set_locale">ენის მითითება</string>
@@ -603,7 +603,7 @@
     <string name="start_logging">აღრიცხვის დაწყება</string>
     <string name="stop_logging">აღრიცხვის შეწყვეტა</string>
     <string name="clear_log">აღრიცხვების გასუფთავება</string>
-    <string name="log_service_title">VLC აღრიცხვის ჩანაწერი</string>
+    <string name="log_service_title">SyncNuke აღრიცხვის ჩანაწერი</string>
     <string name="log_service_text">აღრიცხვების ველის გახსნა</string>
     <string name="copy_to_clipboard">ასლის აღება</string>
     <string name="copied_to_clipboard">აღრიცხვების ასლი აღებულია.</string>
@@ -621,10 +621,10 @@
     <string name="browser_quick_play_default">სწრაფგაშვება ნაგულისხმევ მოქმედებად</string>
     <string name="browser_quick_play_default_summary">როცა ჩართულია, ასარჩევი ჩანაწერი შეხებისთანავე გაეშვება სწრაფგაშვებით</string>
 
-    <string name="serious_crash">სამწუხაროდ, მძიმე შეცდომა წარმოიშვა და VLC გაითიშა.</string>
-    <string name="help_us_send_log">დაგვეხმარეთ, გავაუმჯობესოთ VLC, ამ უეცარი გათიშვის შესახებ, მოხსენების გამოგზავნით:</string>
+    <string name="serious_crash">სამწუხაროდ, მძიმე შეცდომა წარმოიშვა და SyncNuke გაითიშა.</string>
+    <string name="help_us_send_log">დაგვეხმარეთ, გავაუმჯობესოთ SyncNuke, ამ უეცარი გათიშვის შესახებ, მოხსენების გამოგზავნით:</string>
     <string name="ml_crash_send">მედიათეკა უეცრად გაითიშა. დახმარებისთვის გამოგვიგზავნეთ აღრიცხვის ჩანაწერები.</string>
-    <string name="restart_vlc">კვლავ გაეშვას VLC</string>
+    <string name="restart_vlc">კვლავ გაეშვას SyncNuke</string>
     <string name="send_log">აღრიცხვების გაგზავნა</string>
     <string name="sending_log">იგზავნება აღრიცხული ჩანაწერები...</string>
 
@@ -669,7 +669,7 @@
     <string name="medialibrary_directories">მედიათეკის საქაღალდეები</string>
 
     <!--What's new-->
-    <string name="whats_new_title">რა სიახლეებითაა VLC Android %s</string>
+    <string name="whats_new_title">რა სიახლეებითაა SyncNuke Android %s</string>
     <string name="whats_new_37_equalizer_text">მათანაბრებელი შემუშავდა სრულიად ახლიდან. მეტად იოლად გამოსაყენებელია, ეთიშება ნაგულისხმევი მზა გამართვები და საშუალებას გაძლევთ, დაამარქაფოთ, აღადგინოთ ანდაც გააზიაროთ საკუთარი გამართვები.</string>
     <string name="whats_new_37_import_export">განახლდა დამარქაფებისა და აღდგენის შესაძლებლობა. ახლა უკვე მეტი პარამეტრის შენახვაა შესაძლებელი, მათ შორის მათანაბრებლის მზა გამართვებისა.</string>
     <string name="whats_new_37_android_auto">პროგრამების მაღაზიაში ახალი შეზღუდვების გამო Android Auto პარამეტრებიანად გადატანილია მობილურ აპლიკაციაში. ახლა უკვე იქიდან შეგიძლიათ მოირგოთ მანქანაში მოხერხებულად გამოყენებისთვის.</string>
@@ -678,7 +678,7 @@
 <!--    update-->
     <string name="update_title">განახლება ხელმისაწვდომია</string>
     <string name="install_nightly_title">საცდელი Nightly-ანაწყობის დაყენება</string>
-    <string name="update_text">ხელმისაწვდომია ახალი საცდელი Nightly-ვერსიის VLC Android!\n\nამას ხედავთ იმიტომ, რომ იყენებთ Nightly-ანაწყობს.</string>
+    <string name="update_text">ხელმისაწვდომია ახალი საცდელი Nightly-ვერსიის SyncNuke Android!\n\nამას ხედავთ იმიტომ, რომ იყენებთ Nightly-ანაწყობს.</string>
     <string name="install_text">Nightly-ანაწყობები თავისით ახლდება ყოველდღე ბოლო შესაძლებლობებითა და გამოსწორებული ხარვეზებით.\n\nჩამოიტვირთოს ახლავე?</string>
 
     <string name="open_in_browser">ბრაუზერში გახსნა</string>
@@ -699,28 +699,28 @@
     <string name="music_now_playing">ახლა გაშვებულია</string>
 
     <!-- Widget -->
-    <string name="widget_name_w">ნათელი VLC-ჩანართი</string>
-    <string name="widget_name_b">მუქი VLC-ჩანართი</string>
-    <string name="widget_name_mini_player">VLC მინიდამკვრელი</string>
+    <string name="widget_name_w">ნათელი SyncNuke-ჩანართი</string>
+    <string name="widget_name_b">მუქი SyncNuke-ჩანართი</string>
+    <string name="widget_name_mini_player">SyncNuke მინიდამკვრელი</string>
     <string name="widget_old_text">ეკრანის განახლებული ჩანართები!</string>
     <string name="widget_old_description_start">სასიამოვნო სიახლე! გამოვუშვით გაუმჯობესებული ჩანართები.\nმეტად სწრაფმოქმედი და ადვილად მოსარგები გახდა</string>
     <string name="whats_next">რა იქნება შემდეგ?</string>
     <string name="widget_old_description_end">ჩანს, უკვე იყენებთ ჩანართებს. სამწუხაროდ, ძველები შეუთავსებელი იქნება ახლებთან.\nზოგ გამშვებზე შეიძლება ძველის მოცილება იყოს საჭირო ახლით ჩანაცვლებისთვის.</string>
     <string name="click_here">ვრცლად იხილეთ აქ.</string>
-    <string name="allow_storage_access_title">ნებართვა, რომ VLC შეძლებს ხმოვან და ვიდეოფაილებთან წვდომას</string>
-    <string name="allow_storage_access_description">VLC საჭიროებს ამ ნებართვას მოწყობილობის ფაილებთან წვდომისთვის.</string>
-    <string name="partial_content">VLC ვერ ახერხებს ყველა ფაილთან წვდომას.</string>
+    <string name="allow_storage_access_title">ნებართვა, რომ SyncNuke შეძლებს ხმოვან და ვიდეოფაილებთან წვდომას</string>
+    <string name="allow_storage_access_description">SyncNuke საჭიროებს ამ ნებართვას მოწყობილობის ფაილებთან წვდომისთვის.</string>
+    <string name="partial_content">SyncNuke ვერ ახერხებს ყველა ფაილთან წვდომას.</string>
     <string name="partial_content_description">Android 11-იდან მოყოლებული, აპები საჭიროებს საგანგებო ნებართვებს მოწყობილობის ყველა ფაილთან წვდომისთვის.\n\n%s</string>
     <string name="never_ask_again">მომავალში შეკითხვის გარეშე</string>
     <string name="never_show_again">აღარ გამოჩნდეს, არც მომავალი ვერსიებისთვის</string>
-    <string name="allow_settings_access_ringtone_title">ნებართვა, რომ VLC შეძლებს ზარის დაყენებას</string>
-    <string name="allow_settings_access_ringtone_description">VLC საჭიროებს ამ ნებართვას მოცემული სიმღერის ზარად დაყენებისთვის.</string>
-    <string name="allow_settings_access_brightness_title">ნებართვა, რომ VLC შეძლებს სიკაშკაშის შეცვლას</string>
-    <string name="allow_settings_access_brightness_description">VLC საჭიროებს ამ ნებართვას სიკაშკაშის დონის ცვლილებისთვის.</string>
-    <string name="allow_draw_overlays_title">ნებართვა, რომ VLC შეძლებს სხვა აპებზე ზემოდან გადაფარვას</string>
-    <string name="allow_sdraw_overlays_description">VLC საჭიროებს ამ ნებართვას ამომხტარი ვიდეოების გამოსაჩენად სხვა პროგრამების ზემოდან.</string>
-    <string name="allow_pip">ნებართვა, რომ VLC გაეშვება ეკრანი-ეკრანში</string>
-    <string name="allow_pip_description">VLC საჭიროებს ამ ნებართვას ვიდეოების გამოსაჩენად ეკრანი-ეკრანში რეჟიმით.</string>
+    <string name="allow_settings_access_ringtone_title">ნებართვა, რომ SyncNuke შეძლებს ზარის დაყენებას</string>
+    <string name="allow_settings_access_ringtone_description">SyncNuke საჭიროებს ამ ნებართვას მოცემული სიმღერის ზარად დაყენებისთვის.</string>
+    <string name="allow_settings_access_brightness_title">ნებართვა, რომ SyncNuke შეძლებს სიკაშკაშის შეცვლას</string>
+    <string name="allow_settings_access_brightness_description">SyncNuke საჭიროებს ამ ნებართვას სიკაშკაშის დონის ცვლილებისთვის.</string>
+    <string name="allow_draw_overlays_title">ნებართვა, რომ SyncNuke შეძლებს სხვა აპებზე ზემოდან გადაფარვას</string>
+    <string name="allow_sdraw_overlays_description">SyncNuke საჭიროებს ამ ნებართვას ამომხტარი ვიდეოების გამოსაჩენად სხვა პროგრამების ზემოდან.</string>
+    <string name="allow_pip">ნებართვა, რომ SyncNuke გაეშვება ეკრანი-ეკრანში</string>
+    <string name="allow_pip_description">SyncNuke საჭიროებს ამ ნებართვას ვიდეოების გამოსაჩენად ეკრანი-ეკრანში რეჟიმით.</string>
     <string name="permission_ask_again">ნების დართვა</string>
     <string name="pick_file">ფაილის არჩევა</string>
     <string name="permission_not_granted">არაა ნებადართული</string>
@@ -729,9 +729,9 @@
     <string name="permission_onboarding_no_perm">არ შეეძლება თქვენი ფაილების თვითმოძიება.\nმხოლოდ პირდაპირი ეთერებისა და ქსელიდან ფაილების გაშვების ნებართვა აქვს.</string>
     <string name="permission_onboarding_perm_media">მხოლოდ ჩვეული ფაილების გაშვება შეეძლება</string>
     <string name="permission_onboarding_perm_all">შეეძლება ნებისმიერი სახეობის ფაილის თვითმოძიება და გაშვება, როგორი უცნაური ან შეკუმშული სახითაც არ უნდა იყოს</string>
-    <string name="exit_app">VLC-ს დახურვა</string>
-    <string name="exit_app_msg">ნამდვილად გსურთ გამორთოთ VLC?</string>
-    <string name="widget_explanation_title">VLC-ჩანართები</string>
+    <string name="exit_app">SyncNuke-ს დახურვა</string>
+    <string name="exit_app_msg">ნამდვილად გსურთ გამორთოთ SyncNuke?</string>
+    <string name="widget_explanation_title">SyncNuke-ჩანართები</string>
     <string name="widget_explanation_size">ეკრანის ჩანართები სხვადასხვა ზომითა და იერსახით</string>
     <string name="widget_explanation_resize">ეკრანის ჩანართის სახეობის შესაცვლელად დააჭირეთ ხანგრძლივად და ჩასავლები წერტილებით მოარგეთ ზომა სურვილისამებრ.</string>
     <string name="widget_explanation_end">ეკრანის ჩანართების ყოველმხრივ მორგებაა შესაძლებელი. მიეცით გასაქანი თქვენს წარმოსახვას და მოაწყვეთ საკუთარი გემოვნებით!</string>
@@ -788,7 +788,7 @@
     <string name="length">ხანგრძლივობა</string>
     <string name="tv_settings_hint">დიდხანს აჭირეთ ღილაკზე „კარგი“, საქაღალდეების მონიშვნა/მოხსნისთვის</string>
     <string name="ml_external_storage_title">აღმოჩენილია ახალი გარე მეხსიერება</string>
-    <string name="ml_external_storage_msg">გსურთ, დაამატოს VLC-მ %1$s მოწყობილობა თქვენს მედიათეკაში?</string>
+    <string name="ml_external_storage_msg">გსურთ, დაამატოს SyncNuke-მ %1$s მოწყობილობა თქვენს მედიათეკაში?</string>
     <string name="ml_external_storage_accept">დიახ</string>
     <string name="ml_external_storage_decline">არა</string>
     <string name="auto_last_added_media">ბოლოს დამატებული</string>
@@ -818,8 +818,8 @@
     <string name="browser_storages">მეხსიერება</string>
     <string name="msg_delete_failed">ვერ წაიშალა ფაილი %1$s</string>
     <string name="renderer_list_title">ეკრანები</string>
-    <string name="sdcard_permission_dialog_title">უნდა დართოთ ნება VLC-ს, თქვენს SD-ბარათთან წვდომის</string>
-    <string name="sdcard_permission_dialog_message">VLC ვერ წაშლის ამ ფაილს, წვდომის ნებართვის გარეშე.\nგთხოვთ, გადახვიდეთ SD-ბარათზე და დააჭიროთ „არჩევას“.\nშესაძლოა, ჯერ მოგიწიოთ „SD-ბარათის გამოჩენა“ ზედა მარჯვენა მენიუდან</string>
+    <string name="sdcard_permission_dialog_title">უნდა დართოთ ნება SyncNuke-ს, თქვენს SD-ბარათთან წვდომის</string>
+    <string name="sdcard_permission_dialog_message">SyncNuke ვერ წაშლის ამ ფაილს, წვდომის ნებართვის გარეშე.\nგთხოვთ, გადახვიდეთ SD-ბარათზე და დააჭიროთ „არჩევას“.\nშესაძლოა, ჯერ მოგიწიოთ „SD-ბარათის გამოჩენა“ ზედა მარჯვენა მენიუდან</string>
     <string name="dialog_sd_wizard">გამოჩენა</string>
     <string name="renderers_disconnect">გამოთიშვა</string>
     <string name="audio_digital_failed">ვერ მოხერხდა ციფრული ხმის გამოტანის მდგომარეობის შეცვლა</string>
@@ -834,7 +834,7 @@
     <string name="playback_rewind">გადახვევა</string>
     <string name="playback_forward">სწრაფი გადახვევა წინ</string>
     <string name="ml_wizard_scan_checkbox">მოწყობილობაზე ფაილების მოძიება</string>
-    <string name="ml_wizard_description">აირჩიეთ, გსურთ სრულად დაათვალიეროს VLC-მ თქვენი მოწყობილობის საცავი, მედიაფაილების ბიბლიოთეკის დასალაგებლად, თუ უბრალოდ ფაილების გასაშვებად გამოიყენებთ, მოძიების ჩაშენებული შესაძლებლობით.</string>
+    <string name="ml_wizard_description">აირჩიეთ, გსურთ სრულად დაათვალიეროს SyncNuke-მ თქვენი მოწყობილობის საცავი, მედიაფაილების ბიბლიოთეკის დასალაგებლად, თუ უბრალოდ ფაილების გასაშვებად გამოიყენებთ, მოძიების ჩაშენებული შესაძლებლობით.</string>
     <string name="tv_my_new_videos">ჩემი ახალი ვიდეოები</string>
     <string name="cast_option_title">ფაილების გადაცემა სხვა ეკრანზე</string>
     <string name="otg_device_title">OTG მოწყობილობა</string>
@@ -873,29 +873,29 @@
     <string name="ctx_player_subs_track">ქვეწარწერების ჩანაწერი</string>
     <string name="ctx_pip_title">ამომხტომი დამკვრელი</string>
     <string name="device_dialog_title">მიერთებულია გარე მოწყობილობა</string>
-    <string name="device_dialog_message">შეერთებულია ახალი მეხსიერება სატელევიზიო მიმღებში, გსურთ გაიხსნას VLC-ით?</string>
+    <string name="device_dialog_message">შეერთებულია ახალი მეხსიერება სატელევიზიო მიმღებში, გსურთ გაიხსნას SyncNuke-ით?</string>
     <string name="videos_folders_title">ვიდეოები საქაღალდეებით</string>
     <string name="videos_groups_title">ვიდეოჯგუფები</string>
     <string name="video_save_clone_mode">ავტომატურად ამოქმედდეს გაორკეცების რეჟიმი?</string>
     <string name="video_remote_enable">გადართვა დაშორებული მართვის რეჟიმზე</string>
     <string name="video_remote_disable">ეკრანის გაორკეცება</string>
     <string name="removed_from_playlist_anonymous">მოცილებულია დასაკრავი სიიდან</string>
-    <string name="welcome_title">მოგესალმებათ VLC!</string>
+    <string name="welcome_title">მოგესალმებათ SyncNuke!</string>
     <string name="welcome_subtitle">უფასო და ღია წყაროს მქონე მედიადამკვრელი</string>
-    <string name="permission_media">VLC საჭიროებს თქვენს ნებართვას მოწყობილობის ფაილებთან წვდომისთვის</string>
-    <string name="permission_video">VLC საჭიროებს თქვენს ნებართვას მოწყობილობაზე ვიდეოფაილებთან წვდომისთვის</string>
-    <string name="permission_audio">VLC საჭიროებს თქვენს ნებართვას მოწყობილობაზე ხმოვან ფაილებთან წვდომისთვის</string>
-    <string name="medialibrary_scan_explanation">VLC თავადვე შეძლებს მონახოს მოწყობილობაზე არსებული ფაილები და დაალაგოს კრებულის სახით.</string>
-    <string name="player_title_fd_warning">საცავთან წვდომის გარეშე VLC ვერ შეძლებს ფაილთა სათაურის მონახვას და ვერც მიმდინარე მდგომარეობის დამახსოვრებას</string>
+    <string name="permission_media">SyncNuke საჭიროებს თქვენს ნებართვას მოწყობილობის ფაილებთან წვდომისთვის</string>
+    <string name="permission_video">SyncNuke საჭიროებს თქვენს ნებართვას მოწყობილობაზე ვიდეოფაილებთან წვდომისთვის</string>
+    <string name="permission_audio">SyncNuke საჭიროებს თქვენს ნებართვას მოწყობილობაზე ხმოვან ფაილებთან წვდომისთვის</string>
+    <string name="medialibrary_scan_explanation">SyncNuke თავადვე შეძლებს მონახოს მოწყობილობაზე არსებული ფაილები და დაალაგოს კრებულის სახით.</string>
+    <string name="player_title_fd_warning">საცავთან წვდომის გარეშე SyncNuke ვერ შეძლებს ფაილთა სათაურის მონახვას და ვერც მიმდინარე მდგომარეობის დამახსოვრებას</string>
     <string name="onboarding_theme_title">თავი ისე იგრძენით, როგორც შინ</string>
     <string name="done">მზადაა</string>
     <string name="onboarding_scan_title">ფაილების თვითაღმოჩენა</string>
-    <string name="onboarding_all_set">VLC გამართულია!</string>
+    <string name="onboarding_all_set">SyncNuke გამართულია!</string>
     <string name="onboarding_permission_given">შეგეძლებათ ფაილების თვითმოძიება, ქვეწარწერების ფაილის გახსნა და პირდაპირი ეთერების ნახვა ან ქსელიდან ფაილების გაშვება</string>
-    <string name="daynight_system_explanation">VLC თავად გადავა მუქ რეჟიმში სისტემის პარამეტრების შესაბამისად.</string>
-    <string name="daynight_legacy_explanation">VLC თავად გადავა მუქ რეჟიმში შესაბამის დროს</string>
-    <string name="onboarding_scanning_enable">ნებართვა, რომ VLC შეძლებს მონახოს მედიაფაილები</string>
-    <string name="onboarding_scan_customize">ხელით მითითება, რომელ საქაღალდებში მოიძიოს VLC-მ</string>
+    <string name="daynight_system_explanation">SyncNuke თავად გადავა მუქ რეჟიმში სისტემის პარამეტრების შესაბამისად.</string>
+    <string name="daynight_legacy_explanation">SyncNuke თავად გადავა მუქ რეჟიმში შესაბამის დროს</string>
+    <string name="onboarding_scanning_enable">ნებართვა, რომ SyncNuke შეძლებს მონახოს მედიაფაილები</string>
+    <string name="onboarding_scan_customize">ხელით მითითება, რომელ საქაღალდებში მოიძიოს SyncNuke-მ</string>
     <string name="button_medialibrary_preferences">მედიათეკის პარამეტრებში გადასვლა</string>
     <string name="light_theme">ნათელი იერსახე</string>
     <string name="add">დამატება</string>
@@ -907,7 +907,7 @@
     <string name="popup_force_legacy_title">მორგებული ეკრანი-ეკრანში</string>
     <string name="popup_force_legacy_summary">მორგებული ეკრანი-ეკრანში, ზომაცვლადი ამომხტარი ფანჯრით</string>
     <string name="restore_background_video_title">ვიდეოს დაბრუნება ფონური რეჟიმიდან</string>
-    <string name="restore_background_video_summary">ვიდეოს დაბრუნება ფონური რეჟიმიდან, როცა ახლიდან გაეშვება VLC Android</string>
+    <string name="restore_background_video_summary">ვიდეოს დაბრუნება ფონური რეჟიმიდან, როცა ახლიდან გაეშვება SyncNuke Android</string>
     <string name="device_default">მოწყობილობის ნაგულისხმევი</string>
     <string name="track_number">%d ჩანაწერი</string>
     <string name="jump_to">გადასვლა</string>
@@ -936,14 +936,14 @@
     <string name="display_in_grid">ცხრილურად ჩვენება</string>
     <string name="dump_db_succes">მონაცემთა კრებული გადატანილია შიდა მეხსიერების ძირეულ საქაღალდეში.</string>
     <string name="dump_db_failure">ვერ მოხერხდა მონაცემთა კრებულის გადატანა</string>
-    <string name="send_crash_title">VLC გათიშვების მომხსენებელი</string>
-    <string name="send_crash_description">უეცარი გათიშვების მოხსენებით, დაგვეხმარებით, გავხადოთ VLC მეტად მდგრადი.</string>
+    <string name="send_crash_title">SyncNuke გათიშვების მომხსენებელი</string>
+    <string name="send_crash_description">უეცარი გათიშვების მოხსენებით, დაგვეხმარებით, გავხადოთ SyncNuke მეტად მდგრადი.</string>
     <string name="send_crash_warning">დარწმუნდით, რომ მოაცილეთ მნიშვნელოვანი მონაცემები, რომელთა გაგზავნასაც არ ისურვებდით.</string>
     <string name="include_medialib">თქვენი მონაცემთა კრებულის დართვა</string>
     <string name="include_logs">აღრიცხვების დართვა</string>
     <string name="vlc_reporter">VLC მომხსენებელი</string>
-    <string name="welcome_beta_title">VLC Beta (საცდელი)</string>
-    <string name="welcome_beta_description">მოგესალმებათ საცდელი VLC.\nგთხოვთ გაითვალისწინოთ, რომ ეს ვერსია შესაძლოა ხარვეზიანი იყოს.</string>
+    <string name="welcome_beta_title">SyncNuke Beta (საცდელი)</string>
+    <string name="welcome_beta_description">მოგესალმებათ საცდელი SyncNuke.\nგთხოვთ გაითვალისწინოთ, რომ ეს ვერსია შესაძლოა ხარვეზიანი იყოს.</string>
     <string name="welcome_beta_description_bugs">თუ შეცდომას წააწყდებით, გთხოვთ მოგვახსენოთ ჩვენს ფორუმზე ან ხარვეზების აღმრიცხავში.</string>
     <string name="welcome_beta_description_crashes">ხარვეზის ან უეცარი გათიშვის შემთხვევაში გთხოვთ, გახსნათ პროგრამის შესახებ მენიუ და იხილოთ გამოხმაურება > შეეხმიანეთ მხარდაჭერის გუნდს ელფოსტით.</string>
     <string name="send">გაგზავნა</string>
@@ -987,8 +987,8 @@
     <string name="recently_played">ბოლოს გაშვებული</string>
     <string name="recently_added">ბოლოს დამატებული</string>
     <string name="playback_multiple_errors">რამდენიმე ფაილი ვერ დაიკვრება</string>
-    <string name="clear_media_db_message">დაკარგავთ წინსვლას, სანიშნებსა და შექმნილ დასაკრავ სიებს, თუმცა შეინარჩუნებთ VLC-ს Android-პარამეტრებს.</string>
-    <string name="clear_app_data_message">დაკარგავთ წინსვლას, სანიშნებსა და შექმნილ დასაკრავ სიებს, ამასთან VLC-ს Android-პარამეტრებსაც.</string>
+    <string name="clear_media_db_message">დაკარგავთ წინსვლას, სანიშნებსა და შექმნილ დასაკრავ სიებს, თუმცა შეინარჩუნებთ SyncNuke-ს Android-პარამეტრებს.</string>
+    <string name="clear_app_data_message">დაკარგავთ წინსვლას, სანიშნებსა და შექმნილ დასაკრავ სიებს, ამასთან SyncNuke-ს Android-პარამეტრებსაც.</string>
     <string name="clear">გასუფთავება</string>
     <string name="abrepeat_add_first_marker">საწყისის მითითება</string>
     <string name="abrepeat_add_second_marker">საბოლოოს მითითება</string>
@@ -1073,7 +1073,7 @@
     <string name="air_action_next">შემდეგი დასაკრავ სიაში</string>
     <string name="air_action_previous">წინა დასაკრავ სიაში</string>
     <string name="allow_otg">ნებართვა OTG-წვდომის</string>
-    <string name="allow_otg_description">გთხოვთ, აირჩიოთ თქვენი OTG-საცავი, რომელთან წვდომასაც შეძლებს VLC.</string>
+    <string name="allow_otg_description">გთხოვთ, აირჩიოთ თქვენი OTG-საცავი, რომელთან წვდომასაც შეძლებს SyncNuke.</string>
     <string name="timeout_infinite">განუსაზღვრელი</string>
     <string name="video_hud_timeout">ვიდეოდამკვრელის სამართავის დამალვის დაყოვნება</string>
     <string name="video_hud_timeout_summary">%sწმ</string>
@@ -1141,7 +1141,7 @@
     <string name="optional_features_warning">ეს შესაძლებლობა ჯერ საცდელია და შეიძლება იწვევდეს არამდგრადობასა და უეცარ გათიშვებს. </string>
     <string name="network_indexing">ქსელით აღნუსხვა</string>
     <string name="network_indexing_warning">ქსელით აღნუსხვა ჯერ საცდელია.\nგამოვლენილი ხარვეზებია:\nშენელებული მუშაობა\n\nთუ სხვა ხარვეზსაც წააწყდებით, გთხოვთ გვაცნობოთ ფორუმზე.</string>
-    <string name="start_vlc">ჩართეთ VLC</string>
+    <string name="start_vlc">ჩართეთ SyncNuke</string>
     <string name="jump_delay">წინ/უკან გადახვევის დაყოვნება</string>
     <string name="long_jump_delay">დიდხანს შეხებით წინ/უკან გადახვევის დაყოვნება</string>
     <string name="jump_delay_summary">%s წამი</string>
@@ -1165,7 +1165,7 @@
     <string name="lock_use_sensor_summary">განლაგების შენარჩუნებისას საპირისპიროდ შებრუნება აღმქმელის მეშვეობით</string>
     <string name="start">წინ</string>
     <string name="notification_permission">შეტყობინების ნებართვა</string>
-    <string name="notification_permission_explanation">VLC საჭიროებს თქვენგან ნებართვას, რომ გიჩვენოთ შეტყობინებები.\nმხოლოდ ფაილების აღრიცხვა გეცნობებათ ან ეკრანი-ეკრანში გაშვება.\nუარყოფისას VLC მაინც განაგრძობს მუშაობას, მაგრამ შეტყობინებები იქნება დაფარული.</string>
+    <string name="notification_permission_explanation">SyncNuke საჭიროებს თქვენგან ნებართვას, რომ გიჩვენოთ შეტყობინებები.\nმხოლოდ ფაილების აღრიცხვა გეცნობებათ ან ეკრანი-ეკრანში გაშვება.\nუარყოფისას SyncNuke მაინც განაგრძობს მუშაობას, მაგრამ შეტყობინებები იქნება დაფარული.</string>
     <string name="permission">ნებართვა</string>
     <string name="permission_no_access">ფაილთან წვდომის გარეშე</string>
     <string name="permissions">ნებართვები</string>
@@ -1234,7 +1234,7 @@
     <string name="widget_show_configure_summary">როცა დამალულია, ზედა მარჯვენა კუთხეში შეხებით მაინც გაიხსნება</string>
     <string name="seek_backward_content_description">%s წამით უკან გადახვევა</string>
     <string name="seek_forward_content_description">%s წამით წინ გადახვევა</string>
-    <string name="open_vlc">გაიხსნას VLC</string>
+    <string name="open_vlc">გაიხსნას SyncNuke</string>
     <string name="playing">გაშვებულია</string>
     <string name="disable_track">ჩანაწერის გამორთვა</string>
     <string name="ascending">აღმავალი</string>
@@ -1339,7 +1339,7 @@
     <string name="ra_browser_audio_not_found">ფაილი ვერ მოიძებნა ან ვერ გაეშვება ბრაუზერში</string>
     <string name="ra_browser_audio_unsupported_format">ხმის ეს სახეობა არაა მხარდაჭერილი თქვენს ბრაუზერში</string>
 
-    <string name="ra_onboarding_welcome_desc">გაეცანით დაშორებული წვდომის შესაძლებლობას, რომელსაც გთავაზობთ VLC Android\nმისი ამოქმედებით შეგეძლებათ მოწყობილობაზე მართოთ დაკვრის საშუალებები და კიდევ ბევრი სხვა რამ</string>
+    <string name="ra_onboarding_welcome_desc">გაეცანით დაშორებული წვდომის შესაძლებლობას, რომელსაც გთავაზობთ SyncNuke Android\nმისი ამოქმედებით შეგეძლებათ მოწყობილობაზე მართოთ დაკვრის საშუალებები და კიდევ ბევრი სხვა რამ</string>
     <string name="ra_onboarding_how_title">თქვენი მოწყობილობის მართვა</string>
     <string name="ra_onboarding_how_desc">მართეთ თქვენს მოწყობილობაზე ფაილების დაკვრის, გაგზავნის, მიღების საშუალებები და სხვა</string>
     <string name="ra_onboarding_ssl_title">მონაცემთა დაშიფვრა</string>
@@ -1365,7 +1365,7 @@
     <string name="podcast_mode">პოდკასტის რეჟიმი</string>
     <string name="podcast_mode_help">პოდკასტის სამართავი გამოჩნდება, როცა გაშვებულია ცალკეული ჩანაწერი და აკმაყოფილებს რომელიმე პირობას:\n\t• ხანგრძლივობაა არანაკლებ 60 წთ\n\t• ხანგრძლივობაა არანაკლებ 15 წთ ალბომის სახელის გარეშე\n\t• ჟანრია %s</string>
     <string name="voice_control">ხმით მართვა</string>
-    <string name="voice_control_help">VLC შეიძლება იმართოს Google-თანაშემწისთვის ხმოვანი ბრძანების მიცემით:\n\t• გაუშვი, შეაჩერე, შეწყვიტე, წინა, მომდევნო\n\t• გადაახვიე, სწრაფად გადაახვიე, გაიმეორე &lt;ყველა|ერთი|არცერთი&gt;\n\t• გადადი &lt;დროით&gt;, გამოტოვე &lt;ხანგრძლივობა&gt;\n\t• მაცნობე &lt;შემსრულებელი|ალბომი|სიმღერა&gt;\n\t• გაუშვი [შემსრულებელი|ალბომი|სიმღერა|ჟანრი|დასაკრავი სია] &lt;სახელით&gt;</string>
+    <string name="voice_control_help">SyncNuke შეიძლება იმართოს Google-თანაშემწისთვის ხმოვანი ბრძანების მიცემით:\n\t• გაუშვი, შეაჩერე, შეწყვიტე, წინა, მომდევნო\n\t• გადაახვიე, სწრაფად გადაახვიე, გაიმეორე &lt;ყველა|ერთი|არცერთი&gt;\n\t• გადადი &lt;დროით&gt;, გამოტოვე &lt;ხანგრძლივობა&gt;\n\t• მაცნობე &lt;შემსრულებელი|ალბომი|სიმღერა&gt;\n\t• გაუშვი [შემსრულებელი|ალბომი|სიმღერა|ჟანრი|დასაკრავი სია] &lt;სახელით&gt;</string>
 
     <string name="network" >ქსელი</string>
     <string name="metered_connection">მოქმედება ნაკადებისთვის გასახარჯი ინტერნეტკავშირისას</string>

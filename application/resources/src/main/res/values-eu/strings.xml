@@ -48,7 +48,7 @@
     <string name="play_as_video">Erreproduzitu bideo gisa</string>
     <string name="return_to_video">Sakatu luze azala bideoa leheneratzeko</string>
     <string name="video_app_switch_title">Atzeko planoa/PiP modua</string>
-    <string name="video_app_switch_summary">Hautatu VLCren portaera bideoaren erreprodukziotik beste aplikazio batera aldatzen duzunean</string>
+    <string name="video_app_switch_summary">Hautatu SyncNukeren portaera bideoaren erreprodukziotik beste aplikazio batera aldatzen duzunean</string>
     <string name="play_pip_title">Erreproduzitu bideoak PiP moduan (irudia-irudi-gainean)</string>
     <string name="play_as_audio_background">Erreproduzitu bideoak atzeko planoan</string>
     <string name="append">Gehitu erreprodukzio-zerrendan</string>
@@ -294,7 +294,7 @@
     <string name="hold_to_stop">Mantendu gelditzeko</string>
 
     <!-- About -->
-    <string name="app_name_full">Androiderako VLC</string>
+    <string name="app_name_full">SyncNuke</string>
     <string name="revision">Berrikuspena</string>
     <string name="about">Honi buruz</string>
     <string name="about_vlc_text">VLC Android™ VLC kode irekiko multimedia erreproduzitzaile ezagunaren ataka da, . Android™ bertsioak fitxategi eta sareko korronte guztiak irakur ditzake.</string>
@@ -458,8 +458,8 @@
     <string name="replaygain_track">Pista</string>
     <string name="replaygain_album">Bilduma</string>
     <string name="aout">Audio-irteera</string>
-    <string name="aout_summary">Aldatu VLCk irteera-audiorako erabiltzen duen metodoa.</string>
-    <string name="audio_ducking_title">Jaitsi VLC bolumena jakinarazpenekin</string>
+    <string name="aout_summary">Aldatu SyncNukek irteera-audiorako erabiltzen duen metodoa.</string>
+    <string name="audio_ducking_title">Jaitsi SyncNuke bolumena jakinarazpenekin</string>
     <string name="audio_ducking_summary">Audio jakinarazpenak, nabigazio jarraibideak eta mintzodun morroiak entzuten laguntzen du</string>
     <string name="casting_category">Igortzea</string>
     <string name="remote_access">Urruneko sarbidea</string>
@@ -529,7 +529,7 @@
     <string name="clear_media_db">Garbitu multimedia datu-basea</string>
     <string name="clear_media_database_summary">Datu-basea garbitzen du berriro hasteko</string>
     <string name="clear_app_data">Garbitu aplikazioaren datuak</string>
-    <string name="clear_app_data_summary">Androiden datuetatik VLC garbitzen du</string>
+    <string name="clear_app_data_summary">Androiden datuetatik SyncNuke garbitzen du</string>
     <string name="clear_history">Garbitu historiala</string>
     <string name="clear_history_message">Zure historia, zure uneko erreprodukzio-zerrendak eta zure aurrerapenak galduko dituzu</string>
     <string name="set_locale">Ezarri hizkuntza</string>
@@ -555,7 +555,7 @@
     <string name="start_logging">Hasi erregistratzen</string>
     <string name="stop_logging">Gelditu erregistratzen</string>
     <string name="clear_log">Garbitu erregistroa</string>
-    <string name="log_service_title">VLC erregistroen grabazioa</string>
+    <string name="log_service_title">SyncNuke erregistroen grabazioa</string>
     <string name="log_service_text">Ireki erregistroaren kontsola</string>
     <string name="copy_to_clipboard">Kopiatu arbelean</string>
     <string name="copied_to_clipboard">Erregistroa arbelean kopiatuta.</string>
@@ -566,9 +566,9 @@
     <string name="http_user_agent">HTTP erabiltzaile-agentea</string>
     <string name="custom_libvlc_options">libVLC aukera pertsonalizatuak</string>
     <string name="custom_libvlc_options_invalid">Baliogabeko libVLC aukerak!</string>
-    <string name="serious_crash">Tamalez errore larri bat gertatu da eta VLC itxi egin da.</string>
-    <string name="help_us_send_log">Lagun gaitzazu VLC hobetzen ondorengo kraskatze-erregistroa bidalita:</string>
-    <string name="restart_vlc">Berrabiarazi VLC</string>
+    <string name="serious_crash">Tamalez errore larri bat gertatu da eta SyncNuke itxi egin da.</string>
+    <string name="help_us_send_log">Lagun gaitzazu SyncNuke hobetzen ondorengo kraskatze-erregistroa bidalita:</string>
+    <string name="restart_vlc">Berrabiarazi SyncNuke</string>
     <string name="send_log">Bidali erregistroa</string>
     <string name="sending_log">Erregistroa bidaltzen…</string>
 
@@ -606,7 +606,7 @@
     <string name="medialibrary_directories">Multimedia-liburutegiko karpetak</string>
 
     <!--What's new-->
-    <string name="whats_new_title">Zer berri dago Android %s-erako VLC-n</string>
+    <string name="whats_new_title">Zer berri dago Android %s-erako SyncNuke-n</string>
     <!--    update-->
     <string name="update_title">Eguneratzea eskuragarri</string>
     <string name="open_in_browser">Ireki nabigatzailean</string>
@@ -619,27 +619,27 @@
     <string name="music_now_playing">Orain erreproduzitzen</string>
 
     <!-- Widget -->
-    <string name="widget_name_w">VLC trepeta zuria</string>
-    <string name="widget_name_b">VLC trepeta iluna</string>
-    <string name="widget_name_mini_player">VLC  erreproduzigailu txikia</string>
+    <string name="widget_name_w">SyncNuke trepeta zuria</string>
+    <string name="widget_name_b">SyncNuke trepeta iluna</string>
+    <string name="widget_name_mini_player">SyncNuke  erreproduzigailu txikia</string>
     <string name="widget_old_text">Gure trepetak eguneratu ditugu!</string>
     <string name="widget_old_description_start">Berri onak! Trepeta hobetuak kaleratu ditugu.\nMoldagarritasun eta pertsonalizazio handiagoa eskaintzen dute</string>
     <string name="whats_next">Zer berri?</string>
     <string name="widget_old_description_end">Zure abiarazlean trepetak dituzula hauteman dugu. Zoritxarrez, ez dira bateragarriak gure hobetutako berriekin.\nZure abiarazlearen arabera, baliteke zaharrak kendu behar izatea haiek ordezkatzeko.</string>
     <string name="click_here">Egin klik hemen gehiago jakiteko.</string>
-    <string name="allow_storage_access_title">Baimendu VLCri bideo- eta audio-fitxategiak atzitzea</string>
-    <string name="allow_storage_access_description">VLCk baimen hauek behar ditu gailu honetako multimedia-fitxategietarako sarbidea izateko.</string>
-    <string name="partial_content">VLC-k ezin ditu zure fitxategi guztiak atzitu</string>
+    <string name="allow_storage_access_title">Baimendu SyncNukeri bideo- eta audio-fitxategiak atzitzea</string>
+    <string name="allow_storage_access_description">SyncNukek baimen hauek behar ditu gailu honetako multimedia-fitxategietarako sarbidea izateko.</string>
+    <string name="partial_content">SyncNuke-k ezin ditu zure fitxategi guztiak atzitu</string>
     <string name="partial_content_description">Android 11rekin, aplikazioek baimen berezi bat behar dute gailuko fitxategi guztiak atzitzeko.\n\n%s</string>
     <string name="never_ask_again">Ez galdetu berriro</string>
-    <string name="allow_settings_access_ringtone_title">Baimendu VLCri dei-tonua ezartzea</string>
-    <string name="allow_settings_access_ringtone_description">VLCk baimen hauek behar ditu abesti hau zure dei-tonu gisa ezartzeko.</string>
-    <string name="allow_settings_access_brightness_title">Baimendu VLCri distiraren modua aldatzea</string>
-    <string name="allow_settings_access_brightness_description">VLCk baimen hauek behar ditu zure distiraren modua aldatzeko.</string>
-    <string name="allow_draw_overlays_title">Baimendu VLCren laster-leihoa beste aplikazioen gainean</string>
-    <string name="allow_sdraw_overlays_description">VLCk baimen hauek behar ditu zure bideoa beste aplikazioen gaineko laster-leiho batean bistaratzeko.</string>
-    <string name="allow_pip">Eman VLC erreproduzitzaileari Irudian Irudi modua abiarazteko baimena</string>
-    <string name="allow_pip_description">VLC-k baimen hau behar du zure bideoa Irudian Irudi moduan bistaratzeko.</string>
+    <string name="allow_settings_access_ringtone_title">Baimendu SyncNukeri dei-tonua ezartzea</string>
+    <string name="allow_settings_access_ringtone_description">SyncNukek baimen hauek behar ditu abesti hau zure dei-tonu gisa ezartzeko.</string>
+    <string name="allow_settings_access_brightness_title">Baimendu SyncNukeri distiraren modua aldatzea</string>
+    <string name="allow_settings_access_brightness_description">SyncNukek baimen hauek behar ditu zure distiraren modua aldatzeko.</string>
+    <string name="allow_draw_overlays_title">Baimendu SyncNukeren laster-leihoa beste aplikazioen gainean</string>
+    <string name="allow_sdraw_overlays_description">SyncNukek baimen hauek behar ditu zure bideoa beste aplikazioen gaineko laster-leiho batean bistaratzeko.</string>
+    <string name="allow_pip">Eman SyncNuke erreproduzitzaileari Irudian Irudi modua abiarazteko baimena</string>
+    <string name="allow_pip_description">SyncNuke-k baimen hau behar du zure bideoa Irudian Irudi moduan bistaratzeko.</string>
     <string name="permission_ask_again">Eman baimena</string>
     <string name="pick_file">Aukeratu fitxategi bat</string>
     <string name="permission_not_granted">Ez da baimenik eman</string>
@@ -648,9 +648,9 @@
     <string name="permission_onboarding_no_perm">Ezin izango duzu zure multimedia-edukia automatikoki aurkitu.\nDifusioa edo sareko multimedia-edukia soilik erreproduzitu ahal izango dituzu</string>
     <string name="permission_onboarding_perm_media">Multimedia fitxategi estandarrak automatikoki aurkitu ahal izango dituzu soilik</string>
     <string name="permission_onboarding_perm_all">Zure fitxategi guztiak automatikoki aurkitu ahal izango dituzu euskarri mota guztiak erreproduzitzeko, baita bitxiak edo fitxategi konprimituak ere</string>
-    <string name="exit_app">Itxi VLC</string>
-    <string name="exit_app_msg">Ziur zaude VLCtik irten nahi duzula?</string>
-    <string name="widget_explanation_title">VLC trepetak</string>
+    <string name="exit_app">Itxi SyncNuke</string>
+    <string name="exit_app_msg">Ziur zaude SyncNuketik irten nahi duzula?</string>
+    <string name="widget_explanation_title">SyncNuke trepetak</string>
     <string name="widget_explanation_size">Trepetak tamaina eta zapore desberdinetakoak dira</string>
     <string name="widget_explanation_resize">Trepeta mota aldatzeko, luze sakatu eta erabili heldulekuak nahi duzun neurrira aldatzeko</string>
     <string name="widget_explanation_end">Trepetak oso pertsonalizagarriak dira. Askatu zure sormena eta eman zure antza!</string>
@@ -700,7 +700,7 @@
     <string name="length">Luzera</string>
     <string name="tv_settings_hint">Sakatu luze \'Ados\' botoia direktorioak markatzeko/marka kentzeko</string>
     <string name="ml_external_storage_title">Kanpoko biltegi berria atzeman da</string>
-    <string name="ml_external_storage_msg">VLCk %1$s gailua zure multimedia-liburutegian gehitzea nahi duzu?</string>
+    <string name="ml_external_storage_msg">SyncNukek %1$s gailua zure multimedia-liburutegian gehitzea nahi duzu?</string>
     <string name="ml_external_storage_accept">Bai</string>
     <string name="ml_external_storage_decline">Ez</string>
     <string name="auto_last_added_media">Gehitutako azkena</string>
@@ -730,8 +730,8 @@
     <string name="browser_storages">Biltegiak</string>
     <string name="msg_delete_failed">Huts egin du %1$s multimedia ezabatzea</string>
     <string name="renderer_list_title">Pantailak</string>
-    <string name="sdcard_permission_dialog_title">VLCri zure SD txartelean idazteko baimena eman behar diozu</string>
-    <string name="sdcard_permission_dialog_message">VLCk ezin du fitxategi hau ezabatu idazteko baimenik gabe.\nMesedez, zoaz zure SD txartelera eta egin klik \"Hautatu\"-n.\nBaliteke, lehenik, goiko eskuineko menuan \"Erakutsi SD txartela\"-n klik egin behar izatea</string>
+    <string name="sdcard_permission_dialog_title">SyncNukeri zure SD txartelean idazteko baimena eman behar diozu</string>
+    <string name="sdcard_permission_dialog_message">SyncNukek ezin du fitxategi hau ezabatu idazteko baimenik gabe.\nMesedez, zoaz zure SD txartelera eta egin klik \"Hautatu\"-n.\nBaliteke, lehenik, goiko eskuineko menuan \"Erakutsi SD txartela\"-n klik egin behar izatea</string>
     <string name="dialog_sd_wizard">Erakutsi!</string>
     <string name="renderers_disconnect">Deskonektatu</string>
     <string name="audio_digital_failed">Huts egin du audio digitalaren irteeraren egoera aldatzea</string>
@@ -746,7 +746,7 @@
     <string name="playback_rewind">Birbobinatu</string>
     <string name="playback_forward">Bizkor erreproduzitu</string>
     <string name="ml_wizard_scan_checkbox">Eskaneatu gailua multimedia edukia antzemateko</string>
-    <string name="ml_wizard_description">Aukeratu VLCk zure gailua eskaneatuko duen zure multimedia liburutegia antolatzeko ala nabigatzailea integraturik duen erreproduzigailu sinple bat bezala erabiliko duzun.</string>
+    <string name="ml_wizard_description">Aukeratu SyncNukek zure gailua eskaneatuko duen zure multimedia liburutegia antolatzeko ala nabigatzailea integraturik duen erreproduzigailu sinple bat bezala erabiliko duzun.</string>
     <string name="tv_my_new_videos">Nire bideo berriak</string>
     <string name="cast_option_title">Igorri multimedia beste pantaila batera</string>
     <string name="otg_device_title">OTG gailua</string>
@@ -785,28 +785,28 @@
     <string name="ctx_player_subs_track">Azpitituluen pista</string>
     <string name="ctx_pip_title">Laster-leiho erreproduzigailua</string>
     <string name="device_dialog_title">Kanpoko gailua txertatua</string>
-    <string name="device_dialog_message">Biltegiratze gailu berria konektatu duzu zure TB kutxara, VLC-rekin ireki nahi duzu?</string>
+    <string name="device_dialog_message">Biltegiratze gailu berria konektatu duzu zure TB kutxara, SyncNuke-rekin ireki nahi duzu?</string>
     <string name="videos_folders_title">Bideoak karpetako</string>
     <string name="videos_groups_title">Bideo taldeak</string>
     <string name="video_save_clone_mode">Automatikoki aktibatu klon modua?</string>
     <string name="video_remote_enable">Aldatu urruneko kontrol modura</string>
     <string name="video_remote_disable">Bikoiztu pantaila</string>
     <string name="removed_from_playlist_anonymous">Elementua(k) zerrendatik kenduta</string>
-    <string name="welcome_title">Ongi etorri VLC-ra!</string>
+    <string name="welcome_title">Ongi etorri SyncNuke-ra!</string>
     <string name="welcome_subtitle">Multimedia-erreproduzigailu libre eta doakoa</string>
-    <string name="permission_media">VLC-k zure baimena behar du zure gailuko multimedia atzitzeko</string>
-    <string name="permission_video">VLCk baimena behar du zure gailuan bideoa atzitzeko</string>
-    <string name="permission_audio">VLCk baimena behar du zure gailuan audioa atzitzeko</string>
-    <string name="medialibrary_scan_explanation">VLC-k automatikoki eskaneatu dezake zure gailua zure multimedia bilduma antolatzeko</string>
+    <string name="permission_media">SyncNuke-k zure baimena behar du zure gailuko multimedia atzitzeko</string>
+    <string name="permission_video">SyncNukek baimena behar du zure gailuan bideoa atzitzeko</string>
+    <string name="permission_audio">SyncNukek baimena behar du zure gailuan audioa atzitzeko</string>
+    <string name="medialibrary_scan_explanation">SyncNuke-k automatikoki eskaneatu dezake zure gailua zure multimedia bilduma antolatzeko</string>
     <string name="onboarding_theme_title">Jarri zaitez eroso</string>
     <string name="done">Egina</string>
     <string name="onboarding_scan_title">Automatikoki aurkitu zure multimedia</string>
-    <string name="onboarding_all_set">VLC prest dago!</string>
+    <string name="onboarding_all_set">SyncNuke prest dago!</string>
     <string name="onboarding_permission_given">Orain zure euskarriak automatikoki aurkitu, kanpoko azpitituluak erabili, baita korronteak edo sareko euskarriak ere erreproduzitu ditzakezu</string>
-    <string name="daynight_system_explanation">VLC automatikoki aldatuko da modu ilunera sistemaren ezarpenen arabera</string>
-    <string name="daynight_legacy_explanation">VLC automatikoki aldatuko da gau modura dagokion orduan</string>
-    <string name="onboarding_scanning_enable">Baimendu VLC-ri nire gailua eskaneatzea multimedia edukien bila</string>
-    <string name="onboarding_scan_customize">Utzi niri VLC-k eskaneatuko dituen karpetak aukeratzea</string>
+    <string name="daynight_system_explanation">SyncNuke automatikoki aldatuko da modu ilunera sistemaren ezarpenen arabera</string>
+    <string name="daynight_legacy_explanation">SyncNuke automatikoki aldatuko da gau modura dagokion orduan</string>
+    <string name="onboarding_scanning_enable">Baimendu SyncNuke-ri nire gailua eskaneatzea multimedia edukien bila</string>
+    <string name="onboarding_scan_customize">Utzi niri SyncNuke-k eskaneatuko dituen karpetak aukeratzea</string>
     <string name="button_medialibrary_preferences">Joan multimedia liburutegiaren hobespenetara</string>
     <string name="light_theme">Itxura argia</string>
     <string name="add">Gehitu</string>
@@ -843,13 +843,13 @@
     <string name="display_in_grid">Bistarazi saretan</string>
     <string name="dump_db_succes">Datu-basea barne biltegiaren erroan erauzi da</string>
     <string name="dump_db_failure">Ezin izan da datu-basea erauzi</string>
-    <string name="send_crash_title">VLC kraskatze berri-emailea</string>
-    <string name="send_crash_description">Zure kraskatzea guri bidaliz, VLC-ren egonkortasuna hobetzen lagunduko duzu.</string>
+    <string name="send_crash_title">SyncNuke kraskatze berri-emailea</string>
+    <string name="send_crash_description">Zure kraskatzea guri bidaliz, SyncNuke-ren egonkortasuna hobetzen lagunduko duzu.</string>
     <string name="send_crash_warning">Ziurtatu bidali nahi ez duzun informazio pertsonala kentzen duzula.</string>
     <string name="include_medialib">Sartu zure datu-basean</string>
     <string name="vlc_reporter">VLC berri-emailea</string>
-    <string name="welcome_beta_title">VLC Beta</string>
-    <string name="welcome_beta_description">Ongi etorri VLC beta programara.\nIzan kontuan bertsio honek akatsak izan ditzakeela.</string>
+    <string name="welcome_beta_title">SyncNuke Beta</string>
+    <string name="welcome_beta_description">Ongi etorri SyncNuke beta programara.\nIzan kontuan bertsio honek akatsak izan ditzakeela.</string>
     <string name="welcome_beta_description_bugs">Akats bat antzematen bat duzu, eman mesedez honen berri gure foroan edo akatsen zerrendan.</string>
     <string name="send">Bidali</string>
     <string name="send_crash_action_title">Zer egin nahi duzu?</string>
@@ -889,8 +889,8 @@
     <string name="recently_played">Berriki erreproduzitua</string>
     <string name="recently_added">Berriki gehitua</string>
     <string name="playback_multiple_errors">Hainbat multimedia ezin dira erreproduzitu</string>
-    <string name="clear_media_db_message">Aurrerapenak, laster-markak eta sortutako erreprodukzio-zerrendak galduko dituzu, baina zure Android-erako VLC-aren ezarpenak mantenduko dira</string>
-    <string name="clear_app_data_message">Aurrerapenak, laster-markak, erreprodukzio-zerrendak eta VLC-aren ezarpen guztiak galduko dituzu</string>
+    <string name="clear_media_db_message">Aurrerapenak, laster-markak eta sortutako erreprodukzio-zerrendak galduko dituzu, baina zure Android-erako SyncNuke-aren ezarpenak mantenduko dira</string>
+    <string name="clear_app_data_message">Aurrerapenak, laster-markak, erreprodukzio-zerrendak eta SyncNuke-aren ezarpen guztiak galduko dituzu</string>
     <string name="clear">Garbitu</string>
     <string name="abrepeat_add_first_marker">Ezarri hasiera puntua</string>
     <string name="abrepeat_add_second_marker">Ezarri amaiera puntua</string>
@@ -973,7 +973,7 @@
     <string name="air_action_next">Erreprodukzio zerrendako hurrengoa</string>
     <string name="air_action_previous">Erreprodukzio zerrendako aurrekoa</string>
     <string name="allow_otg">Baimendu OTG sarbidea</string>
-    <string name="allow_otg_description">Mesedez, hautatu zure OTG unitatea VLCra sarbidea ahalbidetzeko.</string>
+    <string name="allow_otg_description">Mesedez, hautatu zure OTG unitatea SyncNukera sarbidea ahalbidetzeko.</string>
     <string name="timeout_infinite">Infinitua</string>
     <string name="video_hud_timeout">Bideo-erreproduzitzaileak ezkutatzeko atzerapena kontrolatzen du</string>
     <string name="video_hud_timeout_summary">%ss</string>
@@ -1015,7 +1015,7 @@
     <string name="optional_features_warning">Eginbide hau betan dago eta hutsegiteak eta ezegonkortasunak sor ditzake</string>
     <string name="network_indexing">Sarearen indexazioa</string>
     <string name="network_indexing_warning">Sarearen indexazioa beta-aldian dago.\nArazo ezagunak:\n• Errendimendu motela\n\nBeste arazoren bat aurkitzen baduzu, jakinarazi gure foroan.</string>
-    <string name="start_vlc">Hasi VLC</string>
+    <string name="start_vlc">Hasi SyncNuke</string>
     <string name="jump_delay">Aurrera/atzera atzerapena</string>
     <string name="long_jump_delay">Sakatu luze aurrera/atzera atzerapena</string>
     <string name="jump_delay_summary">%s segundo</string>
@@ -1033,7 +1033,7 @@
     <string name="lock_use_sensor_summary">Orientazioa blokeatuta dagoenean, erabili sentsorea alderantzizko orientazioa baimentzeko</string>
     <string name="start">Hasi</string>
     <string name="notification_permission">Jakinarazpen-baimena</string>
-    <string name="notification_permission_explanation">VLC-k zure baimena behar du jakinarazpenak bidaltzeko.\nAplikazioak zure multimedia eskaneatzen duzunean edo bideoa Irudia Irudian moduan erabiltzean soilik jakinaraziko dizu.\nHau ukatuz gero, ez du VLC-k funtzionatzea eragotziko, baina jakinarazpenak ezkutatu egingo dira.</string>
+    <string name="notification_permission_explanation">SyncNuke-k zure baimena behar du jakinarazpenak bidaltzeko.\nAplikazioak zure multimedia eskaneatzen duzunean edo bideoa Irudia Irudian moduan erabiltzean soilik jakinaraziko dizu.\nHau ukatuz gero, ez du SyncNuke-k funtzionatzea eragotziko, baina jakinarazpenak ezkutatu egingo dira.</string>
     <string name="permission">Baimena</string>
     <string name="customize">Pertsonalizatu</string>
     <string name="selection_count">%d hautatuta</string>
@@ -1079,7 +1079,7 @@
     <string name="widget_show_configure_summary">Erakusten ez bada ere, goiko eskuineko izkina uki dezakezu konfigurazioa irekitzeko</string>
     <string name="seek_backward_content_description">Bilatu %s segundo atzerantz</string>
     <string name="seek_forward_content_description">Bilatu %s segundo aurrerantz</string>
-    <string name="open_vlc">Ireki VLC</string>
+    <string name="open_vlc">Ireki SyncNuke</string>
     <string name="playing">Erreproduzitzen</string>
     <string name="disable_track">Desgaitu pista</string>
     <string name="ascending">Behetik gora</string>

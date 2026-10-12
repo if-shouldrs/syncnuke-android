@@ -127,13 +127,17 @@
         <item name="backgroundTint">@color/orange800</item>
     </style>
     <style name="VLC.Tooltip.Dark" parent="Widget.MaterialComponents.Tooltip">
-        <item name="android:textAppearance">@style/TextAppearance.VLC.Tooltip</item>
+        <item name="android:textAppearance">@style/TextAppearance.SyncNuke.Tooltip.Dark</item>
         <item name="backgroundTint">@color/orange500</item>
     </style>
 
     <style name="TextAppearance.VLC.Tooltip" parent="TextAppearance.Material3.BodySmall">
         <item name="android:textColor">@color/white</item>
         <item name="fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="TextAppearance.SyncNuke.Tooltip.Dark" parent="TextAppearance.VLC.Tooltip">
+        <item name="android:textColor">@color/grey900</item>
     </style>
 
     <style name="Theme.VLC.PickerDialog" parent="Theme.VLC.PickerDialog.Light"/>
@@ -223,8 +227,8 @@
         <item name="colorPrimaryDark">@color/transparent</item>
         <item name="colorAccent">@color/orange600</item>
         <item name="colorSecondary">@color/orange600</item>
-        <item name="colorOnSecondary">@color/grey50</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/grey900</item>
+        <item name="colorOnPrimary">@color/grey900</item>
         <item name="colorControlHighlight">@color/orange500</item>
         <item name="colorControlNormal">@color/grey300</item>
 

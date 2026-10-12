@@ -178,7 +178,7 @@
     <string name="streams">Токови</string>
     <string name="open_mrl_dialog_msg">Унесите адресу: нпр. http://, mms:// или rtsp://</string>
     <string name="encountered_error_title">Грешка при репродукцији</string>
-    <string name="encountered_error_message">VLC је наишао на грешку у овом медију.\nПробајте да освежите медијску библиотеку.</string>
+    <string name="encountered_error_message">SyncNuke је наишао на грешку у овом медију.\nПробајте да освежите медијску библиотеку.</string>
     <string name="invalid_location">Локацију %1$s није могуће пустити.</string>
     <string name="search">Претражи</string>
 
@@ -202,7 +202,7 @@
     <string name="hold_to_stop">Држите да зауставите</string>
 
     <!-- About -->
-    <string name="app_name_full">ВЛЦ за Андроид</string>
+    <string name="app_name_full">SyncNuke</string>
     <string name="revision">Ревизија</string>
     <string name="about">О апликацији</string>
     <string name="vlc_authors">и аутори VLC-а.</string>
@@ -265,19 +265,19 @@
     <string name="dump_logcat">Испиши logcat евиденцију</string>
     <string name="dump_logcat_success">Logcat је успешно исписан у %1$s.</string>
     <string name="dump_logcat_failure">Не могу да испишем logcat.</string>
-    <string name="serious_crash">Нажалост, дошло је до озбиљне грешке која је проузроковала пад VLC-а.</string>
-    <string name="help_us_send_log">Помозите нам да побољшамо VLC слањем следећег извештаја о паду:</string>
-    <string name="restart_vlc">Поново покрени VLC</string>
+    <string name="serious_crash">Нажалост, дошло је до озбиљне грешке која је проузроковала пад SyncNuke-а.</string>
+    <string name="help_us_send_log">Помозите нам да побољшамо SyncNuke слањем следећег извештаја о паду:</string>
+    <string name="restart_vlc">Поново покрени SyncNuke</string>
     <string name="send_log">Пошаљи извештај</string>
     <string name="sending_log">Шаљем извештај…</string>
 
     <string name="allow_storage_access_title">Дозвола за приступ датотекама</string>
-    <string name="allow_storage_access_description">VLC-у је потребна ова дозвола како би приступио медијским датотекама на уређају.</string>
+    <string name="allow_storage_access_description">SyncNuke-у је потребна ова дозвола како би приступио медијским датотекама на уређају.</string>
     <string name="allow_settings_access_ringtone_title">Дозвола за постављање мелодије звона</string>
-    <string name="allow_settings_access_ringtone_description">VLC-у је потребна ова дозвола како би поставио аудио-снимак као мелодију звона.</string>
+    <string name="allow_settings_access_ringtone_description">SyncNuke-у је потребна ова дозвола како би поставио аудио-снимак као мелодију звона.</string>
     <string name="allow_settings_access_brightness_title">Дозвола за промену режима осветљености</string>
-    <string name="allow_settings_access_brightness_description">VLC-у је потребна ова дозвола како би променио режим осветљености.</string>
-    <string name="allow_sdraw_overlays_description">VLC-у је потребна ова дозвола како би приказивао видео преко других апликација.</string>
+    <string name="allow_settings_access_brightness_description">SyncNuke-у је потребна ова дозвола како би променио режим осветљености.</string>
+    <string name="allow_sdraw_overlays_description">SyncNuke-у је потребна ова дозвола како би приказивао видео преко других апликација.</string>
     <string name="permission_ask_again">Додели дозволу</string>
     <string name="ml_external_storage_title">Откривена је нова екстерна меморија</string>
     <string name="ml_external_storage_msg">Желите ли да додате уређај %1$s у медијатеку?</string>
@@ -288,15 +288,15 @@
 
     <string name="next">Следеће</string>
     <string name="videos_folders_title">Видео-снимци по фасциклама</string>
-    <string name="welcome_title">Добро дошли у VLC!</string>
+    <string name="welcome_title">Добро дошли у SyncNuke!</string>
     <string name="welcome_subtitle">Бесплатан медијски плејер отвореног кода</string>
-    <string name="permission_media">VLC-у је потребна дозвола за приступ медијским датотекама на вашем уређају</string>
-    <string name="medialibrary_scan_explanation">VLC може да аутоматски скенира ваш уређај и направи медијатеку.</string>
+    <string name="permission_media">SyncNuke-у је потребна дозвола за приступ медијским датотекама на вашем уређају</string>
+    <string name="medialibrary_scan_explanation">SyncNuke може да аутоматски скенира ваш уређај и направи медијатеку.</string>
     <string name="onboarding_theme_title">Персонализација</string>
     <string name="done">Готово</string>
     <string name="onboarding_scan_title">Аутоматско проналажење медијских датотека</string>
-    <string name="daynight_system_explanation">VLC ће аутоматски прећи на тамни режим у складу са подешавањима система</string>
-    <string name="daynight_legacy_explanation">VLC ће аутоматски прећи на ноћни режим у одговарајуће време</string>
+    <string name="daynight_system_explanation">SyncNuke ће аутоматски прећи на тамни режим у складу са подешавањима система</string>
+    <string name="daynight_legacy_explanation">SyncNuke ће аутоматски прећи на ноћни режим у одговарајуће време</string>
     <string name="onboarding_scanning_enable">Дозволи скенирање уређаја</string>
     <string name="onboarding_scan_customize">Желим да одаберем фасцикле које ће бити скениране</string>
     <string name="light_theme">Светла тема</string>

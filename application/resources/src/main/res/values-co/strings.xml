@@ -50,7 +50,7 @@
     <string name="play_as_video">Sunà cum’è video</string>
     <string name="return_to_video">Longa picchicciata nant’à a cuprendula per risturà a video</string>
     <string name="video_app_switch_title">Modu di fondu o fiura-nant’à-fiura (PIP)</string>
-    <string name="video_app_switch_summary">Selezziunà u cumpurtamentu di VLC quandu si passa da a ripruduzzione video à un’altra appiecazione</string>
+    <string name="video_app_switch_summary">Selezziunà u cumpurtamentu di SyncNuke quandu si passa da a ripruduzzione video à un’altra appiecazione</string>
     <string name="play_pip_title">Sunà e video in modu fiura-nant’à-fiura (PIP)</string>
     <string name="play_as_audio_background">Sunà e video in modu di fondu</string>
     <string name="append">Aghjunghje à a fila d’attesa di lettura</string>
@@ -308,7 +308,7 @@
     <string name="hold_to_stop">Mantene per piantà</string>
 
     <!-- About -->
-    <string name="app_name_full">VLC per Android</string>
+    <string name="app_name_full">SyncNuke</string>
     <string name="revision">Revisione</string>
     <string name="about">Apprupositu</string>
     <string name="about_vlc_text">VLC per Android™ hè una purtera di VLC media player, u lettore medià pupulare à fonte aperta. A versione Android™ pò leghje tutti i schedarii è i flussi di a reta.</string>
@@ -492,8 +492,8 @@
     <string name="replaygain_track">Traccia</string>
     <string name="replaygain_album">Albumu</string>
     <string name="aout">Esciuta audio</string>
-    <string name="aout_summary">Cambià u metoda chì VLC impiega per l’esciuta audio s’ellu ùn funzioneghja micca</string>
-    <string name="audio_ducking_title">Diminuisce u vulume di VLC in casu di nutificazione</string>
+    <string name="aout_summary">Cambià u metoda chì SyncNuke impiega per l’esciuta audio s’ellu ùn funzioneghja micca</string>
+    <string name="audio_ducking_title">Diminuisce u vulume di SyncNuke in casu di nutificazione</string>
     <string name="audio_ducking_summary">Aiuta à stà à sente e nutificazioni aidio, l’istruzzioni parlate di navigazione o d’assistenza</string>
     <string name="casting_category">Diffusione</string>
     <string name="remote_access">Accessu à distanza</string>
@@ -570,7 +570,7 @@
     <string name="clear_media_db">Viutà a banca di dati medià</string>
     <string name="clear_media_database_summary">Squassa a basa di dati per riprincipià à zeru</string>
     <string name="clear_app_data">Squassà i dati di l’appiecazione</string>
-    <string name="clear_app_data_summary">Squassà i dati di VLC per Android</string>
+    <string name="clear_app_data_summary">Squassà i dati di SyncNuke per Android</string>
     <string name="clear_history">Viutà a cronolugia di lettura</string>
     <string name="clear_history_message">Pirderete a vostra cronolugia, e vostre liste di lettura attuale è e vostre prugressioni</string>
     <string name="set_locale">Definisce a lingua</string>
@@ -596,7 +596,7 @@
     <string name="start_logging">Principià l’arregistramentu di messaghju</string>
     <string name="stop_logging">Piantà l’arregistramentu di messaghju</string>
     <string name="clear_log">Viutà u ghjurnale di i messaghji</string>
-    <string name="log_service_title">Arregistramentu di i ghjurnali di VLC</string>
+    <string name="log_service_title">Arregistramentu di i ghjurnali di SyncNuke</string>
     <string name="log_service_text">Apre u dialogu di u ghjurnale di i messaghji</string>
     <string name="copy_to_clipboard">Cupià ver di u preme’papei</string>
     <string name="copied_to_clipboard">Ghjurnale di i messaghji cupiatu ver di u preme’papei.</string>
@@ -614,10 +614,10 @@
     <string name="browser_quick_play_default">Lettura rapida cum’è azzione predefinita</string>
     <string name="browser_quick_play_default_summary">S’è st’ozzione hè attivata, picchichjà un elementu di u navigatore u leghjerà impieghendu a lettura rapida</string>
 
-    <string name="serious_crash">Per disgrazia, un sbagliu seriu hè accadutu è VLC hè statu chjosu.</string>
-    <string name="help_us_send_log">Aiutateci à megliurà VLC mandenduci quellu ghjurnale d’accidente :</string>
+    <string name="serious_crash">Per disgrazia, un sbagliu seriu hè accadutu è SyncNuke hè statu chjosu.</string>
+    <string name="help_us_send_log">Aiutateci à megliurà SyncNuke mandenduci quellu ghjurnale d’accidente :</string>
     <string name="ml_crash_send">A mediateca hè dannighjata. Aiutateci mandendu u ghjurnale di i messaghji.</string>
-    <string name="restart_vlc">Rilancià VLC</string>
+    <string name="restart_vlc">Rilancià SyncNuke</string>
     <string name="send_log">Mandà u ghjurnale di i messaghji</string>
     <string name="sending_log">Inviu di u ghjurnale…</string>
 
@@ -662,7 +662,7 @@
     <string name="medialibrary_directories">Cartulari di a mediateca</string>
 
     <!--What's new-->
-    <string name="whats_new_title">Ciò chì hè novu in VLC per Android %s</string>
+    <string name="whats_new_title">Ciò chì hè novu in SyncNuke per Android %s</string>
     <string name="whats_new_37_equalizer_text">L’ugualizatore hè statu ripensatu sanu. U so impiegu hè più faciule, vi permette di disattivà e prerigature predefinite è di fà salvaguardia, risturazione è spartera di e vostre prerigature.</string>
     <string name="whats_new_37_import_export">Avemu amendatu a funzione di salvaguardia è di risturazione di i parametri. Ora, vi permette di fà a salvaguardia d’altri parametri, cum’è e prerigature di l’ugualizatore.</string>
     <string name="whats_new_37_android_auto">Per via di certi custrizzioni nove imposte da u Store, i parametri Android Auto sò stati dispiazzati tutti versu l’appiecazione mubile. Què diventa u novu locu per mudificalli.</string>
@@ -671,7 +671,7 @@
 <!--    update-->
     <string name="update_title">Versione nova dispunibule</string>
     <string name="install_nightly_title">Installà a versione creata ogni notte</string>
-    <string name="update_text">Una versione nova - creata di notte - di VLC per Android hè dispunibule !\n\nFighjate què perchè vo impiegate una custruzzione di notte.</string>
+    <string name="update_text">Una versione nova - creata di notte - di SyncNuke per Android hè dispunibule !\n\nFighjate què perchè vo impiegate una custruzzione di notte.</string>
     <string name="install_text">E versioni create di notte sò messe à livellu autumaticamente tutti i ghjorni cù l’ultime funzioni è currezzioni.\n\nScaricà subitu ?</string>
 
     <string name="open_in_browser">Apre in u navigatore</string>
@@ -692,28 +692,28 @@
     <string name="music_now_playing">Ripruduzzione in corsu</string>
 
     <!-- Widget -->
-    <string name="widget_name_w">Widget VLC Biancu</string>
-    <string name="widget_name_b">Widget VLC Scuru</string>
-    <string name="widget_name_mini_player">Mini lettore VLC</string>
+    <string name="widget_name_w">Widget SyncNuke Biancu</string>
+    <string name="widget_name_b">Widget SyncNuke Scuru</string>
+    <string name="widget_name_mini_player">Mini lettore SyncNuke</string>
     <string name="widget_old_text">Avemu messu à livellu i nostri widgets !</string>
     <string name="widget_old_description_start">Bella nutizia ! Avemu publicatu widgets amendati.\nPermettenu più di riattività è di persunalizazione</string>
     <string name="whats_next">Cosa hà da accade dopu ?</string>
     <string name="widget_old_description_end">Avemu vistu chì vo avete dighjà widgets in u vostru lanciadore. Per disgrazia, ùn sò micca cumpatibile cù i nostri widgets amendati.\nSecondu à u vostru lanciadore, ci vulerà forse à caccià i vechji per rimpiazzalli.</string>
     <string name="click_here">Fate un cliccu quì per sapene di più.</string>
-    <string name="allow_storage_access_title">Permette à VLC d’accede à i schedarii video è audio</string>
-    <string name="allow_storage_access_description">VLC hà bisognu di stu permessu per accede à i schedarii medià nant’à st’apparechju.</string>
-    <string name="partial_content">VLC ùn pò micca accede à tutti i vostri schedarii</string>
+    <string name="allow_storage_access_title">Permette à SyncNuke d’accede à i schedarii video è audio</string>
+    <string name="allow_storage_access_description">SyncNuke hà bisognu di stu permessu per accede à i schedarii medià nant’à st’apparechju.</string>
+    <string name="partial_content">SyncNuke ùn pò micca accede à tutti i vostri schedarii</string>
     <string name="partial_content_description">Cù Android 11 è dopu, l’appiecazioni richiedenu un permessu speziale per accede à tutti i schedarii di l’apparechju.\n\n%s</string>
     <string name="never_ask_again">Ùn mi dumandà mai più</string>
     <string name="never_show_again">Ùn affissà mai più, mancu per e versioni future</string>
-    <string name="allow_settings_access_ringtone_title">Permette à VLC di definisce a suneria</string>
-    <string name="allow_settings_access_ringtone_description">VLC hà bisognu di stu permessu per definisce sta canzona cum’è a vostra suneria.</string>
-    <string name="allow_settings_access_brightness_title">Permette à VLC di cambià u modu di lucidezza</string>
-    <string name="allow_settings_access_brightness_description">VLC hà bisognu di stu permessu per cambià u vostru modu di lucidezza.</string>
-    <string name="allow_draw_overlays_title">Permette à u lettore VLC d’affissassi sopra à l’altre appiecazioni</string>
-    <string name="allow_sdraw_overlays_description">VLC hà bisognu di stu permessu per affissà a vistra video in una finestra chì s’apre sopra à l’altre appiecazioni.</string>
-    <string name="allow_pip">Permette à u lettore VLC di lancià u modu fiura-nant’à-fiura (PIP)</string>
-    <string name="allow_pip_description">VLC hà bisognu chì vo cunsentite stu permessu per affissà a vostra video i u modu fiura-nant’à-fiura (PIP).</string>
+    <string name="allow_settings_access_ringtone_title">Permette à SyncNuke di definisce a suneria</string>
+    <string name="allow_settings_access_ringtone_description">SyncNuke hà bisognu di stu permessu per definisce sta canzona cum’è a vostra suneria.</string>
+    <string name="allow_settings_access_brightness_title">Permette à SyncNuke di cambià u modu di lucidezza</string>
+    <string name="allow_settings_access_brightness_description">SyncNuke hà bisognu di stu permessu per cambià u vostru modu di lucidezza.</string>
+    <string name="allow_draw_overlays_title">Permette à u lettore SyncNuke d’affissassi sopra à l’altre appiecazioni</string>
+    <string name="allow_sdraw_overlays_description">SyncNuke hà bisognu di stu permessu per affissà a vistra video in una finestra chì s’apre sopra à l’altre appiecazioni.</string>
+    <string name="allow_pip">Permette à u lettore SyncNuke di lancià u modu fiura-nant’à-fiura (PIP)</string>
+    <string name="allow_pip_description">SyncNuke hà bisognu chì vo cunsentite stu permessu per affissà a vostra video i u modu fiura-nant’à-fiura (PIP).</string>
     <string name="permission_ask_again">Cunsente u permessu</string>
     <string name="pick_file">Sceglie un schedariu</string>
     <string name="permission_not_granted">Permessu micca cunsintitu</string>
@@ -722,9 +722,9 @@
     <string name="permission_onboarding_no_perm">Ùn serà micca pussibule di scopre autumaticamente i vostri media.\nSerà solu pussibule di leghje i flussi o i media di a reta</string>
     <string name="permission_onboarding_perm_media">Serà solu pussibule di scopre autumaticamente i schedarii media classichi</string>
     <string name="permission_onboarding_perm_all">Serà pussibule di scopre autumaticamente tutti i vostri schedarii per sunà tutti i tipi di media ancu quelli chì sò strani o i schedarii cumpressi</string>
-    <string name="exit_app">Chjode VLC</string>
-    <string name="exit_app_msg">Site sicuru di vulè chità VLC ?</string>
-    <string name="widget_explanation_title">Widgets VLC</string>
+    <string name="exit_app">Chjode SyncNuke</string>
+    <string name="exit_app_msg">Site sicuru di vulè chità SyncNuke ?</string>
+    <string name="widget_explanation_title">Widgets SyncNuke</string>
     <string name="widget_explanation_size">I widgets sò di parechje dimensioni è varietà</string>
     <string name="widget_explanation_resize">Per cambià u tipu di widget, appughjateli sopra è impiegate e maneghje per cambiallu à a dimensione chì vi cunvene</string>
     <string name="widget_explanation_end">I widgets ponu esse persunalizati à l’infinitu. Liberate a vostra creatività è fate ch’elli vi assumiglianu !</string>
@@ -781,7 +781,7 @@
     <string name="length">Durata</string>
     <string name="tv_settings_hint">Longa incalcata di u buttone Vai per selezziunà o micca i cartulari</string>
     <string name="ml_external_storage_title">Novu magazinu esternu abbentatu</string>
-    <string name="ml_external_storage_msg">Vulete chì VLC aghjunghji l’apparechju %1$s à a vostra mediateca ?</string>
+    <string name="ml_external_storage_msg">Vulete chì SyncNuke aghjunghji l’apparechju %1$s à a vostra mediateca ?</string>
     <string name="ml_external_storage_accept">Sì</string>
     <string name="ml_external_storage_decline">Nò</string>
     <string name="auto_last_added_media">Ultimu aghjuntu</string>
@@ -811,8 +811,8 @@
     <string name="browser_storages">Magazini</string>
     <string name="msg_delete_failed">Fiascu per squassà u medià %1$s</string>
     <string name="renderer_list_title">Screni</string>
-    <string name="sdcard_permission_dialog_title">Ci vole à cuncede à VLC l’accessu in scrittura à a vostra carta SD</string>
-    <string name="sdcard_permission_dialog_message">VLC ùn pò micca squassà stu schedariu senza permessu d’accessu in scrittura.\nDa prima, ci vole à andà ver di a vostra carta SD è cliccà nant’à \&quot;Affissà carta SD\&quot; in u listinu insù-diritta</string>
+    <string name="sdcard_permission_dialog_title">Ci vole à cuncede à SyncNuke l’accessu in scrittura à a vostra carta SD</string>
+    <string name="sdcard_permission_dialog_message">SyncNuke ùn pò micca squassà stu schedariu senza permessu d’accessu in scrittura.\nDa prima, ci vole à andà ver di a vostra carta SD è cliccà nant’à \&quot;Affissà carta SD\&quot; in u listinu insù-diritta</string>
     <string name="dialog_sd_wizard">Mustrammi</string>
     <string name="renderers_disconnect">Discunnette</string>
     <string name="audio_digital_failed">Fiascu per cambià u statu di l’esciuta digitale audio</string>
@@ -827,7 +827,7 @@
     <string name="playback_rewind">Ritrusà</string>
     <string name="playback_forward">Avanzà in furia</string>
     <string name="ml_wizard_scan_checkbox">Ricerca di cuntenutu medià nant’à l’apparechju</string>
-    <string name="ml_wizard_description">Sceglie s’è VLC analizerà u vostru apparechju per urganizà a vostra mediateca o s’ellu serà impiegatu solu cum’è un lettore simplice cù un navigatore integratu.</string>
+    <string name="ml_wizard_description">Sceglie s’è SyncNuke analizerà u vostru apparechju per urganizà a vostra mediateca o s’ellu serà impiegatu solu cum’è un lettore simplice cù un navigatore integratu.</string>
     <string name="tv_my_new_videos">E mo nove video</string>
     <string name="cast_option_title">Trasmette i media nant’à un altru screnu</string>
     <string name="otg_device_title">Apparechju OTG</string>
@@ -866,29 +866,29 @@
     <string name="ctx_player_subs_track">Traccia di sottutituli</string>
     <string name="ctx_pip_title">Lettore pop-up</string>
     <string name="device_dialog_title">Apparechju esternu framessu</string>
-    <string name="device_dialog_message">Avete brancatu un novu apparechju d’allucamentu à a vostra scatula TV, vulete aprelu cù VLC ?</string>
+    <string name="device_dialog_message">Avete brancatu un novu apparechju d’allucamentu à a vostra scatula TV, vulete aprelu cù SyncNuke ?</string>
     <string name="videos_folders_title">Video da cartulari</string>
     <string name="videos_groups_title">Gruppi di video</string>
     <string name="video_save_clone_mode">Attivà autumaticamente u modu di duppiamentu ?</string>
     <string name="video_remote_enable">Passà in modu di telecumanda</string>
     <string name="video_remote_disable">Duppià u screnu</string>
     <string name="removed_from_playlist_anonymous">Elementu(i) cacciatu(i) da a lista di lettura</string>
-    <string name="welcome_title">Benvenuta in VLC !</string>
+    <string name="welcome_title">Benvenuta in SyncNuke !</string>
     <string name="welcome_subtitle">U lettore multimedià liberu è di rigalu</string>
-    <string name="permission_media">VLC hà bisognu di u vostru accunsentu per accede à i medià nant’à u vostru apparechju</string>
-    <string name="permission_video">VLC hà bisognu di u vostru accunsentu per accede à i medià video nant’à u vostru apparechju</string>
-    <string name="permission_audio">VLC hà bisognu di u vostru accunsentu per accede à i medià audio nant’à u vostru apparechju</string>
-    <string name="medialibrary_scan_explanation">VLC pò analizà autumaticamente u vostru apparechju per urganizà a vostra cullezzione medià.</string>
-    <string name="player_title_fd_warning">Senza u permessu d’allucamentu, VLC ùn pò micca riacquistà u titulu di u medià, o arregistrà a prugressione</string>
+    <string name="permission_media">SyncNuke hà bisognu di u vostru accunsentu per accede à i medià nant’à u vostru apparechju</string>
+    <string name="permission_video">SyncNuke hà bisognu di u vostru accunsentu per accede à i medià video nant’à u vostru apparechju</string>
+    <string name="permission_audio">SyncNuke hà bisognu di u vostru accunsentu per accede à i medià audio nant’à u vostru apparechju</string>
+    <string name="medialibrary_scan_explanation">SyncNuke pò analizà autumaticamente u vostru apparechju per urganizà a vostra cullezzione medià.</string>
+    <string name="player_title_fd_warning">Senza u permessu d’allucamentu, SyncNuke ùn pò micca riacquistà u titulu di u medià, o arregistrà a prugressione</string>
     <string name="onboarding_theme_title">Fatelu dapervoi in casa vostra</string>
     <string name="done">Compiu</string>
     <string name="onboarding_scan_title">Scopre autu. u vostru medià</string>
-    <string name="onboarding_all_set">VLC hè prontu !</string>
+    <string name="onboarding_all_set">SyncNuke hè prontu !</string>
     <string name="onboarding_permission_given">Avà ghjè pussibule di scopre autumaticamente i vostri medià è d’impiegà sottutituli esterni è ancu di leghje i flussi o i medià di a reta</string>
-    <string name="daynight_system_explanation">VLC cambierà autumaticamente ver di u modu scuru secondu à i parametri di u sistema</string>
-    <string name="daynight_legacy_explanation">VLC cambierà autumaticamente ver di u modu scuru à u mumentu apprupriatu</string>
-    <string name="onboarding_scanning_enable">Lascià VLC analizà u mo apparechju è truvà i medià</string>
-    <string name="onboarding_scan_customize">Lasciammi sceglie quelli cartulari chì VLC analizerà</string>
+    <string name="daynight_system_explanation">SyncNuke cambierà autumaticamente ver di u modu scuru secondu à i parametri di u sistema</string>
+    <string name="daynight_legacy_explanation">SyncNuke cambierà autumaticamente ver di u modu scuru à u mumentu apprupriatu</string>
+    <string name="onboarding_scanning_enable">Lascià SyncNuke analizà u mo apparechju è truvà i medià</string>
+    <string name="onboarding_scan_customize">Lasciammi sceglie quelli cartulari chì SyncNuke analizerà</string>
     <string name="button_medialibrary_preferences">Andà à e preferenze di a mediateca</string>
     <string name="light_theme">Tema chjaru</string>
     <string name="add">Aghjunghje</string>
@@ -900,7 +900,7 @@
     <string name="popup_force_legacy_title">Impiegà una finestra persunalizata fiura-nant’à-fiura (PIP)</string>
     <string name="popup_force_legacy_summary">Impiegà una finestra persunalizata dimensionevule fiura-nant’à-fiura (PIP)</string>
     <string name="restore_background_video_title">Risturà a video in modu di sfondulu</string>
-    <string name="restore_background_video_summary">Risturà a video in modu di sfondulu quandu VLC for Android s’apre torna</string>
+    <string name="restore_background_video_summary">Risturà a video in modu di sfondulu quandu SyncNuke for Android s’apre torna</string>
     <string name="device_default">Predefinizione d’apparechju</string>
     <string name="track_number">%d traccie</string>
     <string name="jump_to">Saltà à</string>
@@ -929,14 +929,14 @@
     <string name="display_in_grid">Affissà in quadrittera</string>
     <string name="dump_db_succes">Banca di dati espurtata ver di a radica di a memoria interna</string>
     <string name="dump_db_failure">Fiascu à l\'esportu di a banca di dati</string>
-    <string name="send_crash_title">Rapurtadore d’accidente VLC</string>
-    <string name="send_crash_description">Mandà u vostru raportu d’accidente ci aiuterà à megliurà a stabilità di VLC.</string>
+    <string name="send_crash_title">Rapurtadore d’accidente SyncNuke</string>
+    <string name="send_crash_description">Mandà u vostru raportu d’accidente ci aiuterà à megliurà a stabilità di SyncNuke.</string>
     <string name="send_crash_warning">Assicuratevi di caccià tutti i dati sensibule chì ùn vulete micca mandà.</string>
     <string name="include_medialib">Include a vostra basa di dati</string>
     <string name="include_logs">Include i vostri ghjurnali di messaghji</string>
     <string name="vlc_reporter">Rapurtadore VLC</string>
-    <string name="welcome_beta_title">Beta VLC</string>
-    <string name="welcome_beta_description">Benvenuta in u prugramma di sviluppu beta di VLC.\nFate casu chì sta versione pò cuntene qualchì penseru.</string>
+    <string name="welcome_beta_title">Beta SyncNuke</string>
+    <string name="welcome_beta_description">Benvenuta in u prugramma di sviluppu beta di SyncNuke.\nFate casu chì sta versione pò cuntene qualchì penseru.</string>
     <string name="welcome_beta_description_bugs">S’è vò truvate un penseru, fatecilu sapè nant’à u nostru foru o via u ghjestiunariu di penseru.</string>
     <string name="welcome_beta_description_crashes">S’è vo scuntrate un prublema o un accidente, ci vole à apre u screnu Apprupositu è impiegà u buttone « Ritornu d’avisu > Cuntattà a squadra d’assistenza ».</string>
     <string name="send">Mandà</string>
@@ -980,8 +980,8 @@
     <string name="recently_played">Sunatu pocu fà</string>
     <string name="recently_added">Aghjuntu pocu fà</string>
     <string name="playback_multiple_errors">Parechji medià ùn ponu micca esse sunati</string>
-    <string name="clear_media_db_message">Pirderete e vostre prugressioni, indette è liste di lettura chì vo avete create ma i parametri di VLC per Android seranu cunservati</string>
-    <string name="clear_app_data_message">Pirderete e vostre prugressioni, indette, liste di lettura è tutte i parametri di VLC</string>
+    <string name="clear_media_db_message">Pirderete e vostre prugressioni, indette è liste di lettura chì vo avete create ma i parametri di SyncNuke per Android seranu cunservati</string>
+    <string name="clear_app_data_message">Pirderete e vostre prugressioni, indette, liste di lettura è tutte i parametri di SyncNuke</string>
     <string name="clear">Squassà</string>
     <string name="abrepeat_add_first_marker">Definisce u puntu di principiu</string>
     <string name="abrepeat_add_second_marker">Definisce u puntu di fine</string>
@@ -1066,7 +1066,7 @@
     <string name="air_action_next">Elementu seguente in lettura</string>
     <string name="air_action_previous">Elementu precedente in lettura</string>
     <string name="allow_otg">Permette l’accessu OTG</string>
-    <string name="allow_otg_description">Ci vole à selezziunà u vostru apparechju OTG per permetteci l’accessu à VLC.</string>
+    <string name="allow_otg_description">Ci vole à selezziunà u vostru apparechju OTG per permetteci l’accessu à SyncNuke.</string>
     <string name="timeout_infinite">Infinitu</string>
     <string name="video_hud_timeout">U lettore video cuntrolleghja u cumportu di maschera</string>
     <string name="video_hud_timeout_summary">%ss</string>
@@ -1134,7 +1134,7 @@
     <string name="optional_features_warning">Sta funzione hè in corsu di sviluppu è pò cagiunà accidenti è istabilità</string>
     <string name="network_indexing">Indicera di a reta</string>
     <string name="network_indexing_warning">L’indicera di a reta hè una funzione attualmente in versione beta.\nPrublemi cunnisciuti :\n• Perfurmenze ridutte\n\nS’è vò scuntrate d’altri prublemi, fatecilu sapè nant’à u nostru foru.</string>
-    <string name="start_vlc">Lancià VLC</string>
+    <string name="start_vlc">Lancià SyncNuke</string>
     <string name="jump_delay">Tempurizazione d’avanza o di ritornu</string>
     <string name="long_jump_delay">Tempurizazione d’avanza o di ritornu da longa picchicciata</string>
     <string name="jump_delay_summary">%s seconde</string>
@@ -1158,7 +1158,7 @@
     <string name="lock_use_sensor_summary">Quandu l’orientazione hè ammarchjunata, impiegate u cattore per permette un orientazione à l’arritrosa</string>
     <string name="start">Principià</string>
     <string name="notification_permission">Permessu di nutificazione</string>
-    <string name="notification_permission_explanation">VLC hà bisognu di u vostru accunsentu per mandà nutificazioni.\nL’appiecazione vi nutificherà solu durante l’analisa di u vostru medià o quandu s’impiega u modu fiura-nant’à-fiura (PIP).\nRicusà stu permessu ùn impediscerà micca VLC di funziunà, ma e nutificazioni seranu piattate.</string>
+    <string name="notification_permission_explanation">SyncNuke hà bisognu di u vostru accunsentu per mandà nutificazioni.\nL’appiecazione vi nutificherà solu durante l’analisa di u vostru medià o quandu s’impiega u modu fiura-nant’à-fiura (PIP).\nRicusà stu permessu ùn impediscerà micca SyncNuke di funziunà, ma e nutificazioni seranu piattate.</string>
     <string name="permission">Permessu</string>
     <string name="permission_no_access">Nisunu accessu à u schedariu</string>
     <string name="permissions">Permessi</string>
@@ -1227,7 +1227,7 @@
     <string name="widget_show_configure_summary">Ancu s’ellu ùn hè micca affissatu, pudete picchichjà u scornu superiore à diritta per apre a cunfigurazione</string>
     <string name="seek_backward_content_description">Pusiziunà %s seconde in daretu</string>
     <string name="seek_forward_content_description">Pusiziunà %s seconde in avanti</string>
-    <string name="open_vlc">Apre VLC</string>
+    <string name="open_vlc">Apre SyncNuke</string>
     <string name="playing">Lettura</string>
     <string name="disable_track">Disattivà a traccia</string>
     <string name="ascending">Crescente</string>
@@ -1332,7 +1332,7 @@
     <string name="ra_browser_audio_not_found">U medià ùn si trova micca o ùn si pò leghje in u navigatore</string>
     <string name="ra_browser_audio_unsupported_format">Stu furmatu audio ùn hè micca accettatu da u vostru navigatore</string>
 
-    <string name="ra_onboarding_welcome_desc">Benvenuta nant’à l’accessu à distanza di VLC per Android\nAttivendulu serete capace di cuntrollà a ripruduzzione di st’apparechju à ancu di più</string>
+    <string name="ra_onboarding_welcome_desc">Benvenuta nant’à l’accessu à distanza di SyncNuke per Android\nAttivendulu serete capace di cuntrollà a ripruduzzione di st’apparechju à ancu di più</string>
     <string name="ra_onboarding_how_title">Cuntrollà u vostru apparechju</string>
     <string name="ra_onboarding_how_desc">Cuntrollà a ripruduzzione di u vostru apparechju, mandà o riacquistà schedarii è ancu di più</string>
     <string name="ra_onboarding_ssl_title">Cifratura di i dati</string>
@@ -1358,7 +1358,7 @@
     <string name="podcast_mode">Modu podcast</string>
     <string name="podcast_mode_help">I cuntrolli di podcast s’affissanu quandu si leghje una traccia unica chì risponde à unu di quelli criterii :\n\t• Lunghezza superiore à 60 minuti\n\t• Lunghezza superiore à 15 minuti senza nome d’albumu\n\t• Generu hè %s</string>
     <string name="voice_control">Cuntrollu di a voce</string>
-    <string name="voice_control_help">VLC pò esse cuntrullatu via Google Assistant dicendu quelle cumande :\n\t• Leghje, Pausa, Piantà, Precedente, Seguente\n\t• Ritrusà, Avanza rapida, Ripete &lt;tuttu|unu|disattivatu&gt;\n\t• Saltà à &lt;una stonda&gt;\n\t• Tralascià &lt;durata&gt;\n\t• Chì hè &lt;st’artista|st’albumu|sta canzona&gt;\n\t• Leghje [artista|albumu|canzona|generu|lista di lettura] &lt;nome&gt;</string>
+    <string name="voice_control_help">SyncNuke pò esse cuntrullatu via Google Assistant dicendu quelle cumande :\n\t• Leghje, Pausa, Piantà, Precedente, Seguente\n\t• Ritrusà, Avanza rapida, Ripete &lt;tuttu|unu|disattivatu&gt;\n\t• Saltà à &lt;una stonda&gt;\n\t• Tralascià &lt;durata&gt;\n\t• Chì hè &lt;st’artista|st’albumu|sta canzona&gt;\n\t• Leghje [artista|albumu|canzona|generu|lista di lettura] &lt;nome&gt;</string>
 
     <string name="network" >Reta</string>
     <string name="metered_connection">Azzione nant’à i flussi quandu a cunnessione hè tariffata</string>

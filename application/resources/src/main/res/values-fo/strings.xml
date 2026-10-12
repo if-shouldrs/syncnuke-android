@@ -98,7 +98,7 @@
     <string name="jump_to_time">Hopp til tíð</string>
     <string name="subtitle_select">Vel undirtekstafílu</string>
     <string name="encountered_error_title">Avspælingarvilla</string>
-    <string name="encountered_error_message">Ein villa er íkomin, tá ið VLC skuldi spæla henda miðil.\nRoyn og endurbyrja miðlasavnið.</string>
+    <string name="encountered_error_message">Ein villa er íkomin, tá ið SyncNuke skuldi spæla henda miðil.\nRoyn og endurbyrja miðlasavnið.</string>
     <string name="invalid_location">Keldan %1$s kann ikki spælast.</string>
     <string name="search">Leita</string>
 
@@ -163,9 +163,9 @@
     <string name="dump_logcat">Ráavrita logcat-loggin</string>
     <string name="dump_logcat_success">Logcat er ráavritað í øllum góðum til %1$s!</string>
     <string name="dump_logcat_failure">Miseydnaðist at ráavrita logcat.</string>
-    <string name="serious_crash">Tíverri stóðst ein álvarsamur feilur og VLC noyddist at lata aftur.</string>
-    <string name="help_us_send_log">Hjálp til at betra um VLC við at senda krassjloggin niðanfyri:</string>
-    <string name="restart_vlc">Tendra VLC av nýggjum</string>
+    <string name="serious_crash">Tíverri stóðst ein álvarsamur feilur og SyncNuke noyddist at lata aftur.</string>
+    <string name="help_us_send_log">Hjálp til at betra um SyncNuke við at senda krassjloggin niðanfyri:</string>
+    <string name="restart_vlc">Tendra SyncNuke av nýggjum</string>
     <string name="send_log">Send loggin</string>
     <string name="sending_log">Sendir loggin…</string>
 

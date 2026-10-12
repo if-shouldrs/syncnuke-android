@@ -50,7 +50,7 @@
     <string name="play_as_video">Afspil som video</string>
     <string name="return_to_video">Hold fingeren på coveret for at genskabe videoen</string>
     <string name="video_app_switch_title">Baggrund/PiP-tilstand</string>
-    <string name="video_app_switch_summary">Vælg VLC opførsel når du skifter til et andet program fra videoafspilning</string>
+    <string name="video_app_switch_summary">Vælg SyncNuke opførsel når du skifter til et andet program fra videoafspilning</string>
     <string name="play_pip_title">Afspil videoer i billede-i-billede-tilstand</string>
     <string name="play_as_audio_background">Afspil videoer i baggrunden</string>
     <string name="append">Tilføj til afspilningskø</string>
@@ -315,7 +315,7 @@
     <string name="hold_to_stop">Hold nede for stop</string>
 
     <!-- About -->
-    <string name="app_name_full">VLC til Android</string>
+    <string name="app_name_full">SyncNuke</string>
     <string name="revision">Revision</string>
     <string name="about">Om</string>
     <string name="about_vlc_text">VLC til Android™ er afledt af medieafspilleren VLC, den populære open source-medieafspiller. Versionen til Android™ kan læse alle filer og netværksstreams.</string>
@@ -499,8 +499,8 @@
     <string name="replaygain_track">Spor</string>
     <string name="replaygain_album">Album</string>
     <string name="aout">Lydoutput</string>
-    <string name="aout_summary">Skift metoden som VLC anvender til at udsende lyd med</string>
-    <string name="audio_ducking_title">Lavere VLC-lydstyrke ved notifikationer</string>
+    <string name="aout_summary">Skift metoden som SyncNuke anvender til at udsende lyd med</string>
+    <string name="audio_ducking_title">Lavere SyncNuke-lydstyrke ved notifikationer</string>
     <string name="audio_ducking_summary">Hjælper med at høre lydnotifikationer, navigationsinstruktioner eller assisterende tale</string>
     <string name="casting_category">Udsendelse</string>
     <string name="remote_access">Fjernadgang</string>
@@ -577,7 +577,7 @@
     <string name="clear_media_db">Ryd medie-database</string>
     <string name="clear_media_database_summary">Rydder databasen for at starte forfra</string>
     <string name="clear_app_data">Ryd app-data</string>
-    <string name="clear_app_data_summary">Rydder VLC Android-data</string>
+    <string name="clear_app_data_summary">Rydder SyncNuke Android-data</string>
     <string name="clear_history">Ryd historik</string>
     <string name="clear_history_message">Du vil miste din historik, dine nuværende playlister og dine fremskridt</string>
     <string name="set_locale">Angiv lokalitet</string>
@@ -603,7 +603,7 @@
     <string name="start_logging">Start logregistrering</string>
     <string name="stop_logging">Stop logregistrering</string>
     <string name="clear_log">Ryd log</string>
-    <string name="log_service_title">Optagelse af VLC-logge</string>
+    <string name="log_service_title">Optagelse af SyncNuke-logge</string>
     <string name="log_service_text">Åbn log-konsollen</string>
     <string name="copy_to_clipboard">Kopiér til udklipsholder</string>
     <string name="copied_to_clipboard">Kopierede log til udklipsholder</string>
@@ -621,10 +621,10 @@
     <string name="browser_quick_play_default">Hurtigafspilning som standardhandling</string>
     <string name="browser_quick_play_default_summary">Hvis aktiveret vil klik på en browsergenstand anvende hurtigafspilning</string>
 
-    <string name="serious_crash">Der opstod desværre en alvorlig fejl, og VLC måtte lukkes ned.</string>
-    <string name="help_us_send_log">Hjælp os med at forbedre VLC ved at sende følgende log for nedbrud:</string>
+    <string name="serious_crash">Der opstod desværre en alvorlig fejl, og SyncNuke måtte lukkes ned.</string>
+    <string name="help_us_send_log">Hjælp os med at forbedre SyncNuke ved at sende følgende log for nedbrud:</string>
     <string name="ml_crash_send">Mediebiblioteket crashede. Du kan hjælpe os med fejlretning ved at afsende loggen.</string>
-    <string name="restart_vlc">Genstart VLC</string>
+    <string name="restart_vlc">Genstart SyncNuke</string>
     <string name="send_log">Send loggen</string>
     <string name="sending_log">Sender loggen…</string>
 
@@ -669,7 +669,7 @@
     <string name="medialibrary_directories">Mediebiblioteksmapper</string>
 
     <!--What's new-->
-    <string name="whats_new_title">Hvad er nyt i VLC til Android %s</string>
+    <string name="whats_new_title">Hvad er nyt i SyncNuke til Android %s</string>
     <string name="whats_new_37_equalizer_text">Equalizeren er blevet redesignet fra bunden. Den er nemmere at bruge og giver dig mulighed for at skjule standardforudindstillinger samt sikkerhedskopiere, gendanne og dele dine egne forudindstillinger</string>
     <string name="whats_new_37_import_export">Funktionen til sikkerhedskopiering og gendannelse af indstillinger er blevet forbedret. Den understøtter nu sikkerhedskopiering af flere indstillinger, herunder equalizerforudindstillinger.</string>
     <string name="whats_new_37_android_auto">På grund af nye krav fra app-butikken er alle Android Auto-indstillinger blevet flyttet til mobil-app\'en. Fremover administrerer du din oplevelse i bilen her</string>
@@ -678,7 +678,7 @@
 <!--    update-->
     <string name="update_title">Tilgængelig opdatering</string>
     <string name="install_nightly_title">Installér natlig version</string>
-    <string name="update_text">Der er en ny natlig version af VLC til Android tilgængelig!\n\nDu ser denne besked, fordi du anvender en natlig version.</string>
+    <string name="update_text">Der er en ny natlig version af SyncNuke til Android tilgængelig!\n\nDu ser denne besked, fordi du anvender en natlig version.</string>
     <string name="install_text">Natlige versioner opdateres automatisk hver dag med de nyeste funktioner og rettelser.\n\nHent nu?</string>
 
     <string name="open_in_browser">Åbn i browser</string>
@@ -699,28 +699,28 @@
     <string name="music_now_playing">Afspiller nu</string>
 
     <!-- Widget -->
-    <string name="widget_name_w">VLC hvid widget</string>
-    <string name="widget_name_b">VLC mørk widget</string>
-    <string name="widget_name_mini_player">VLC miniafspiller</string>
+    <string name="widget_name_w">SyncNuke hvid widget</string>
+    <string name="widget_name_b">SyncNuke mørk widget</string>
+    <string name="widget_name_mini_player">SyncNuke miniafspiller</string>
     <string name="widget_old_text">Vi opdaterede vores widgets!</string>
     <string name="widget_old_description_start">Gode nyheder! Vi har frigivet forbedrede widgets.\nDe giver mere responsivitet og tilpasning</string>
     <string name="whats_next">Hwa\' så?</string>
     <string name="widget_old_description_end">Vi har fornemmet, du allerede har widgets i din startapp. De er desværre inkompatible med vores nye og forbedrede widgets.\nAfhængig af din startapp kan det være nødvendigt at fjerne de gamle for at få de nye aktiveret.</string>
     <string name="click_here">Klik her for at få mere at vide.</string>
-    <string name="allow_storage_access_title">Tillad at VLC tilgår video- og lydfiler</string>
-    <string name="allow_storage_access_description">VLC kræver at du giver rettigheder til at tilgå mediefilerne på denne enhed.</string>
-    <string name="partial_content">VLC kan ikke tilgå alle filer</string>
+    <string name="allow_storage_access_title">Tillad at SyncNuke tilgår video- og lydfiler</string>
+    <string name="allow_storage_access_description">SyncNuke kræver at du giver rettigheder til at tilgå mediefilerne på denne enhed.</string>
+    <string name="partial_content">SyncNuke kan ikke tilgå alle filer</string>
     <string name="partial_content_description">Fra Android 11 skal applikationer have særlig tilladelse for at få adgang til alle enhedens filer.\n\n%s</string>
     <string name="never_ask_again">Spørg ikke igen</string>
     <string name="never_show_again">Vis det aldrig igen, heller ikke i fremtidige versioner</string>
-    <string name="allow_settings_access_ringtone_title">Tillad at VLC angiver ringetonen</string>
-    <string name="allow_settings_access_ringtone_description">VLC kræver at du giver rettigheder til at angive denne sang som din ringetone.</string>
-    <string name="allow_settings_access_brightness_title">Tillad at VLC ændre lysstyrketilstand</string>
-    <string name="allow_settings_access_brightness_description">VLC har brug for at du giver denne tilladelse for at ændre din lysstyrketilstand.</string>
-    <string name="allow_draw_overlays_title">Tillad VLC-afspiller-pop op over andre apps</string>
-    <string name="allow_sdraw_overlays_description">VLC har brug for at du giver denne tilladelse for at vise din video i en pop op over andre programmer.</string>
-    <string name="allow_pip">Tillad VLC-afspilleren at starte Billede-i-billede.</string>
-    <string name="allow_pip_description">VLC har brug for din tilladelse til at vise din video i tilstanden Billede i-billede.</string>
+    <string name="allow_settings_access_ringtone_title">Tillad at SyncNuke angiver ringetonen</string>
+    <string name="allow_settings_access_ringtone_description">SyncNuke kræver at du giver rettigheder til at angive denne sang som din ringetone.</string>
+    <string name="allow_settings_access_brightness_title">Tillad at SyncNuke ændre lysstyrketilstand</string>
+    <string name="allow_settings_access_brightness_description">SyncNuke har brug for at du giver denne tilladelse for at ændre din lysstyrketilstand.</string>
+    <string name="allow_draw_overlays_title">Tillad SyncNuke-afspiller-pop op over andre apps</string>
+    <string name="allow_sdraw_overlays_description">SyncNuke har brug for at du giver denne tilladelse for at vise din video i en pop op over andre programmer.</string>
+    <string name="allow_pip">Tillad SyncNuke-afspilleren at starte Billede-i-billede.</string>
+    <string name="allow_pip_description">SyncNuke har brug for din tilladelse til at vise din video i tilstanden Billede i-billede.</string>
     <string name="permission_ask_again">Giv tilladelse</string>
     <string name="pick_file">Vælg en fil</string>
     <string name="permission_not_granted">Tilladelse ikke givet</string>
@@ -729,9 +729,9 @@
     <string name="permission_onboarding_no_perm">Du vil ikke kunne udforske dit medie automatisk.\nDu kan kun afspille streams eller netværksmedier</string>
     <string name="permission_onboarding_perm_media">Kun standardmediefiler kan udforskes automatisk</string>
     <string name="permission_onboarding_perm_all">Du kan automatisk udforske alle dine filer, afspille alle typer medier også sære medier eller komprimerede filer</string>
-    <string name="exit_app">Luk VLC</string>
-    <string name="exit_app_msg">Er du sikker på, at du vil afslutte VLC?</string>
-    <string name="widget_explanation_title">VLC-widgets</string>
+    <string name="exit_app">Luk SyncNuke</string>
+    <string name="exit_app_msg">Er du sikker på, at du vil afslutte SyncNuke?</string>
+    <string name="widget_explanation_title">SyncNuke-widgets</string>
     <string name="widget_explanation_size">Widgets findes i forskellige størrelser og typer</string>
     <string name="widget_explanation_resize">For at ændre widgettypen skal du presse på den i lang tid og anvende håndtagene til at ændre til en passende størrelse</string>
     <string name="widget_explanation_end">Widgets er dybt konfigurérbare. Frigør din kreativitet og få dem til at se ud som dig!</string>
@@ -788,7 +788,7 @@
     <string name="length">Varighed</string>
     <string name="tv_settings_hint">Tryk længe på OK-knappen for at vælge/fravælge mapper</string>
     <string name="ml_external_storage_title">Nyt eksternt lager registreret</string>
-    <string name="ml_external_storage_msg">Vil du have at VLC skal tilføje enheden %1$s til dit mediebibliotek?</string>
+    <string name="ml_external_storage_msg">Vil du have at SyncNuke skal tilføje enheden %1$s til dit mediebibliotek?</string>
     <string name="ml_external_storage_accept">Ja</string>
     <string name="ml_external_storage_decline">Nej</string>
     <string name="auto_last_added_media">Sidst tilføjet</string>
@@ -818,8 +818,8 @@
     <string name="browser_storages">Lagre</string>
     <string name="msg_delete_failed">Kunne ikke slette mediet %1$s</string>
     <string name="renderer_list_title">Viser</string>
-    <string name="sdcard_permission_dialog_title">Du skal give VLC skriveadgang til dit SD-kort</string>
-    <string name="sdcard_permission_dialog_message">VLC kan ikke slette filen uden skriveadgangstilladelse.\nGå venligst til dit SD-kort og klik på \"Vælg\".\nDet kan være du først skal klikke på \"Vis SD-kort\" i menuen øverst til højre</string>
+    <string name="sdcard_permission_dialog_title">Du skal give SyncNuke skriveadgang til dit SD-kort</string>
+    <string name="sdcard_permission_dialog_message">SyncNuke kan ikke slette filen uden skriveadgangstilladelse.\nGå venligst til dit SD-kort og klik på \"Vælg\".\nDet kan være du først skal klikke på \"Vis SD-kort\" i menuen øverst til højre</string>
     <string name="dialog_sd_wizard">Vis mig</string>
     <string name="renderers_disconnect">Afbryd forbindelsen</string>
     <string name="audio_digital_failed">Kunne ikke ændre Audio Digital Output-tilstand</string>
@@ -834,7 +834,7 @@
     <string name="playback_rewind">Spol tilbage</string>
     <string name="playback_forward">Hurtigere</string>
     <string name="ml_wizard_scan_checkbox">Skan enhed for medieindhold</string>
-    <string name="ml_wizard_description">Vælg om VLC skal skanne din enheds lager for at organisere dit mediebibliotek, eller bare bruge det som en simpel afspiller med en integreret browser.</string>
+    <string name="ml_wizard_description">Vælg om SyncNuke skal skanne din enheds lager for at organisere dit mediebibliotek, eller bare bruge det som en simpel afspiller med en integreret browser.</string>
     <string name="tv_my_new_videos">Mine nye videoer</string>
     <string name="cast_option_title">Mediecasting på en anden skærm</string>
     <string name="otg_device_title">OTG-enhed</string>
@@ -873,29 +873,29 @@
     <string name="ctx_player_subs_track">Undertekstspor</string>
     <string name="ctx_pip_title">Pop op-afspiller</string>
     <string name="device_dialog_title">Ekstern enhed indsat</string>
-    <string name="device_dialog_message">Du har lige sat en ny lagerenhed i din TV-boks. Vil du åbne den med VLC?</string>
+    <string name="device_dialog_message">Du har lige sat en ny lagerenhed i din TV-boks. Vil du åbne den med SyncNuke?</string>
     <string name="videos_folders_title">Videoer efter mapper</string>
     <string name="videos_groups_title">Videogrupper</string>
     <string name="video_save_clone_mode">Automatisk aktivering af kloningstilstand?</string>
     <string name="video_remote_enable">Skift til fjernstyringstilstand</string>
     <string name="video_remote_disable">Duplikér skærm</string>
     <string name="removed_from_playlist_anonymous">Emne(r) fjernet fra playliste</string>
-    <string name="welcome_title">Velkommen til VLC!</string>
+    <string name="welcome_title">Velkommen til SyncNuke!</string>
     <string name="welcome_subtitle">Den frie og open source multimedieafspiller</string>
-    <string name="permission_media">VLC har brug for din tilladelse til at tilgå medier på din enhed</string>
-    <string name="permission_video">VLC har brug for din tilladelse for at tilgå videomediefiler på din enhed</string>
-    <string name="permission_audio">VLC har brug for din tilladelse for at tilgå lydmediefiler på din enhed</string>
-    <string name="medialibrary_scan_explanation">VLC kan automatisk skanne din enhed for at organisere din mediesamling.</string>
-    <string name="player_title_fd_warning">Uden adgang til lager kan VLC ikke hente medietitel eller lagre status</string>
+    <string name="permission_media">SyncNuke har brug for din tilladelse til at tilgå medier på din enhed</string>
+    <string name="permission_video">SyncNuke har brug for din tilladelse for at tilgå videomediefiler på din enhed</string>
+    <string name="permission_audio">SyncNuke har brug for din tilladelse for at tilgå lydmediefiler på din enhed</string>
+    <string name="medialibrary_scan_explanation">SyncNuke kan automatisk skanne din enhed for at organisere din mediesamling.</string>
+    <string name="player_title_fd_warning">Uden adgang til lager kan SyncNuke ikke hente medietitel eller lagre status</string>
     <string name="onboarding_theme_title">Gør dig selv til rette</string>
     <string name="done">Færdig</string>
     <string name="onboarding_scan_title">Automatisk opdagelse af dine medier</string>
-    <string name="onboarding_all_set">VLC er klar!</string>
+    <string name="onboarding_all_set">SyncNuke er klar!</string>
     <string name="onboarding_permission_given">Du kan nu udføre automatisk opdagelse af dit medie, anvende eksterne undertekster samt afspille streams eller netværksmedier</string>
-    <string name="daynight_system_explanation">VLC skifter automatisk til mørk tilstand i henhold til systemets indstilling</string>
-    <string name="daynight_legacy_explanation">VLC skifter automatisk til nat-tilstand på rette tidspunkt</string>
-    <string name="onboarding_scanning_enable">Lad VLC skanne din enhed for medieindhold</string>
-    <string name="onboarding_scan_customize">Lad mig vælge, hvilke mapper som VLC skal skanne</string>
+    <string name="daynight_system_explanation">SyncNuke skifter automatisk til mørk tilstand i henhold til systemets indstilling</string>
+    <string name="daynight_legacy_explanation">SyncNuke skifter automatisk til nat-tilstand på rette tidspunkt</string>
+    <string name="onboarding_scanning_enable">Lad SyncNuke skanne din enhed for medieindhold</string>
+    <string name="onboarding_scan_customize">Lad mig vælge, hvilke mapper som SyncNuke skal skanne</string>
     <string name="button_medialibrary_preferences">Gå til mediebibliotek-præferencer</string>
     <string name="light_theme">Lyst tema</string>
     <string name="add">Tilføj</string>
@@ -907,7 +907,7 @@
     <string name="popup_force_legacy_title">Brug tilpasset billede-i-billede-pop op</string>
     <string name="popup_force_legacy_summary">Brug tilpasset billede-i-billede-pop op, som kan tilpasses i størrelsen</string>
     <string name="restore_background_video_title">Genskab video fra baggrund</string>
-    <string name="restore_background_video_summary">Genskab video fra baggrund ved genåbning af VLC til Android</string>
+    <string name="restore_background_video_summary">Genskab video fra baggrund ved genåbning af SyncNuke til Android</string>
     <string name="device_default">Standard for enhed</string>
     <string name="track_number">%d spor</string>
     <string name="jump_to">Hop til</string>
@@ -936,14 +936,14 @@
     <string name="display_in_grid">Vis som gitter</string>
     <string name="dump_db_succes">Databasen blev lagt i roden af det interne lager</string>
     <string name="dump_db_failure">Kunne ikke lægge databasen</string>
-    <string name="send_crash_title">VLC-nedbrudsrapport</string>
-    <string name="send_crash_description">Ved at sende dit nedbrud, hjælper du med at forbedre VLCs stabilitet.</string>
+    <string name="send_crash_title">SyncNuke-nedbrudsrapport</string>
+    <string name="send_crash_description">Ved at sende dit nedbrud, hjælper du med at forbedre SyncNukes stabilitet.</string>
     <string name="send_crash_warning">Sørg for at slette eventuelle følsomme data som du ikke vil have sendt.</string>
     <string name="include_medialib">Medtag din database</string>
     <string name="include_logs">Inkludér din log</string>
     <string name="vlc_reporter">VLC-rapport</string>
-    <string name="welcome_beta_title">VLC Beta</string>
-    <string name="welcome_beta_description">Velkommen i VLCs betaprogram.\nBemærk venligst at versionen kan have fejl.</string>
+    <string name="welcome_beta_title">SyncNuke Beta</string>
+    <string name="welcome_beta_description">Velkommen i SyncNukes betaprogram.\nBemærk venligst at versionen kan have fejl.</string>
     <string name="welcome_beta_description_bugs">Hvis du bemærker en fejl, så rapportér det venligst i vores forum eller bug tracker.</string>
     <string name="welcome_beta_description_crashes">Hvis du ser en fejl eller et crash, vil vi bede dig om at åbne \'Om\' vinduet og anvende \'Tilbagemelding > Kontakt supportteamet\'-tasten.</string>
     <string name="send">Send</string>
@@ -987,8 +987,8 @@
     <string name="recently_played">Afspillet for nylig</string>
     <string name="recently_added">Tilføjet for nylig</string>
     <string name="playback_multiple_errors">Flere medier kan ikke afspilles</string>
-    <string name="clear_media_db_message">Du mister information om, hvor langt du er kommet, bogmærker og playlister, du har fremstillet, men du beholder VLC android-indstillinger</string>
-    <string name="clear_app_data_message">Du mister information om, hvor langt du er kommet, bogmærker, playlister og alle VLC-indstillinger</string>
+    <string name="clear_media_db_message">Du mister information om, hvor langt du er kommet, bogmærker og playlister, du har fremstillet, men du beholder SyncNuke android-indstillinger</string>
+    <string name="clear_app_data_message">Du mister information om, hvor langt du er kommet, bogmærker, playlister og alle SyncNuke-indstillinger</string>
     <string name="clear">Nulstil</string>
     <string name="abrepeat_add_first_marker">Indstil startpunkt</string>
     <string name="abrepeat_add_second_marker">Indstil slutpunkt</string>
@@ -1073,7 +1073,7 @@
     <string name="air_action_next">Næste element i afspilning</string>
     <string name="air_action_previous">Forrige element i afspilning</string>
     <string name="allow_otg">Tillad OTG-adgang</string>
-    <string name="allow_otg_description">Vælg OTG-drev for at tillade adgang til VLC.</string>
+    <string name="allow_otg_description">Vælg OTG-drev for at tillade adgang til SyncNuke.</string>
     <string name="timeout_infinite">Uendelig</string>
     <string name="video_hud_timeout">Skjuleforsinkelse for videoafspillerkontroller</string>
     <string name="video_hud_timeout_summary">%ss</string>
@@ -1141,7 +1141,7 @@
     <string name="optional_features_warning">Denne funktion er i beta, og den kan medføre crash og ustabilitet</string>
     <string name="network_indexing">Netværksindeksering</string>
     <string name="network_indexing_warning">Netværksindeksering er for tiden i beta.\nKendte fejl:\n• Dårlig performance\n\nHvis du støder på andre problemer, kan du rapportere om dem på vores forum.</string>
-    <string name="start_vlc">Start VLC</string>
+    <string name="start_vlc">Start SyncNuke</string>
     <string name="jump_delay">Frem/tilbage tidsforsinkelse</string>
     <string name="long_jump_delay">Langvarigt klik frem/tilbage tidsforsinkelse</string>
     <string name="jump_delay_summary">%s sekunder</string>
@@ -1165,7 +1165,7 @@
     <string name="lock_use_sensor_summary">Når orienteringen er låst, kan sensoren bruges til at tillade at vende orienteringen.</string>
     <string name="start">Start</string>
     <string name="notification_permission">Notifikationstilladelse</string>
-    <string name="notification_permission_explanation">VLC har brug for din tilladelse til at sende notifikationer.\nApp\'en vil kun notificere dig, når dine medier skannes eller under anvendelse af den brugertilpassede video Billede i Billede.\nSiger du nej, vil VLC fortsat fungere, men notifikationer vil være skjult.</string>
+    <string name="notification_permission_explanation">SyncNuke har brug for din tilladelse til at sende notifikationer.\nApp\'en vil kun notificere dig, når dine medier skannes eller under anvendelse af den brugertilpassede video Billede i Billede.\nSiger du nej, vil SyncNuke fortsat fungere, men notifikationer vil være skjult.</string>
     <string name="permission">Tilladelse</string>
     <string name="permission_no_access">Ingen filadgang</string>
     <string name="permissions">Tilladelser</string>
@@ -1234,7 +1234,7 @@
     <string name="widget_show_configure_summary">Selv når det ikke vises, kan du trykke det øvre højre hjørne for at åbne konfigurationen</string>
     <string name="seek_backward_content_description">Spol %s sekunder tilbage</string>
     <string name="seek_forward_content_description">Spol %s sekunder frem</string>
-    <string name="open_vlc">Åbn VLC</string>
+    <string name="open_vlc">Åbn SyncNuke</string>
     <string name="playing">Afspiller</string>
     <string name="disable_track">Slå spor fra</string>
     <string name="ascending">Stigende</string>
@@ -1339,7 +1339,7 @@
     <string name="ra_browser_audio_not_found">Mediet blev ikke fundet eller kan ikke afspilles i browseren</string>
     <string name="ra_browser_audio_unsupported_format">Dette lydformat understøttes ikke af din browser.</string>
 
-    <string name="ra_onboarding_welcome_desc">Velkommen til VLC fjernadgang\nVed at slå det til bliver du i stand til at kontrollere enhedens afspilning og meget mere</string>
+    <string name="ra_onboarding_welcome_desc">Velkommen til SyncNuke fjernadgang\nVed at slå det til bliver du i stand til at kontrollere enhedens afspilning og meget mere</string>
     <string name="ra_onboarding_how_title">Kontrollér din enhed</string>
     <string name="ra_onboarding_how_desc">Kontrollér din enhedsafspilning, send eller modtag filer og meget mere</string>
     <string name="ra_onboarding_ssl_title">Datakryptering</string>
@@ -1365,7 +1365,7 @@
     <string name="podcast_mode">Podcast-tilstand</string>
     <string name="podcast_mode_help">Podcast-kontroller dukker op, når det, der afspilles, møder en af følgende kriterier:\n\t• Længde større end 60 min\n\t• Længde større end 15 min uden albumsnavn\n\t• Genre er %s</string>
     <string name="voice_control">Stemmekontrol</string>
-    <string name="voice_control_help">VLC kan styres gennem Google Assistant ved at sige disse kommandoer:\n\t• Play, Pause, Stop, Previous, Next\n\t• Rewind, Fast Forward, Repeat &lt;all|one|off&gt;\n\t• Jump to &lt;time&gt;, Skip &lt;duration&gt;\n\t• What\'s this &lt;artist|album|song&gt;\n\t• Play [artist|album|song|genre|playlist] &lt;name&gt;</string>
+    <string name="voice_control_help">SyncNuke kan styres gennem Google Assistant ved at sige disse kommandoer:\n\t• Play, Pause, Stop, Previous, Next\n\t• Rewind, Fast Forward, Repeat &lt;all|one|off&gt;\n\t• Jump to &lt;time&gt;, Skip &lt;duration&gt;\n\t• What\'s this &lt;artist|album|song&gt;\n\t• Play [artist|album|song|genre|playlist] &lt;name&gt;</string>
 
     <string name="network" >Netværk</string>
     <string name="metered_connection">Streamshandling, når forbindelsen koster per forbrug</string>

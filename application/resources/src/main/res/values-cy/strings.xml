@@ -35,7 +35,7 @@
     <string name="play_as_audio">Chwarae fel sain</string>
     <string name="play_as_video">Chwarae fel fideo</string>
     <string name="video_app_switch_title">Modd cefndir/PIP</string>
-    <string name="video_app_switch_summary">Dewisa beth mae VLC i\'w wneud pan wyt ti\'n newid i ap arall tra\'n chwarae fideo.</string>
+    <string name="video_app_switch_summary">Dewisa beth mae SyncNuke i\'w wneud pan wyt ti\'n newid i ap arall tra\'n chwarae fideo.</string>
     <string name="play_pip_title">Chwarae fideos mewn modd Llun-o-fewn-llun</string>
     <string name="play_as_audio_background">Chwarae fideos yn y cefndir</string>
     <string name="insert_next">Mewnosod y nesaf</string>
@@ -194,7 +194,7 @@
     <string name="streams">Ffrydiau</string>
     <string name="open_mrl_dialog_msg">Rho gyfeiriad rhwydwaith: e.e. http://, mms:// neu rtsp://</string>
     <string name="encountered_error_title">Gwall chwarae</string>
-    <string name="encountered_error_message">Cafodd VLC wall gyda\'r cyfrwng hwn.\nCeisiwch ail-lwytho\'r llyfrgell cyfryngau.</string>
+    <string name="encountered_error_message">Cafodd SyncNuke wall gyda\'r cyfrwng hwn.\nCeisiwch ail-lwytho\'r llyfrgell cyfryngau.</string>
     <string name="invalid_location">Ni all chwarae\'r lleoliad %1$s.</string>
     <string name="search">Chwilio</string>
 
@@ -218,7 +218,7 @@
     <string name="hold_to_stop">Dal lawr i stopio</string>
 
     <!-- About -->
-    <string name="app_name_full">VLC ar gyfer Android</string>
+    <string name="app_name_full">SyncNuke</string>
     <string name="revision">Adolygiad</string>
     <string name="about">Ynghylch</string>
     <string name="vlc_authors">ac Awduron VLC.</string>
@@ -306,8 +306,8 @@
     <string name="enable_play_on_headset_insertion">Parhau wrth gysylltu clustffonau</string>
     <string name="enable_play_on_headset_insertion_summary">Oedi fel arall</string>
     <string name="aout">Allbwn sain</string>
-    <string name="aout_summary">Newid y dull mae VLC yn ei ddefnyddio i allbynnu sain</string>
-    <string name="audio_ducking_title">Gostwng lefel sain VLC pan fo hysbysiadau</string>
+    <string name="aout_summary">Newid y dull mae SyncNuke yn ei ddefnyddio i allbynnu sain</string>
+    <string name="audio_ducking_title">Gostwng lefel sain SyncNuke pan fo hysbysiadau</string>
     <string name="audio_ducking_summary">Mae\'n dy helpu i fedru clywed hysbysiadau, cyfarwyddiadau llywiwr neu gynorthwyydd yn siarad</string>
     <string name="casting_category">Castio</string>
     <string name="casting_switch_title">Bwrw di-wifr</string>
@@ -367,7 +367,7 @@
     <string name="start_logging">Dechrau logio</string>
     <string name="stop_logging">Stopio logio</string>
     <string name="clear_log">Clirio\'r log</string>
-    <string name="log_service_title">Cofnodi logiau VLC</string>
+    <string name="log_service_title">Cofnodi logiau SyncNuke</string>
     <string name="log_service_text">Agor y consol logiau</string>
     <string name="copy_to_clipboard">Copïo i\'r clipfwrdd</string>
     <string name="copied_to_clipboard">Wedi\'i gopïo i\'r clipfwrdd.</string>
@@ -376,9 +376,9 @@
     <string name="dump_logcat_failure">Methwyd dympio logcat.</string>
     <string name="custom_libvlc_options">Dewisiadau libVLC dy hun</string>
     <string name="custom_libvlc_options_invalid">Dewisiadau libVLC annilys!</string>
-    <string name="serious_crash">Yn anffodus, bu gwall difrifol ac roedd rhaid cae VLC.</string>
-    <string name="help_us_send_log">Helpwch ni wella VLC gan anfon y log canlynol o\'r broblem:</string>
-    <string name="restart_vlc">Ail-ddechrau VLC</string>
+    <string name="serious_crash">Yn anffodus, bu gwall difrifol ac roedd rhaid cae SyncNuke.</string>
+    <string name="help_us_send_log">Helpwch ni wella SyncNuke gan anfon y log canlynol o\'r broblem:</string>
+    <string name="restart_vlc">Ail-ddechrau SyncNuke</string>
     <string name="send_log">Anfon y log</string>
     <string name="sending_log">Yn anfon y log…</string>
 
@@ -419,19 +419,19 @@
     <string name="music_now_playing">Yn Chwarae Nawr</string>
 
     <!-- Widget -->
-    <string name="widget_name_w">Teclyn VLC Gwyn</string>
-    <string name="widget_name_b">Teclyn VLC Tywyll</string>
-    <string name="allow_storage_access_title">Caniatáu VLC i gael at ffeiliau fideo a sain</string>
-    <string name="allow_storage_access_description">Mae VLC angen eich caniatâd er mwyn cael at ffeiliau cyfryngau ar y ddyfais hon.</string>
-    <string name="allow_settings_access_ringtone_title">Caniatáu VLC i osod y sain canu</string>
-    <string name="allow_settings_access_ringtone_description">Mae angen eich caniatâd ar VLC i osod y trac hwn fel sain canu eich ffôn.</string>
-    <string name="allow_settings_access_brightness_title">Caniatáu VLC i newid modd disgleirdeb</string>
-    <string name="allow_settings_access_brightness_description">Mae VLC angen ichi ganiatáu hyn er mwyn newid modd disgleirdeb eich dyfais.</string>
-    <string name="allow_draw_overlays_title">Caniatáu VLC mewn ffenestr llaim dros apiau eraill</string>
-    <string name="allow_sdraw_overlays_description">Mae VLC angen ichi ganiatáu hyn er mwyn dangos eich fideo mewn ffenestr dros ben ap eraill.</string>
+    <string name="widget_name_w">Teclyn SyncNuke Gwyn</string>
+    <string name="widget_name_b">Teclyn SyncNuke Tywyll</string>
+    <string name="allow_storage_access_title">Caniatáu SyncNuke i gael at ffeiliau fideo a sain</string>
+    <string name="allow_storage_access_description">Mae SyncNuke angen eich caniatâd er mwyn cael at ffeiliau cyfryngau ar y ddyfais hon.</string>
+    <string name="allow_settings_access_ringtone_title">Caniatáu SyncNuke i osod y sain canu</string>
+    <string name="allow_settings_access_ringtone_description">Mae angen eich caniatâd ar SyncNuke i osod y trac hwn fel sain canu eich ffôn.</string>
+    <string name="allow_settings_access_brightness_title">Caniatáu SyncNuke i newid modd disgleirdeb</string>
+    <string name="allow_settings_access_brightness_description">Mae SyncNuke angen ichi ganiatáu hyn er mwyn newid modd disgleirdeb eich dyfais.</string>
+    <string name="allow_draw_overlays_title">Caniatáu SyncNuke mewn ffenestr llaim dros apiau eraill</string>
+    <string name="allow_sdraw_overlays_description">Mae SyncNuke angen ichi ganiatáu hyn er mwyn dangos eich fideo mewn ffenestr dros ben ap eraill.</string>
     <string name="permission_ask_again">Caniatáu</string>
-    <string name="exit_app">Cau VLC</string>
-    <string name="exit_app_msg">Wyt ti wir eisiau gadael VLC?</string>
+    <string name="exit_app">Cau SyncNuke</string>
+    <string name="exit_app_msg">Wyt ti wir eisiau gadael SyncNuke?</string>
     <!-- fast scroller -->
     <string name="fastscroller_track">Tracio FastScroller</string>
     <string name="fastscroller_handle">Handlen FastScroller</string>
@@ -466,7 +466,7 @@
     <string name="length">Hyd</string>
     <string name="tv_settings_hint">Dalia\'r botwm \"Iawn\" i ddewis/dad-ddewis ffolderi</string>
     <string name="ml_external_storage_title">Wedi canfod storfa allanol newydd</string>
-    <string name="ml_external_storage_msg">Wyt ti am i VLC ychwanegu\'r ddyfais %1$s i dy lyfrgell cyfryngau?</string>
+    <string name="ml_external_storage_msg">Wyt ti am i SyncNuke ychwanegu\'r ddyfais %1$s i dy lyfrgell cyfryngau?</string>
     <string name="ml_external_storage_accept">Ie</string>
     <string name="ml_external_storage_decline">Na</string>
     <string name="auto_last_added_media">Ychwanegwyd diwethaf</string>
@@ -495,8 +495,8 @@
     <string name="browser_storages">Storfeydd</string>
     <string name="msg_delete_failed">Methwyd â dileu\'r cyfrwng %1$s</string>
     <string name="renderer_list_title">Dangosyddion</string>
-    <string name="sdcard_permission_dialog_title">Rwyt wedi rhoi caniatâd i VLC ysgrifennu ar dy gerdyn SD.</string>
-    <string name="sdcard_permission_dialog_message">Ni all VLC ddileu\'r ffeil hon heb ganiatâd i fedru ysgrifennu.\nEdrycha ar dy gerdyn SD a chlicio ar \"Dewis\" [Select].\nMae\'n bosib y bydd rhaid yn gyntaf clicio \"Dangos cerdyn SD\" yn y ddewislen top-dde.</string>
+    <string name="sdcard_permission_dialog_title">Rwyt wedi rhoi caniatâd i SyncNuke ysgrifennu ar dy gerdyn SD.</string>
+    <string name="sdcard_permission_dialog_message">Ni all SyncNuke ddileu\'r ffeil hon heb ganiatâd i fedru ysgrifennu.\nEdrycha ar dy gerdyn SD a chlicio ar \"Dewis\" [Select].\nMae\'n bosib y bydd rhaid yn gyntaf clicio \"Dangos cerdyn SD\" yn y ddewislen top-dde.</string>
     <string name="dialog_sd_wizard">Dangos i mi</string>
     <string name="renderers_disconnect">Datgysylltu</string>
     <string name="audio_digital_failed">Methwyd â newid cyflwr Allbwn Sain Digidol</string>
@@ -510,7 +510,7 @@
     <string name="playback_rewind">Troi nôl</string>
     <string name="playback_forward">Ymlaen yn gyflym</string>
     <string name="ml_wizard_scan_checkbox">Sganio\'r ddyfais am gynnwys cyfryngau</string>
-    <string name="ml_wizard_description">Dewis a all VLC sganio storfa dy ddyfais i drefnu dy lyfrgell cyfryngau neu dim ond i\'w defnyddio fel chwaraeydd syml gyda phorwr integredig.</string>
+    <string name="ml_wizard_description">Dewis a all SyncNuke sganio storfa dy ddyfais i drefnu dy lyfrgell cyfryngau neu dim ond i\'w defnyddio fel chwaraeydd syml gyda phorwr integredig.</string>
     <string name="tv_my_new_videos">Fy fideos newydd</string>
     <string name="otg_device_title">Dyfais OTG</string>
     <string name="browser">Porwr</string>
@@ -537,24 +537,24 @@
     <string name="ctx_player_subs_track">Trac isdeitlau</string>
     <string name="ctx_pip_title">Chwaraeydd naid</string>
     <string name="device_dialog_title">Gosodwyd dyfais allanol</string>
-    <string name="device_dialog_message">Rwyt newydd gysylltu dyfais storfa newydd i dy flwch teledu. Wyt ti am ei agor gyda VLC?</string>
+    <string name="device_dialog_message">Rwyt newydd gysylltu dyfais storfa newydd i dy flwch teledu. Wyt ti am ei agor gyda SyncNuke?</string>
     <string name="videos_folders_title">Fideos fesul ffolder</string>
     <string name="videos_groups_title">Grwpiau fideos</string>
     <string name="video_save_clone_mode">Actifadu modd clôn yn awtomatig?</string>
     <string name="video_remote_enable">Newid i fodd rheoli o bell</string>
     <string name="video_remote_disable">Dyblygu\'r sgrin</string>
     <string name="removed_from_playlist_anonymous">Tynnwyd yr eitem(au) o\'r rhestr chwarae</string>
-    <string name="welcome_title">Croeso i VLC!</string>
+    <string name="welcome_title">Croeso i SyncNuke!</string>
     <string name="welcome_subtitle">Y chwaraeydd aml-gyfrwng cod agored ac am ddim</string>
-    <string name="permission_media">Mae ar VLC angen dy ganiatâd i gael at gyfryngau ar dy ddyfais.</string>
-    <string name="medialibrary_scan_explanation">Gall VLC sganio dy ddyfais yn awtomatig i drefnu dy gasgliad o gyfryngau.</string>
+    <string name="permission_media">Mae ar SyncNuke angen dy ganiatâd i gael at gyfryngau ar dy ddyfais.</string>
+    <string name="medialibrary_scan_explanation">Gall SyncNuke sganio dy ddyfais yn awtomatig i drefnu dy gasgliad o gyfryngau.</string>
     <string name="onboarding_theme_title">Gwna dy hun yn gartrefol</string>
     <string name="done">Iawn</string>
     <string name="onboarding_scan_title">Awto-ganfod dy gyfryngau</string>
-    <string name="daynight_system_explanation">Bydd VLC yn newid yn awtomatig i\'r modd tywyll yn ôl gosodiadau\'r system</string>
-    <string name="daynight_legacy_explanation">Bydd VLC yn newid yn awtomatig i\'r modd nos am yr amser priodol</string>
-    <string name="onboarding_scanning_enable">Gadael i VLC sganio fy nyfais am gynnwys cyfryngau</string>
-    <string name="onboarding_scan_customize">Gadael i mi ddewis pa ffolderi bydd VLC yn eu sganio</string>
+    <string name="daynight_system_explanation">Bydd SyncNuke yn newid yn awtomatig i\'r modd tywyll yn ôl gosodiadau\'r system</string>
+    <string name="daynight_legacy_explanation">Bydd SyncNuke yn newid yn awtomatig i\'r modd nos am yr amser priodol</string>
+    <string name="onboarding_scanning_enable">Gadael i SyncNuke sganio fy nyfais am gynnwys cyfryngau</string>
+    <string name="onboarding_scan_customize">Gadael i mi ddewis pa ffolderi bydd SyncNuke yn eu sganio</string>
     <string name="button_medialibrary_preferences">Mynd i ddewisiadau Llyfrgellcyfryngau</string>
     <string name="light_theme">Thema olau</string>
     <string name="add">Ychwanegu</string>
@@ -592,19 +592,19 @@
     <string name="display_in_grid">Dangos mewn grid</string>
     <string name="dump_db_succes">Dympiwyd y gronfa ddata i\'r ystorfa fewnol craidd</string>
     <string name="dump_db_failure">Methwyd dympio\'r gronfa ddata</string>
-    <string name="send_crash_title">Adroddwr chwalu VLC</string>
-    <string name="send_crash_description">Wrth anfon y chwalfa, byddi\'n ein helpu i wella sefydlogrwydd VLC.</string>
+    <string name="send_crash_title">Adroddwr chwalu SyncNuke</string>
+    <string name="send_crash_description">Wrth anfon y chwalfa, byddi\'n ein helpu i wella sefydlogrwydd SyncNuke.</string>
     <string name="send_crash_warning">Gwiria dy fod yn tynnu unrhyw ddata sensitif nad wyt eisiau ei anfon.</string>
     <string name="include_medialib">Cynnwys dy gronfa ddata</string>
     <string name="vlc_reporter">Adroddwr VLC</string>
-    <string name="welcome_beta_title">VLC Beta</string>
-    <string name="welcome_beta_description">Croeso i raglen VLC beta.\nNoder ei fod yn bosib i\'r fersiwn hwn fod ag ambell wall.</string>
+    <string name="welcome_beta_title">SyncNuke Beta</string>
+    <string name="welcome_beta_description">Croeso i raglen SyncNuke beta.\nNoder ei fod yn bosib i\'r fersiwn hwn fod ag ambell wall.</string>
     <string name="welcome_beta_description_bugs">Os wyt yn sylwi gwall, plîs rho wybod amdano yn ein fforwm neu traciwr gwallau.</string>
     <string name="send">Anfon</string>
     <string name="send_crash_action_title">Beth wyt ti am wneud?</string>
     <string name="report_a_bug">Rhoi gwybod am wall</string>
     <string name="report_a_crash">Rhoi gwybod am chwalfa</string>
-    <string name="describe_crash">Disgrifia sut bu i VLC chwalu</string>
+    <string name="describe_crash">Disgrifia sut bu i SyncNuke chwalu</string>
     <string name="favorite">Ffefryn</string>
     <string name="always">Pob tro</string>
     <string name="never">Byth</string>
@@ -714,7 +714,7 @@
     <string name="air_action_next">Eitem nesaf</string>
     <string name="air_action_previous">Eitem blaenorol</string>
     <string name="allow_otg">Caniatáu mynediad OTG</string>
-    <string name="allow_otg_description">Dewisa dy yriant OTG i ganiatáu mynediad at VLC.</string>
+    <string name="allow_otg_description">Dewisa dy yriant OTG i ganiatáu mynediad at SyncNuke.</string>
     <string name="timeout_infinite">Anfeidrol</string>
     <string name="video_hud_timeout">Oediad cyn cuddio botymau</string>
     <string name="remove_from_history">Tynnu o\'r hanes</string>

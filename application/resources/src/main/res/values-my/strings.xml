@@ -32,7 +32,7 @@
     <string name="play_as_audio">အသံ အနေဖြင့် ဖွင့်ရန်</string>
     <string name="play_as_video">ဗီဒီယို အနေဖြင့် ပြသရန်</string>
     <string name="video_app_switch_title">နောက်ကွယ်/ပုံတွင်းကပုံစနစ်</string>
-    <string name="video_app_switch_summary">ဗီဒီယို ပြသခြင်း ပြုလုပ်နေစဥ် အခြား အပလီကေးရှင်း သို့ သင် ပြောင်း လိုက်သောအခါ VLC ၏ အပြုအမူ ကို ရွေးချယ်ရန်</string>
+    <string name="video_app_switch_summary">ဗီဒီယို ပြသခြင်း ပြုလုပ်နေစဥ် အခြား အပလီကေးရှင်း သို့ သင် ပြောင်း လိုက်သောအခါ SyncNuke ၏ အပြုအမူ ကို ရွေးချယ်ရန်</string>
     <string name="play_pip_title">ရုပ်ပုံ−တွင်းမှ−ရုပ်ပုံ စနစ် ဖြင့် ဗီဒီယိုများ ပြသရန်</string>
     <string name="play_as_audio_background">နောက်ကွယ် တွင်သာ ဗီဒီယိုများ ပြသရန်</string>
     <string name="insert_next">နောက် တွင် ထည့်ရန်</string>
@@ -162,8 +162,8 @@
     <string name="network_browsing">အတွင်း ကွန်ယက်</string>
     <string name="file_size">ဖိုင် အရွယ်အစား</string>
 
-    <string name="exit_app">VLC ကို ပိတ်</string>
-    <string name="exit_app_msg">VLC မှ ထွက်လိုသည်မှာ သေခြာပါသလား?</string>
+    <string name="exit_app">SyncNuke ကို ပိတ်</string>
+    <string name="exit_app_msg">SyncNuke မှ ထွက်လိုသည်မှာ သေခြာပါသလား?</string>
     <string name="videos_all">ဗီဒီယို အားလုံး</string>
     <string name="otg_device_title">OTG ကိရိယာ</string>
     <string name="time_category_new">မီဒီယာ အသစ်</string>
@@ -180,7 +180,7 @@
     <string name="language_to_download">ဘာသာစကား</string>
     <string name="delete_the_selected">ရွေးချယ်မှု ကိုဖျက်ရန်</string>
     <string name="download_the_selected">ရွေးချယ်မှု ဒေါင်းလုပ်လုပ်ရန်</string>
-    <string name="welcome_title">VLC မှ ကြိုဆိုပါသည်။</string>
+    <string name="welcome_title">SyncNuke မှ ကြိုဆိုပါသည်။</string>
     <string name="done">ပြီးပြီ</string>
     <string name="send">ပေးပို့</string>
     <string name="always">အမြဲတမ်း</string>

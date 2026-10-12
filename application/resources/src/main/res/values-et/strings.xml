@@ -50,7 +50,7 @@
     <string name="play_as_video">Esita kui video</string>
     <string name="return_to_video">Videovaate taastamiseks vajuta pikalt kaanepilti</string>
     <string name="video_app_switch_title">Taust/PIP</string>
-    <string name="video_app_switch_summary">Vali VLC käitumine kui valid video esitamiseks muu rakenduse </string>
+    <string name="video_app_switch_summary">Vali SyncNuke käitumine kui valid video esitamiseks muu rakenduse </string>
     <string name="play_pip_title">Mängi videod pilt pildis, PIP kujul</string>
     <string name="play_as_audio_background">Esita videosid taustal</string>
     <string name="append">Lisa esitusjärjekorda</string>
@@ -315,7 +315,7 @@
     <string name="hold_to_stop">Peatamiseks hoia</string>
 
     <!-- About -->
-    <string name="app_name_full">VLC Androidile</string>
+    <string name="app_name_full">SyncNuke</string>
     <string name="revision">Revisjon</string>
     <string name="about">Rakenduse teave</string>
     <string name="about_vlc_text">VLC Androidile™ on avatud lähtekoodiga populaarse VLC meediaesitaja üks arendusi. Androidi™ versioon suudab avada enamikke meediafaile ja voogedastusvorminguid.</string>
@@ -499,8 +499,8 @@
     <string name="replaygain_track">Rada</string>
     <string name="replaygain_album">Album</string>
     <string name="aout">Audioväljund</string>
-    <string name="aout_summary">Muuda VLC audio väljundi kasutusmeetodit</string>
-    <string name="audio_ducking_title">Vähenda teavituste ajal VLC helivaljust</string>
+    <string name="aout_summary">Muuda SyncNuke audio väljundi kasutusmeetodit</string>
+    <string name="audio_ducking_title">Vähenda teavituste ajal SyncNuke helivaljust</string>
     <string name="audio_ducking_summary">Aitab kuulda audio märguandeid, teekonna näitamise juhiseid või kõneabi teenust</string>
     <string name="casting_category">Edastamine</string>
     <string name="remote_access">Kaugligipääs</string>
@@ -577,7 +577,7 @@
     <string name="clear_media_db">Puhasta meedia andmebaas</string>
     <string name="clear_media_database_summary">Tühendab andmebaasi uuesti alustamiseks</string>
     <string name="clear_app_data">Kustuta rakenduse andmed</string>
-    <string name="clear_app_data_summary">Sellega kustutad kõik VLC salvestatud andmed</string>
+    <string name="clear_app_data_summary">Sellega kustutad kõik SyncNuke salvestatud andmed</string>
     <string name="clear_history">Tühjenda ajalugu</string>
     <string name="clear_history_message">Sellega kustuvad sinu tegevuste ajalugu, praegused esitusloendid ning kõik pooleliolevad tegevused</string>
     <string name="set_locale">Määra lokaat</string>
@@ -603,7 +603,7 @@
     <string name="start_logging">Alusta logimist</string>
     <string name="stop_logging">Peata logimine</string>
     <string name="clear_log">Puhasta logi</string>
-    <string name="log_service_title">VLC logib salvestamisi</string>
+    <string name="log_service_title">SyncNuke logib salvestamisi</string>
     <string name="log_service_text">Ava logi konsool</string>
     <string name="copy_to_clipboard">Kopeeri lõikepuhvrisse</string>
     <string name="copied_to_clipboard">Logi lõikepuhvrisse kopeeritud.</string>
@@ -621,10 +621,10 @@
     <string name="browser_quick_play_default">Kiiresitus on vaikimisi tegevus</string>
     <string name="browser_quick_play_default_summary">Kui see eelistus on kasutusel, siis meediakirje klõpsimisel käivitub kiiresitus</string>
 
-    <string name="serious_crash">Kahjuks on juhtunud mingi tõsine jama ja VLC pidi sulguma.</string>
-    <string name="help_us_send_log">Aita meil VLC parendada, saates teele järgnev kinnijooksulogi:</string>
+    <string name="serious_crash">Kahjuks on juhtunud mingi tõsine jama ja SyncNuke pidi sulguma.</string>
+    <string name="help_us_send_log">Aita meil SyncNuke parendada, saates teele järgnev kinnijooksulogi:</string>
     <string name="ml_crash_send">Meediakogu on just jooksnud kokku. Saates meile logid saad sa aidata vea parandamisel.</string>
-    <string name="restart_vlc">Taaskäivita VLC</string>
+    <string name="restart_vlc">Taaskäivita SyncNuke</string>
     <string name="send_log">Saada logi</string>
     <string name="sending_log">Logi saatmine...</string>
 
@@ -669,7 +669,7 @@
     <string name="medialibrary_directories">Meediakogu kaustad</string>
 
     <!--What's new-->
-    <string name="whats_new_title">Mida uut leidub VLC Androidi versioonis %s</string>
+    <string name="whats_new_title">Mida uut leidub SyncNuke Androidi versioonis %s</string>
     <string name="whats_new_37_equalizer_text">Ekvalaiseri liides on nullist ümber ehitatud. Ta on nüüd mugavamalt kasutatav, vaikimisi eelseadistusi saad kasutuselt eemaldada ning võimaldab sinu eelseadistusi varundada, taastada ja jagada.</string>
     <string name="whats_new_37_import_export">Me oleme täiendanud varundamise ja taastamise seadistusi. Nüüd saad varundada enam seadistusi, sealhulgas ekvalaiseri eelseadistused.</string>
     <string name="whats_new_37_android_auto">Mõnede rakendustepoe poolt lisatud piirangute tõttu on Android Auto seadistused viidud mobiilirakendusse. Edaspidi saad sealt hallata kasutust auto kontekstis.</string>
@@ -678,7 +678,7 @@
 <!--    update-->
     <string name="update_title">Saadaval on uuendus</string>
     <string name="install_nightly_title">Paigalda igaöine arendusversioon</string>
-    <string name="update_text">Saadaval on uus VLC Androidi igaöine arendusversioon\nSa näed seda teadet, kuna juba kasutad üht sellist varasemat versiooni.</string>
+    <string name="update_text">Saadaval on uus SyncNuke Androidi igaöine arendusversioon\nSa näed seda teadet, kuna juba kasutad üht sellist varasemat versiooni.</string>
     <string name="install_text">Igaöisesse arendusversiooni lisatakse iga päev rakenduse viimaseid täiendusi ning parandusi\n\nKas laadime viimase variandi nüüd alla?</string>
 
     <string name="open_in_browser">Ava veebibrauseris</string>
@@ -699,30 +699,30 @@
     <string name="music_now_playing">Praegu esitamisel</string>
 
     <!-- Widget -->
-    <string name="widget_name_w">VLC valge vidin</string>
-    <string name="widget_name_b">VLC tume vidin</string>
-    <string name="widget_name_mini_player">VLC miniesitaja</string>
+    <string name="widget_name_w">SyncNuke valge vidin</string>
+    <string name="widget_name_b">SyncNuke tume vidin</string>
+    <string name="widget_name_mini_player">SyncNuke miniesitaja</string>
     <string name="widget_old_text">Me oleme selle rakenduse vidinaid uuendanud!</string>
     <string name="widget_old_description_start">Head uudised! Meil on nüüd kasutusel täiendadud vidinad.\nNad reageerivad paremini ja on kohandatavamad</string>
     <string name="whats_next">Ja edasi?</string>
     <string name="widget_old_description_end">Me tuvastasime, et sul juba on avalehel vidinad kasutusel. Aga kahjuks pole nad ühilduvad meie uute vidinatega.\nSõltuvalt kasutatavast avalehe käivitajast pead sa enne uute lisamist vanad eemaldama.</string>
     <string name="click_here">Lisateabe lugemiseks klõpsi siin</string>
-    <string name="allow_storage_access_title">Luba VLC\'l lugeda video- ja helifaile</string>
-    <string name="allow_storage_access_description">VLC vajab, et sa annad ligipääsu sinu seadmes olevale meediale.</string>
-    <string name="partial_content">VLC\'l puudub ligipääs sinu nutiseadmes olevatele failidele</string>
+    <string name="allow_storage_access_title">Luba SyncNuke\'l lugeda video- ja helifaile</string>
+    <string name="allow_storage_access_description">SyncNuke vajab, et sa annad ligipääsu sinu seadmes olevale meediale.</string>
+    <string name="partial_content">SyncNuke\'l puudub ligipääs sinu nutiseadmes olevatele failidele</string>
     <string name="partial_content_description">Alates Androidi versioonist 11 rakendused vajavad eraldi õigusi kõikide seadmes olevate failide avamiseks.
 
 %s</string>
     <string name="never_ask_again">Ära enam iialgi küsi uuesti</string>
     <string name="never_show_again">Ära iialgi näita enam uuesti, isegi mitte tulevaste versioonide puhul</string>
-    <string name="allow_settings_access_ringtone_title">Luba VLC\'l määrata helinat</string>
-    <string name="allow_settings_access_ringtone_description">VLC vajab, et sa annad loa määrata see lugu helinaks.</string>
-    <string name="allow_settings_access_brightness_title">Luba VLC\'l muuta heledust</string>
-    <string name="allow_settings_access_brightness_description">VLC vajab, et sa annad loa muuta seadme heledust.</string>
-    <string name="allow_draw_overlays_title">Luba VLC\'d avada teiste rakenduste peal</string>
-    <string name="allow_sdraw_overlays_description">VLC vajab, et sa annad loa esitada videot teiste rakenduste peal.</string>
-    <string name="allow_pip">Luba VLC meediaesitajal käivitada pilt-pildis vaadet</string>
-    <string name="allow_pip_description">VLC vajab, et sa annad loa su video näitamiseks pilt-pildis vaates.</string>
+    <string name="allow_settings_access_ringtone_title">Luba SyncNuke\'l määrata helinat</string>
+    <string name="allow_settings_access_ringtone_description">SyncNuke vajab, et sa annad loa määrata see lugu helinaks.</string>
+    <string name="allow_settings_access_brightness_title">Luba SyncNuke\'l muuta heledust</string>
+    <string name="allow_settings_access_brightness_description">SyncNuke vajab, et sa annad loa muuta seadme heledust.</string>
+    <string name="allow_draw_overlays_title">Luba SyncNuke\'d avada teiste rakenduste peal</string>
+    <string name="allow_sdraw_overlays_description">SyncNuke vajab, et sa annad loa esitada videot teiste rakenduste peal.</string>
+    <string name="allow_pip">Luba SyncNuke meediaesitajal käivitada pilt-pildis vaadet</string>
+    <string name="allow_pip_description">SyncNuke vajab, et sa annad loa su video näitamiseks pilt-pildis vaates.</string>
     <string name="permission_ask_again">Anna õigused</string>
     <string name="pick_file">Vali fail</string>
     <string name="permission_not_granted">Luba pole antud</string>
@@ -731,10 +731,10 @@
     <string name="permission_onboarding_no_perm">Rakendusel pole võimalik selles nutiseadmes automaatselt tuvastada meediat.\nSa saad esitada vaid voogedastust võrgust või võrgus leiduvad meediafaile</string>
     <string name="permission_onboarding_perm_media">Rakendus võib automaatselt tuvastada vaid standardseid meediafaile</string>
     <string name="permission_onboarding_perm_all">Rakendus võib automaatselt tuvastada kõiki faile ning sellega saad esitada ka imelikke ja vähelevinud faile või pakitud faile</string>
-    <string name="exit_app">Sulge VLC</string>
-    <string name="exit_app_msg">Kas sa kindlasti soovid VLC sulgeda?</string>
-    <string name="widget_explanation_title">VLC vidinad</string>
-    <string name="widget_explanation_size">Leidub eri tüüpi ja mõõtu VLC vidinaid</string>
+    <string name="exit_app">Sulge SyncNuke</string>
+    <string name="exit_app_msg">Kas sa kindlasti soovid SyncNuke sulgeda?</string>
+    <string name="widget_explanation_title">SyncNuke vidinad</string>
+    <string name="widget_explanation_size">Leidub eri tüüpi ja mõõtu SyncNuke vidinaid</string>
     <string name="widget_explanation_resize">Vidina muutmiseks vajuta temal pikalt ja kasuta tekkinud sangakesi tema suuruse muutmiseks selliseks, nagu vaja on</string>
     <string name="widget_explanation_end">Vidinaid saab tohutult palju muuta vastavalt sinu eelistustele. Lase oma loovusel lennata ja tee nad selliseks, nagu tahad!</string>
 
@@ -790,7 +790,7 @@
     <string name="length">Kestus</string>
     <string name="tv_settings_hint">Kaustade valimiseks ja valiku eemaldamiseks vajuta pikalt nuppu „Sobib“</string>
     <string name="ml_external_storage_title">Tuvastati uus väline andmekandja</string>
-    <string name="ml_external_storage_msg">Kas sa soovid, et VLC lisab %1$s sinu meediakogusse?</string>
+    <string name="ml_external_storage_msg">Kas sa soovid, et SyncNuke lisab %1$s sinu meediakogusse?</string>
     <string name="ml_external_storage_accept">Jah</string>
     <string name="ml_external_storage_decline">Ei</string>
     <string name="auto_last_added_media">Viimati lisatud</string>
@@ -820,8 +820,8 @@
     <string name="browser_storages">Andmekandjad</string>
     <string name="msg_delete_failed"> „%1$s“ meedia kustutamine ei õnnestunud</string>
     <string name="renderer_list_title">Ekraanid</string>
-    <string name="sdcard_permission_dialog_title">Sa pead lubama VLC\'l salvestada andmeid SD-kaardile</string>
-    <string name="sdcard_permission_dialog_message">Ilma kirjutusõiguseta ei saa VLC seda faili kustutada.\nLiigu SD-kaardi vaatesse ja klõpsi nuppu „Vali“.\nVõib-olla pead ülalt paremalt menüüst esmalt klikkama valikut „Näita SD-kaarti“</string>
+    <string name="sdcard_permission_dialog_title">Sa pead lubama SyncNuke\'l salvestada andmeid SD-kaardile</string>
+    <string name="sdcard_permission_dialog_message">Ilma kirjutusõiguseta ei saa SyncNuke seda faili kustutada.\nLiigu SD-kaardi vaatesse ja klõpsi nuppu „Vali“.\nVõib-olla pead ülalt paremalt menüüst esmalt klikkama valikut „Näita SD-kaarti“</string>
     <string name="dialog_sd_wizard">Näita mulle</string>
     <string name="renderers_disconnect">Ühenda lahti</string>
     <string name="audio_digital_failed">Digitaalse heliväljundi oleku muutmine ei õnnestunud</string>
@@ -836,7 +836,7 @@
     <string name="playback_rewind">Keri tagasi</string>
     <string name="playback_forward">Keri edasi</string>
     <string name="ml_wizard_scan_checkbox">Otsida nutiseadmest meediafaile</string>
-    <string name="ml_wizard_description">Vali, kas VLC tuvastab sinu nutiseadme andmekandjalt kõik meedia ja lisab leitu meediakogusse või kasutad teda lihtsa meediamängijana koos lõimitud brauseriga.</string>
+    <string name="ml_wizard_description">Vali, kas SyncNuke tuvastab sinu nutiseadme andmekandjalt kõik meedia ja lisab leitu meediakogusse või kasutad teda lihtsa meediamängijana koos lõimitud brauseriga.</string>
     <string name="tv_my_new_videos">Minu uued videod</string>
     <string name="cast_option_title">Edasta meedia muule ekraanile</string>
     <string name="otg_device_title">OTG seade</string>
@@ -875,29 +875,29 @@
     <string name="ctx_player_subs_track">Subtiitrite riba</string>
     <string name="ctx_pip_title">Meediaesitaja hüpikaknas</string>
     <string name="device_dialog_title">Väline seade on lisatud</string>
-    <string name="device_dialog_message">Just lisasid oma digiboksi välise andmekanda. Kas sa soovid selle avabad VLC\'ga?</string>
+    <string name="device_dialog_message">Just lisasid oma digiboksi välise andmekanda. Kas sa soovid selle avabad SyncNuke\'ga?</string>
     <string name="videos_folders_title">Videod kaustade järgi</string>
     <string name="videos_groups_title">Videote grupid</string>
     <string name="video_save_clone_mode">Kas lülitame kloonitud vaate automaatselt sisse?</string>
     <string name="video_remote_enable">Lülitu kaughalduse režiimi</string>
     <string name="video_remote_disable">Tee ekraanist koopia</string>
     <string name="removed_from_playlist_anonymous">Kirje(d) on esitusloendist eemaldatud</string>
-    <string name="welcome_title">Tere tulemast VLC\'sse!</string>
+    <string name="welcome_title">Tere tulemast SyncNuke\'sse!</string>
     <string name="welcome_subtitle">Tasuta ja avatud koodiga meediamängija</string>
-    <string name="permission_media">VLC vajab ligipääsu sinu seadmes olevale meediale</string>
-    <string name="permission_video">VLC vajab ligipääsuks sinu seadmes olevale videomeediale sinu luba</string>
-    <string name="permission_audio">VLC vajab ligipääsuks sinu seadmes olevale audiomeediale sinu luba</string>
-    <string name="medialibrary_scan_explanation">Sinu meediakogu haldamiseks suudab VLC suudab sinu seadmes leiduvad meediafailid automaatselt tuvastada.</string>
-    <string name="player_title_fd_warning">Kui VLC\'l puudub õigus pääseda ligi andmeruumile, siis ei saa laadida meedia nime ega salvestada esituse edenemist.</string>
+    <string name="permission_media">SyncNuke vajab ligipääsu sinu seadmes olevale meediale</string>
+    <string name="permission_video">SyncNuke vajab ligipääsuks sinu seadmes olevale videomeediale sinu luba</string>
+    <string name="permission_audio">SyncNuke vajab ligipääsuks sinu seadmes olevale audiomeediale sinu luba</string>
+    <string name="medialibrary_scan_explanation">Sinu meediakogu haldamiseks suudab SyncNuke suudab sinu seadmes leiduvad meediafailid automaatselt tuvastada.</string>
+    <string name="player_title_fd_warning">Kui SyncNuke\'l puudub õigus pääseda ligi andmeruumile, siis ei saa laadida meedia nime ega salvestada esituse edenemist.</string>
     <string name="onboarding_theme_title">Tunne end nagu kodus</string>
     <string name="done">Valmis</string>
     <string name="onboarding_scan_title">Meedia automaatne avastamine</string>
-    <string name="onboarding_all_set">VLC on nüüd valmis sätitud!</string>
+    <string name="onboarding_all_set">SyncNuke on nüüd valmis sätitud!</string>
     <string name="onboarding_permission_given">Nüüd saad sa nutiseadmest otsida meediat ja kasutada subtiitrite faile ning pruukida võrgupõhist voogedastust</string>
-    <string name="daynight_system_explanation">VLC võtab automaatselt sinu nutiseadme üldisete seadistuste alusel kasutusele tumeda teema</string>
-    <string name="daynight_legacy_explanation">VLC võtab automaatselt õigel ajal kasutusele öörežiimi</string>
-    <string name="onboarding_scanning_enable">Luba VLC\'l otsida minu seadmest meediafaile</string>
-    <string name="onboarding_scan_customize">Lase mul valida kaustad, kust VLC otsib meediafaile</string>
+    <string name="daynight_system_explanation">SyncNuke võtab automaatselt sinu nutiseadme üldisete seadistuste alusel kasutusele tumeda teema</string>
+    <string name="daynight_legacy_explanation">SyncNuke võtab automaatselt õigel ajal kasutusele öörežiimi</string>
+    <string name="onboarding_scanning_enable">Luba SyncNuke\'l otsida minu seadmest meediafaile</string>
+    <string name="onboarding_scan_customize">Lase mul valida kaustad, kust SyncNuke otsib meediafaile</string>
     <string name="button_medialibrary_preferences">Ava meediakogu eelistused</string>
     <string name="light_theme">Hele kujundus</string>
     <string name="add">Lisa</string>
@@ -909,7 +909,7 @@
     <string name="popup_force_legacy_title">Kasuta sinu valitud suurusega pilt-pildis vaadet</string>
     <string name="popup_force_legacy_summary">Kasuta sinu suurendatavat pilt-pildis vaadet</string>
     <string name="restore_background_video_title">Taasta taustalt video</string>
-    <string name="restore_background_video_summary">Taasta taustalt video, kui avad uuesti VLC Androidile</string>
+    <string name="restore_background_video_summary">Taasta taustalt video, kui avad uuesti SyncNuke Androidile</string>
     <string name="device_default">Seadme vaikeväärtus</string>
     <string name="track_number">%d rada</string>
     <string name="jump_to">Siirdu:</string>
@@ -938,14 +938,14 @@
     <string name="display_in_grid">Näita võrgustikuna</string>
     <string name="dump_db_succes">Andmebaasi koopia on tehtud sisemise andmehoidla juurkausta</string>
     <string name="dump_db_failure">Andmebaasi kustutamine ebaõnnestus</string>
-    <string name="send_crash_title">VLC veast teavitaja</string>
-    <string name="send_crash_description">Kui sa saadad meile teated kokkujooksmise kohta, siis see võimaldab parandaad VLC stabiilsust ja töökindlust.</string>
+    <string name="send_crash_title">SyncNuke veast teavitaja</string>
+    <string name="send_crash_description">Kui sa saadad meile teated kokkujooksmise kohta, siis see võimaldab parandaad SyncNuke stabiilsust ja töökindlust.</string>
     <string name="send_crash_warning">Palun kontrolli, et oled eemaldanud kõik andmed, mida sa ei soovi edasi saata.</string>
     <string name="include_medialib">Kaasa oma andmebaas</string>
     <string name="include_logs">Kaasa rakenduse logid</string>
     <string name="vlc_reporter">VLC veateavitaja</string>
-    <string name="welcome_beta_title">VLC beeta</string>
-    <string name="welcome_beta_description">Tere tulemast kasutama VLC beetaversooni.\nPalun arvesta, et siin versioonis võib leiduda veel vigu.</string>
+    <string name="welcome_beta_title">SyncNuke beeta</string>
+    <string name="welcome_beta_description">Tere tulemast kasutama SyncNuke beetaversooni.\nPalun arvesta, et siin versioonis võib leiduda veel vigu.</string>
     <string name="welcome_beta_description_bugs">Kui märkad mõnda viga, siis palun anna sellest meie veahaldussüsteemis või foorumis teada.</string>
     <string name="welcome_beta_description_crashes">Kui puutud kokku mõne veaga või on rakendus kokku jooksnud, palun ava vaade „Rakenduse teave“ ja sealt klõpsi valikuid „Tagaside“ ning „Võta ühendust kasutajatoega e-posti teel“.</string>
     <string name="send">Saada</string>
@@ -989,8 +989,8 @@
     <string name="recently_played">Hiljuti esitatud</string>
     <string name="recently_added">Hiljuti lisatud</string>
     <string name="playback_multiple_errors">Mitut meediafaili ei saa korraga esitada</string>
-    <string name="clear_media_db_message">Sellega kustuvad kõik pooleliolevad tegevused, järjehoidjad, esitusloendid, aga säilivad VLC seadistused</string>
-    <string name="clear_app_data_message">Sellega kustuvad kõik pooleliolevad tegevused, järjehoidjad, esitusloendid ja VLC seadistused</string>
+    <string name="clear_media_db_message">Sellega kustuvad kõik pooleliolevad tegevused, järjehoidjad, esitusloendid, aga säilivad SyncNuke seadistused</string>
+    <string name="clear_app_data_message">Sellega kustuvad kõik pooleliolevad tegevused, järjehoidjad, esitusloendid ja SyncNuke seadistused</string>
     <string name="clear">Puhasta</string>
     <string name="abrepeat_add_first_marker">Määra algpunktiks</string>
     <string name="abrepeat_add_second_marker">Määra lõpp-punktiks</string>
@@ -1075,7 +1075,7 @@
     <string name="air_action_next">Järgmine kirje esitusloendis</string>
     <string name="air_action_previous">Eelmine kirje esitusloendis</string>
     <string name="allow_otg">Luba OTG ligipääs</string>
-    <string name="allow_otg_description">Lubamaks VLCle ligipääsu palun vali oma OTG andmekogu.</string>
+    <string name="allow_otg_description">Lubamaks SyncNukele ligipääsu palun vali oma OTG andmekogu.</string>
     <string name="timeout_infinite">Lõputu</string>
     <string name="video_hud_timeout">Viivitus videomängija nuppude peitmisel</string>
     <string name="video_hud_timeout_summary">%ss</string>
@@ -1144,7 +1144,7 @@
     <string name="optional_features_warning">See on beetafunktsionaalsus, mis võib rakenduse sassi ajada või kokku jooksutada</string>
     <string name="network_indexing">Võrgu indekseerimine</string>
     <string name="network_indexing_warning">Võrgupõhine indekseerimine on hetkel beetafunktsionaalsuses.\nKTeadaolevad asjaolud:\n• Kehv jõudlus\n\nKui märkad muid vigu või probleeme, siis anna neist meie foorumis teada.</string>
-    <string name="start_vlc">Käivita VLC</string>
+    <string name="start_vlc">Käivita SyncNuke</string>
     <string name="jump_delay">Edasi/Tagasi aja viivitus</string>
     <string name="long_jump_delay">Viivitus pika puudutuse kasutamisel edasi/tagasi kerimisel kasutamisel</string>
     <string name="jump_delay_summary">%s sekundit</string>
@@ -1168,7 +1168,7 @@
     <string name="lock_use_sensor_summary">Kui paigutus on lukustatud, siis kasuta pööratud paigutuse jaoks kasuta andurit</string>
     <string name="start">Alustame</string>
     <string name="notification_permission">Teavitustega seotud õigused</string>
-    <string name="notification_permission_explanation">VLC vajab teavituste saatmiseks sinu luba\nRakendus teavitab sind vaid meedia tuvastamisel või kohendatud Pilt-Pildis vaate puhul\nKui sa luba ei anna, siis VLC toimib ilusti edasi, lihtsalt mõned teavitused saavad olema peidetud.</string>
+    <string name="notification_permission_explanation">SyncNuke vajab teavituste saatmiseks sinu luba\nRakendus teavitab sind vaid meedia tuvastamisel või kohendatud Pilt-Pildis vaate puhul\nKui sa luba ei anna, siis SyncNuke toimib ilusti edasi, lihtsalt mõned teavitused saavad olema peidetud.</string>
     <string name="permission">Õigused</string>
     <string name="permission_no_access">Puudub ligipääs failidele</string>
     <string name="permissions">Õigused</string>
@@ -1237,7 +1237,7 @@
     <string name="widget_show_configure_summary">Isegi kui seda pole näga, siis võid seadistuste vaata avada klpsides ülemises paremas nurgas</string>
     <string name="seek_backward_content_description">Keri %s sekundit tagasi</string>
     <string name="seek_forward_content_description">Keri %s sekundit edasi</string>
-    <string name="open_vlc">Ava VLC</string>
+    <string name="open_vlc">Ava SyncNuke</string>
     <string name="playing">Mängib</string>
     <string name="disable_track">Keela rada</string>
     <string name="ascending">Kasvavalt</string>
@@ -1342,7 +1342,7 @@
     <string name="ra_browser_audio_not_found">Meediumi kas ei leidu või pole veebibrauseris esitatav</string>
     <string name="ra_browser_audio_unsupported_format">See helivorming pole sinu veebibrauseris toetatud</string>
 
-    <string name="ra_onboarding_welcome_desc">Tere tulemast kasutama VLC Androidiversiooni kaughaldust ja kaugligipääsu\nSelle sisselülitamisel sa võid hallata taasesitust selles seadmes ning teha muud põnevat</string>
+    <string name="ra_onboarding_welcome_desc">Tere tulemast kasutama SyncNuke Androidiversiooni kaughaldust ja kaugligipääsu\nSelle sisselülitamisel sa võid hallata taasesitust selles seadmes ning teha muud põnevat</string>
     <string name="ra_onboarding_how_title">Juhi oma nutiseadet</string>
     <string name="ra_onboarding_how_desc">Juhi taasesitust oma nutiseadmes, saada ja võta vastu faile ning tee muud huvitavat</string>
     <string name="ra_onboarding_ssl_title">Andmete krüptimine</string>
@@ -1368,7 +1368,7 @@
     <string name="podcast_mode">Taskuhäälingu režiim</string>
     <string name="podcast_mode_help">Taskuhäälingu nupud kuvame siis, kui esitad üksikut pala, mis vastava ühele alljärgnevast:\n\t• Pikkus suurem, kui 60 minutit\n\t• Pikkus suurem, kui 15 minutit ja albumi nimi on puudu\n\t• Žanr on %s</string>
     <string name="voice_control">Hääljuhtimine</string>
-    <string name="voice_control_help">Sa saad VLC rakendust juhtida Google Assistanti järgnevate hääljuhtimiskäskudega::\n\t• Play, Pause, Stop, Previous, Next\n\t• Rewind, Fast Forward, Repeat &lt;all|one|off&gt;\n\t• Jump to &lt;time&gt;, Skip &lt;duration&gt;\n\t• What\'s this &lt;artist|album|song&gt;\n\t• Play [artist|album|song|genre|playlist] &lt;name&gt;</string>
+    <string name="voice_control_help">Sa saad SyncNuke rakendust juhtida Google Assistanti järgnevate hääljuhtimiskäskudega::\n\t• Play, Pause, Stop, Previous, Next\n\t• Rewind, Fast Forward, Repeat &lt;all|one|off&gt;\n\t• Jump to &lt;time&gt;, Skip &lt;duration&gt;\n\t• What\'s this &lt;artist|album|song&gt;\n\t• Play [artist|album|song|genre|playlist] &lt;name&gt;</string>
 
     <string name="network" >Võrk</string>
     <string name="metered_connection">Mida teeme meediavoogudega, kui kasutad mahupõhist võrguühendust</string>
@@ -1383,7 +1383,7 @@
     <string name="connected_device">Ühendatud seade</string>
     <string name="model">Seadme mudel</string>
     <string name="prefs_app_data">Rakenduse andmed</string>
-    <string name="export_settings_summary">Eksportides sinu loodud seadistused faili, saad need hiljem mõnes muus VLC instantsis importida</string>
+    <string name="export_settings_summary">Eksportides sinu loodud seadistused faili, saad need hiljem mõnes muus SyncNuke instantsis importida</string>
     <string name="export_settings">Ekspordi seadistused</string>
     <string name="restore_settings_summary">Taasta mõnest varasemast ekspordifailis leiduvad seadistused</string>
     <string name="restore_settings">Taasta seadistused</string>

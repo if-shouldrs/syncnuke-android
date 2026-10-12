@@ -49,7 +49,7 @@
     <string name="play_as_video">作为视频播放</string>
     <string name="return_to_video">长按封面可恢复视频</string>
     <string name="video_app_switch_title">背景/画中画模式</string>
-    <string name="video_app_switch_summary">视频播放过程中切换到其他应用程序时 VLC 的行为</string>
+    <string name="video_app_switch_summary">视频播放过程中切换到其他应用程序时 SyncNuke 的行为</string>
     <string name="play_pip_title">以画中画模式播放视频</string>
     <string name="play_as_audio_background">在后台播放视频</string>
     <string name="append">添加到播放队列</string>
@@ -300,7 +300,7 @@
     <string name="hold_to_stop">按住可停止</string>
 
     <!-- About -->
-    <string name="app_name_full">VLC for Android</string>
+    <string name="app_name_full">SyncNuke</string>
     <string name="revision">修订版本</string>
     <string name="about">关于</string>
     <string name="about_vlc_text">VLC for Android™ 是广受欢迎的开源媒体播放器 ｢VLC media player｣ 的移植版本。Android™ 版本可以读取几乎所有文件以及网络流。</string>
@@ -484,8 +484,8 @@
     <string name="replaygain_track">音轨模式</string>
     <string name="replaygain_album">专辑模式</string>
     <string name="aout">音频输出</string>
-    <string name="aout_summary">更改 VLC 输出音频的方式</string>
-    <string name="audio_ducking_title">收到通知时降低 VLC 音量</string>
+    <string name="aout_summary">更改 SyncNuke 输出音频的方式</string>
+    <string name="audio_ducking_title">收到通知时降低 SyncNuke 音量</string>
     <string name="audio_ducking_summary">有助于听清通知声音、导航语音或辅助功能讲解</string>
     <string name="casting_category">投屏</string>
     <string name="remote_access">远程访问</string>
@@ -562,7 +562,7 @@
     <string name="clear_media_db">清除媒体数据库</string>
     <string name="clear_media_database_summary">清除数据库并从头开始</string>
     <string name="clear_app_data">清除应用数据</string>
-    <string name="clear_app_data_summary">清除 VLC for Android 的数据</string>
+    <string name="clear_app_data_summary">清除 SyncNuke for Android 的数据</string>
     <string name="clear_history">清除历史</string>
     <string name="clear_history_message">您将会丢失播放历史、当前的播放列表以及播放进度</string>
     <string name="set_locale">设置语言</string>
@@ -588,7 +588,7 @@
     <string name="start_logging">开始记录日志</string>
     <string name="stop_logging">停止记录日志</string>
     <string name="clear_log">清除日志</string>
-    <string name="log_service_title">VLC 日志正在记录</string>
+    <string name="log_service_title">SyncNuke 日志正在记录</string>
     <string name="log_service_text">打开日志控制台</string>
     <string name="copy_to_clipboard">复制到剪贴板</string>
     <string name="copied_to_clipboard">日志内容已复制到剪贴板。</string>
@@ -606,10 +606,10 @@
     <string name="browser_quick_play_default">快速播放作为默认动作</string>
     <string name="browser_quick_play_default_summary">若启用，在浏览器中点击文件时使用快速播放</string>
 
-    <string name="serious_crash">真不走运，发生了很严重的错误，VLC 不得不关闭鸟。</string>
-    <string name="help_us_send_log">您可以将下述崩溃日志发送给我们，协助改进 VLC:</string>
+    <string name="serious_crash">真不走运，发生了很严重的错误，SyncNuke 不得不关闭鸟。</string>
+    <string name="help_us_send_log">您可以将下述崩溃日志发送给我们，协助改进 SyncNuke:</string>
     <string name="ml_crash_send">媒体库刚刚崩溃了。请发送日志协助我们改进。</string>
-    <string name="restart_vlc">重新启动 VLC</string>
+    <string name="restart_vlc">重新启动 SyncNuke</string>
     <string name="send_log">发送日志</string>
     <string name="sending_log">正在发送日志…</string>
 
@@ -654,7 +654,7 @@
     <string name="medialibrary_directories">媒体库文件夹</string>
 
     <!--What's new-->
-    <string name="whats_new_title">VLC for Android %s 版本的新功能</string>
+    <string name="whats_new_title">SyncNuke for Android %s 版本的新功能</string>
     <string name="whats_new_37_equalizer_text">均衡器已从零开始重新设计。现在更易使用，可以禁用默认预设，并支持备份、恢复和分享您的预设。</string>
     <string name="whats_new_37_import_export">我们改进了设置参数的备份和恢复功能。现在可以备份更多的设置参数，包括均衡器预设。</string>
     <string name="whats_new_37_android_auto">由于应用商店的新限制，Android Auto 设置已全部转移至本移动应用程序。您可以在此调整车载体验。</string>
@@ -663,7 +663,7 @@
 <!--    update-->
     <string name="update_title">有更新可用</string>
     <string name="install_nightly_title">安装每日构建版</string>
-    <string name="update_text">VLC for Android 的每日构建版已发布新版本!\n\n您看到本消息，是因为您正在使用的是每日构建版。</string>
+    <string name="update_text">SyncNuke for Android 的每日构建版已发布新版本!\n\n您看到本消息，是因为您正在使用的是每日构建版。</string>
     <string name="install_text">每日构建版是包含 master 分支最新的功能以及 bug 修复方案的自动构建版本。\n\n是否立即下载?</string>
 
     <string name="open_in_browser">在浏览器中打开</string>
@@ -684,28 +684,28 @@
     <string name="music_now_playing">正在播放</string>
 
     <!-- Widget -->
-    <string name="widget_name_w">VLC 白色小挂件</string>
-    <string name="widget_name_b">VLC 深色小挂件</string>
-    <string name="widget_name_mini_player">VLC 迷你播放器</string>
+    <string name="widget_name_w">SyncNuke 白色小挂件</string>
+    <string name="widget_name_b">SyncNuke 深色小挂件</string>
+    <string name="widget_name_mini_player">SyncNuke 迷你播放器</string>
     <string name="widget_old_text">我们的小工具有更新!</string>
     <string name="widget_old_description_start">好消息! 我们发布了改进版的小工具。\n新版小工具更具响应性，可自定义的功能更多</string>
     <string name="whats_next">需要我做什么吗?</string>
-    <string name="widget_old_description_end">我们侦测到您的启动器中已经放置 VLC 小工具。不幸的是，旧版小工具与改进版不兼容。\n根据启动器规则的不同，您可能需要先删除旧版小工具才能改用新版。</string>
+    <string name="widget_old_description_end">我们侦测到您的启动器中已经放置 SyncNuke 小工具。不幸的是，旧版小工具与改进版不兼容。\n根据启动器规则的不同，您可能需要先删除旧版小工具才能改用新版。</string>
     <string name="click_here">点击了解更多信息。</string>
-    <string name="allow_storage_access_title">允许 VLC 访问视频与音频文件</string>
-    <string name="allow_storage_access_description">VLC 需要您授权方可访问该设备上的媒体文件。</string>
-    <string name="partial_content">VLC 无法访问您的所有文件</string>
+    <string name="allow_storage_access_title">允许 SyncNuke 访问视频与音频文件</string>
+    <string name="allow_storage_access_description">SyncNuke 需要您授权方可访问该设备上的媒体文件。</string>
+    <string name="partial_content">SyncNuke 无法访问您的所有文件</string>
     <string name="partial_content_description">对于 Android 11 及更高版本，应用需要经过您的特别授权，才能访问设备上的所有文件。\n\n%s</string>
     <string name="never_ask_again">不再询问</string>
     <string name="never_show_again">以后永远不要展示新版本介绍</string>
-    <string name="allow_settings_access_ringtone_title">允许 VLC 设置铃声</string>
-    <string name="allow_settings_access_ringtone_description">VLC 需要您的授权方可将该歌曲设为您的铃声。</string>
-    <string name="allow_settings_access_brightness_title">允许 VLC 更改亮度模式</string>
-    <string name="allow_settings_access_brightness_description">VLC 需要您的授权方可更改您的亮度模式。</string>
-    <string name="allow_draw_overlays_title">允许 VLC 播放器浮动在其他应用之上</string>
-    <string name="allow_sdraw_overlays_description">VLC 需要您的授权方可在其他应用程序之上的浮层显示您的视频。</string>
-    <string name="allow_pip">允许 VLC 播放器进入 ｢画中画｣ 模式</string>
-    <string name="allow_pip_description">VLC 需要您授予该权限，才能以 ｢画中画｣ 模式显示视频画面。</string>
+    <string name="allow_settings_access_ringtone_title">允许 SyncNuke 设置铃声</string>
+    <string name="allow_settings_access_ringtone_description">SyncNuke 需要您的授权方可将该歌曲设为您的铃声。</string>
+    <string name="allow_settings_access_brightness_title">允许 SyncNuke 更改亮度模式</string>
+    <string name="allow_settings_access_brightness_description">SyncNuke 需要您的授权方可更改您的亮度模式。</string>
+    <string name="allow_draw_overlays_title">允许 SyncNuke 播放器浮动在其他应用之上</string>
+    <string name="allow_sdraw_overlays_description">SyncNuke 需要您的授权方可在其他应用程序之上的浮层显示您的视频。</string>
+    <string name="allow_pip">允许 SyncNuke 播放器进入 ｢画中画｣ 模式</string>
+    <string name="allow_pip_description">SyncNuke 需要您授予该权限，才能以 ｢画中画｣ 模式显示视频画面。</string>
     <string name="permission_ask_again">授予权限</string>
     <string name="pick_file">选择文件</string>
     <string name="permission_not_granted">未授予权限</string>
@@ -714,9 +714,9 @@
     <string name="permission_onboarding_no_perm">您将无法自动扫描媒体文件。\n您将只能播放串流或网络媒体</string>
     <string name="permission_onboarding_perm_media">您将只能自动扫描标准格式的媒体文件</string>
     <string name="permission_onboarding_perm_all">您将能够在所有文件中自动扫描、播放各类媒体文件（包括奇怪的格式以及压缩文件）</string>
-    <string name="exit_app">关闭 VLC</string>
-    <string name="exit_app_msg">是否确定要退出 VLC?</string>
-    <string name="widget_explanation_title">VLC 小工具</string>
+    <string name="exit_app">关闭 SyncNuke</string>
+    <string name="exit_app_msg">是否确定要退出 SyncNuke?</string>
+    <string name="widget_explanation_title">SyncNuke 小工具</string>
     <string name="widget_explanation_size">小工具有不同的尺寸与风格</string>
     <string name="widget_explanation_resize">要更改小工具的尺寸，请长按它，然后使用操控杆调整为您想要的尺寸</string>
     <string name="widget_explanation_end">小工具高度可定制。发挥你的创造力，将它们改造成你的风格！</string>
@@ -773,7 +773,7 @@
     <string name="length">长度</string>
     <string name="tv_settings_hint">长按「OK」按钮可选中/取消选中目录</string>
     <string name="ml_external_storage_title">发现新的外部存储设备</string>
-    <string name="ml_external_storage_msg">是否希望 VLC 将设备「%1$s」添加到您的媒体库?</string>
+    <string name="ml_external_storage_msg">是否希望 SyncNuke 将设备「%1$s」添加到您的媒体库?</string>
     <string name="ml_external_storage_accept">是</string>
     <string name="ml_external_storage_decline">否</string>
     <string name="auto_last_added_media">上次添加</string>
@@ -803,8 +803,8 @@
     <string name="browser_storages">存储设备</string>
     <string name="msg_delete_failed">无法删除媒体「%1$s」</string>
     <string name="renderer_list_title">显示器</string>
-    <string name="sdcard_permission_dialog_title">您已授予 VLC 写入 SD 卡的权限</string>
-    <string name="sdcard_permission_dialog_message">VLC 没有写入权限，无法删除该文件。\n请前往「SD 卡」，点击「选择」。\n您可能需要先在右上角菜单中点击「显示 SD 卡」</string>
+    <string name="sdcard_permission_dialog_title">您已授予 SyncNuke 写入 SD 卡的权限</string>
+    <string name="sdcard_permission_dialog_message">SyncNuke 没有写入权限，无法删除该文件。\n请前往「SD 卡」，点击「选择」。\n您可能需要先在右上角菜单中点击「显示 SD 卡」</string>
     <string name="dialog_sd_wizard">显示</string>
     <string name="renderers_disconnect">断开连接</string>
     <string name="audio_digital_failed">无法更改音频数字输出状态</string>
@@ -819,7 +819,7 @@
     <string name="playback_rewind">快退</string>
     <string name="playback_forward">快进</string>
     <string name="ml_wizard_scan_checkbox">扫描设备中的媒体内容</string>
-    <string name="ml_wizard_description">选择 VLC 是扫描设备存储来汇总您的媒体库，还是只作为简易的播放器（内置有文件浏览器）使用。</string>
+    <string name="ml_wizard_description">选择 SyncNuke 是扫描设备存储来汇总您的媒体库，还是只作为简易的播放器（内置有文件浏览器）使用。</string>
     <string name="tv_my_new_videos">我的新视频</string>
     <string name="cast_option_title">将媒体投放到其他屏幕</string>
     <string name="otg_device_title">OTG 设备</string>
@@ -858,29 +858,29 @@
     <string name="ctx_player_subs_track">字幕轨</string>
     <string name="ctx_pip_title">弹出播放器</string>
     <string name="device_dialog_title">已插入外部设备</string>
-    <string name="device_dialog_message">您刚将新的存储设备插入机顶盒，是否希望 VLC 打开它?</string>
+    <string name="device_dialog_message">您刚将新的存储设备插入机顶盒，是否希望 SyncNuke 打开它?</string>
     <string name="videos_folders_title">按文件夹显示视频</string>
     <string name="videos_groups_title">视频分组</string>
     <string name="video_save_clone_mode">是否自动激活克隆模式?</string>
     <string name="video_remote_enable">切换到遥控模式</string>
     <string name="video_remote_disable">复制屏幕</string>
     <string name="removed_from_playlist_anonymous">项目已从播放列表移除</string>
-    <string name="welcome_title">欢迎使用 VLC!</string>
+    <string name="welcome_title">欢迎使用 SyncNuke!</string>
     <string name="welcome_subtitle">自由开源的多媒体播放器</string>
-    <string name="permission_media">VLC 需要您的许可，才能访问设备中的媒体</string>
-    <string name="permission_video">VLC 需要您的许可，才能访问您设备上的视频文件</string>
-    <string name="permission_audio">VLC 需要您的许可，才能访问您设备上的音频文件</string>
-    <string name="medialibrary_scan_explanation">VLC 可自动扫描您的设备，构建您的媒体库。</string>
-    <string name="player_title_fd_warning">没有 ｢存储｣ 权限，VLC 将无法提取媒体标题或保存播放进度</string>
+    <string name="permission_media">SyncNuke 需要您的许可，才能访问设备中的媒体</string>
+    <string name="permission_video">SyncNuke 需要您的许可，才能访问您设备上的视频文件</string>
+    <string name="permission_audio">SyncNuke 需要您的许可，才能访问您设备上的音频文件</string>
+    <string name="medialibrary_scan_explanation">SyncNuke 可自动扫描您的设备，构建您的媒体库。</string>
+    <string name="player_title_fd_warning">没有 ｢存储｣ 权限，SyncNuke 将无法提取媒体标题或保存播放进度</string>
     <string name="onboarding_theme_title">就像在自己家</string>
     <string name="done">完成</string>
     <string name="onboarding_scan_title">自动扫描媒体文件</string>
-    <string name="onboarding_all_set">VLC 已准备就绪!</string>
+    <string name="onboarding_all_set">SyncNuke 已准备就绪!</string>
     <string name="onboarding_permission_given">您现在可以自动扫描媒体文件、使用外挂字幕、播放串流或网络媒体文件</string>
-    <string name="daynight_system_explanation">VLC 将跟随系统设置自动切换深色模式</string>
-    <string name="daynight_legacy_explanation">VLC 将在恰当的时间自动切换到夜间模式</string>
-    <string name="onboarding_scanning_enable">让 VLC 扫描我的设备，寻找媒体内容</string>
-    <string name="onboarding_scan_customize">让我决定 VLC 可以扫描哪些文件夹</string>
+    <string name="daynight_system_explanation">SyncNuke 将跟随系统设置自动切换深色模式</string>
+    <string name="daynight_legacy_explanation">SyncNuke 将在恰当的时间自动切换到夜间模式</string>
+    <string name="onboarding_scanning_enable">让 SyncNuke 扫描我的设备，寻找媒体内容</string>
+    <string name="onboarding_scan_customize">让我决定 SyncNuke 可以扫描哪些文件夹</string>
     <string name="button_medialibrary_preferences">前往媒体库偏好设置</string>
     <string name="light_theme">亮色主题</string>
     <string name="add">添加</string>
@@ -892,7 +892,7 @@
     <string name="popup_force_legacy_title">使用自定义画中画弹窗</string>
     <string name="popup_force_legacy_summary">使用大小可调整的自定义画中画弹出窗口</string>
     <string name="restore_background_video_title">恢复后台播放的视频</string>
-    <string name="restore_background_video_summary">重新打开 VLC for Android 时恢复后台播放的视频</string>
+    <string name="restore_background_video_summary">重新打开 SyncNuke for Android 时恢复后台播放的视频</string>
     <string name="device_default">设备默认</string>
     <string name="track_number">%d 条轨道</string>
     <string name="jump_to">跳转到</string>
@@ -919,14 +919,14 @@
     <string name="display_in_grid">以网格形式显示</string>
     <string name="dump_db_succes">数据库已转储到内部存储的根目录中</string>
     <string name="dump_db_failure">转储数据库失败</string>
-    <string name="send_crash_title">VLC 崩溃辅助报告程序</string>
-    <string name="send_crash_description">您可通过发送与此次崩溃相关的数据，来帮助我们提升 VLC 的稳定性。</string>
+    <string name="send_crash_title">SyncNuke 崩溃辅助报告程序</string>
+    <string name="send_crash_description">您可通过发送与此次崩溃相关的数据，来帮助我们提升 SyncNuke 的稳定性。</string>
     <string name="send_crash_warning">若存在您不希望发送的敏感数据，请确保取消选中它们。</string>
     <string name="include_medialib">同时发送您的数据库（含媒体库信息！）</string>
     <string name="include_logs">包括您的日志</string>
     <string name="vlc_reporter">VLC 辅助报告程序</string>
-    <string name="welcome_beta_title">VLC beta</string>
-    <string name="welcome_beta_description">欢迎使用 VLC beta 版。\n请注意此版本可能一定量的 bug。</string>
+    <string name="welcome_beta_title">SyncNuke beta</string>
+    <string name="welcome_beta_description">欢迎使用 SyncNuke beta 版。\n请注意此版本可能一定量的 bug。</string>
     <string name="welcome_beta_description_bugs">如果您发现了 bug，请在我们的论坛或 bug 跟踪平台报告它们。</string>
     <string name="welcome_beta_description_crashes">如果您遇到 bug 或崩溃，请打开「关于」菜单，依次点击「反馈」>「通过电子邮件联系支持团队」按钮。</string>
     <string name="send">发送</string>
@@ -970,8 +970,8 @@
     <string name="recently_played">最近播放</string>
     <string name="recently_added">最近添加</string>
     <string name="playback_multiple_errors">多个媒体无法播放</string>
-    <string name="clear_media_db_message">您将失去播放进度、书签以及您创建的播放列表，但对 VLC for Android 的设置将得到保留</string>
-    <string name="clear_app_data_message">您将失去播放进度、书签、播放列表以及所有的 VLC 设置</string>
+    <string name="clear_media_db_message">您将失去播放进度、书签以及您创建的播放列表，但对 SyncNuke for Android 的设置将得到保留</string>
+    <string name="clear_app_data_message">您将失去播放进度、书签、播放列表以及所有的 SyncNuke 设置</string>
     <string name="clear">清除</string>
     <string name="abrepeat_add_first_marker">设置开始位置</string>
     <string name="abrepeat_add_second_marker">设置结束位置</string>
@@ -1056,7 +1056,7 @@
     <string name="air_action_next">播放后一项</string>
     <string name="air_action_previous">播放前一项</string>
     <string name="allow_otg">允许 OTG 访问</string>
-    <string name="allow_otg_description">请选择您的 OTG 设备，以授予 VLC 访问它的权限。</string>
+    <string name="allow_otg_description">请选择您的 OTG 设备，以授予 SyncNuke 访问它的权限。</string>
     <string name="timeout_infinite">无限</string>
     <string name="video_hud_timeout">视频播放器控件隐藏延迟</string>
     <string name="video_hud_timeout_summary">%s 秒</string>
@@ -1125,7 +1125,7 @@
 </string>
     <string name="network_indexing">网络索引</string>
     <string name="network_indexing_warning">网络索引目前处于测试阶段。\n 已知问题：\n・性能较差 \n\n 如果您遇到其他问题，请在我们的论坛上报告。</string>
-    <string name="start_vlc">启动 VLC</string>
+    <string name="start_vlc">启动 SyncNuke</string>
     <string name="jump_delay">快进 / 快退的时间延迟</string>
     <string name="long_jump_delay">长按快进 / 快退的时间延迟</string>
     <string name="jump_delay_summary">%s 秒</string>
@@ -1149,7 +1149,7 @@
     <string name="lock_use_sensor_summary">屏幕方向已锁定时，允许根据传感器控制按 180° 旋转</string>
     <string name="start">启动</string>
     <string name="notification_permission">通知权限</string>
-    <string name="notification_permission_explanation">VLC 需要您的授权，方可发送通知。\n应用只会在为您扫描媒体文件或者自定义 ｢画中画｣ 视频模式时向您发送通知。\n拒绝该权限不会影响 VLC 的正常运行，只是不显示通知信息而已。</string>
+    <string name="notification_permission_explanation">SyncNuke 需要您的授权，方可发送通知。\n应用只会在为您扫描媒体文件或者自定义 ｢画中画｣ 视频模式时向您发送通知。\n拒绝该权限不会影响 SyncNuke 的正常运行，只是不显示通知信息而已。</string>
     <string name="permission">权限</string>
     <string name="permission_no_access">没有文件权限</string>
     <string name="permissions">权限</string>
@@ -1216,7 +1216,7 @@
     <string name="widget_show_configure_summary">即使隐藏该图标，您也可以轻按小工具的右上角来打开配置界面</string>
     <string name="seek_backward_content_description">向后快退 %s 秒</string>
     <string name="seek_forward_content_description">向前快进 %s 秒</string>
-    <string name="open_vlc">打开 VLC</string>
+    <string name="open_vlc">打开 SyncNuke</string>
     <string name="playing">正在播放</string>
     <string name="disable_track">禁用轨道</string>
     <string name="ascending">升序</string>
@@ -1321,7 +1321,7 @@
     <string name="ra_browser_audio_not_found">媒体文件未找到，或无法在浏览器中播放</string>
     <string name="ra_browser_audio_unsupported_format">您的浏览器不支持此音频格式</string>
 
-    <string name="ra_onboarding_welcome_desc">欢迎使用 ｢VLC for Android｣ 的远程访问功能！\n启用此功能，即可从其他设备控制此设备的播放，还能做到很多其他事情</string>
+    <string name="ra_onboarding_welcome_desc">欢迎使用 ｢SyncNuke for Android｣ 的远程访问功能！\n启用此功能，即可从其他设备控制此设备的播放，还能做到很多其他事情</string>
     <string name="ra_onboarding_how_title">控制您的设备</string>
     <string name="ra_onboarding_how_desc">控制您设备的播放、发送或下载文件，以及其他功能</string>
     <string name="ra_onboarding_ssl_title">数据加密</string>
@@ -1347,7 +1347,7 @@
     <string name="podcast_mode">播客模式</string>
     <string name="podcast_mode_help">在播放单条音轨且符合下列条件之一时，会出现 ｢播客｣ 模式控制按钮:\n\t• 时长超过 60 分钟\n\t• 时长超过 15 分钟，且没有专辑名称\n\t• 流派类型为 %s</string>
     <string name="voice_control">语音控制</string>
-    <string name="voice_control_help">VLC 支持通过 Google Assistant 控制，命令词如下:\n\t• Play (播放), Pause (暂停), Stop (停止), Previous (上一曲), Next (下一曲)\n\t• Rewind (快退), Fast Forward (快进), Repeat &lt;all|one|off&gt;(全部循环/单曲循环/不循环)\n\t• Jump to &lt;time&gt; (跳到某时刻), Skip &lt;duration&gt; (前进某时长)\n\t• What\'s this &lt;artist|album|song&gt; (正在播放的艺人/专辑/曲名是什么?)\n\t• Play [artist|album|song|genre|playlist] &lt;name&gt; (播放指定艺人/专辑/曲目/流派/播放列表)</string>
+    <string name="voice_control_help">SyncNuke 支持通过 Google Assistant 控制，命令词如下:\n\t• Play (播放), Pause (暂停), Stop (停止), Previous (上一曲), Next (下一曲)\n\t• Rewind (快退), Fast Forward (快进), Repeat &lt;all|one|off&gt;(全部循环/单曲循环/不循环)\n\t• Jump to &lt;time&gt; (跳到某时刻), Skip &lt;duration&gt; (前进某时长)\n\t• What\'s this &lt;artist|album|song&gt; (正在播放的艺人/专辑/曲名是什么?)\n\t• Play [artist|album|song|genre|playlist] &lt;name&gt; (播放指定艺人/专辑/曲目/流派/播放列表)</string>
 
     <string name="network" >网络</string>
     <string name="metered_connection">按流量计费的网络下对串流的处理</string>

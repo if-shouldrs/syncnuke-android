@@ -44,7 +44,7 @@
     <string name="play_as_audio">Reproducir como son</string>
     <string name="play_as_video">Reproducir como vídeo</string>
     <string name="video_app_switch_title">Modo segundo plano/PiP</string>
-    <string name="video_app_switch_summary">Seleccione o comportamento do VLC cando cambie a outra aplicación desde a reprodución de vídeo.</string>
+    <string name="video_app_switch_summary">Seleccione o comportamento do SyncNuke cando cambie a outra aplicación desde a reprodución de vídeo.</string>
     <string name="play_pip_title">Reproducir vídeos en modo pantalla sobre pantalla</string>
     <string name="play_as_audio_background">Reproducir os vídeos en segundo plano</string>
     <string name="append">Engadir á lista de reprodución</string>
@@ -243,7 +243,7 @@
     <string name="hold_to_stop">Manter para deter</string>
 
     <!-- About -->
-    <string name="app_name_full">VLC para Android</string>
+    <string name="app_name_full">SyncNuke</string>
     <string name="revision">Revisión</string>
     <string name="about">Sobre</string>
     <string name="authors">Autores</string>
@@ -347,8 +347,8 @@
     <string name="enable_play_on_headset_insertion_summary"> Do contrario deter</string>
     <string name="replaygain_album">Álbum</string>
     <string name="aout">Saída de son</string>
-    <string name="aout_summary">Mudar o método que usa o VLC para a saída de son</string>
-    <string name="audio_ducking_title">Baixar o volume do VLC nas notificacións</string>
+    <string name="aout_summary">Mudar o método que usa o SyncNuke para a saída de son</string>
+    <string name="audio_ducking_title">Baixar o volume do SyncNuke nas notificacións</string>
     <string name="audio_ducking_summary">Axuda na escoita de notificacións de son, instrucións de navegación e para falar co asistente</string>
     <string name="casting_category">Emisión</string>
     <string name="remote_access">Acceso remoto</string>
@@ -398,7 +398,7 @@
     <string name="clear_media_db">Limpar a base de datos de medios</string>
     <string name="clear_media_database_summary">Limpa a base de datos para empezar de novo </string>
     <string name="clear_app_data">Limpar os datos da aplicación</string>
-    <string name="clear_app_data_summary">Limpa os datos do VLC para Androdi</string>
+    <string name="clear_app_data_summary">Limpa os datos do SyncNuke para Androdi</string>
     <string name="clear_history">Limpar o historial</string>
     <string name="set_locale">Definir a configuración rexional</string>
     <string name="network_caching">Valor da caché de rede</string>
@@ -417,7 +417,7 @@
     <string name="start_logging">Comezar o rexistro</string>
     <string name="stop_logging">Deter o rexistro</string>
     <string name="clear_log">Limpar o ficheiro de rexistro</string>
-    <string name="log_service_title">Gravación de rexistros de VLC</string>
+    <string name="log_service_title">Gravación de rexistros de SyncNuke</string>
     <string name="log_service_text">Abrir a consola de rexistro</string>
     <string name="copy_to_clipboard">Copiar para o portapapeis</string>
     <string name="copied_to_clipboard">O rexistro foi copiado no portapapeis.</string>
@@ -426,9 +426,9 @@
     <string name="dump_logcat_failure">Produciuse un erro ao descargar o rexistro de logcat</string>
     <string name="custom_libvlc_options">Opcións de libVLC personalizadas</string>
     <string name="custom_libvlc_options_invalid">As opcións de libVLC non son válidas.</string>
-    <string name="serious_crash">Produciuse un erro grave e houbo que pechar o VLC.</string>
-    <string name="help_us_send_log">Axúdenos a mellorar o VLC enviando o seguinte informe de erro:</string>
-    <string name="restart_vlc">Reiniciar o VLC</string>
+    <string name="serious_crash">Produciuse un erro grave e houbo que pechar o SyncNuke.</string>
+    <string name="help_us_send_log">Axúdenos a mellorar o SyncNuke enviando o seguinte informe de erro:</string>
+    <string name="restart_vlc">Reiniciar o SyncNuke</string>
     <string name="send_log">Enviar o informe</string>
     <string name="sending_log">Enviando o informe…</string>
 
@@ -475,25 +475,25 @@
     <string name="music_now_playing">En reporodución</string>
 
     <!-- Widget -->
-    <string name="widget_name_w">Widget do VLC branco</string>
-    <string name="widget_name_b">Widget do VLC escuro</string>
+    <string name="widget_name_w">Widget do SyncNuke branco</string>
+    <string name="widget_name_b">Widget do SyncNuke escuro</string>
     <string name="widget_old_text">Actualizamos os nosos widgets!</string>
     <string name="click_here">Prema aquí para ter máis información.</string>
-    <string name="allow_storage_access_title">Permitir a VLC acceder aos ficheiros de son e vídeo</string>
-    <string name="allow_storage_access_description">VLC precisa o permiso de acceso aos ficheiros multimedia deste dispositivo</string>
+    <string name="allow_storage_access_title">Permitir a SyncNuke acceder aos ficheiros de son e vídeo</string>
+    <string name="allow_storage_access_description">SyncNuke precisa o permiso de acceso aos ficheiros multimedia deste dispositivo</string>
     <string name="never_ask_again">Non preguntar de novo</string>
-    <string name="allow_settings_access_ringtone_title">Permitir que VLC estableza o tono de chamada</string>
-    <string name="allow_settings_access_ringtone_description">O VLC precisa o seu permiso para estabelecer esta canción como ton de chamada.</string>
-    <string name="allow_settings_access_brightness_title">Permitir que o VLC cambie o modo do brillo</string>
-    <string name="allow_settings_access_brightness_description">O VLC precisa este permiso para cambiar o modo brillo.</string>
-    <string name="allow_draw_overlays_title">Pemitir o reprodutor VLC emerxer sobre outras aplicacións</string>
-    <string name="allow_sdraw_overlays_description">O VLC precisa este permiso para mostrar o vídeo nunha xanela emerxente sobre outras aplicacións.</string>
+    <string name="allow_settings_access_ringtone_title">Permitir que SyncNuke estableza o tono de chamada</string>
+    <string name="allow_settings_access_ringtone_description">O SyncNuke precisa o seu permiso para estabelecer esta canción como ton de chamada.</string>
+    <string name="allow_settings_access_brightness_title">Permitir que o SyncNuke cambie o modo do brillo</string>
+    <string name="allow_settings_access_brightness_description">O SyncNuke precisa este permiso para cambiar o modo brillo.</string>
+    <string name="allow_draw_overlays_title">Pemitir o reprodutor SyncNuke emerxer sobre outras aplicacións</string>
+    <string name="allow_sdraw_overlays_description">O SyncNuke precisa este permiso para mostrar o vídeo nunha xanela emerxente sobre outras aplicacións.</string>
     <string name="permission_ask_again">Conceder permiso</string>
     <string name="permission_not_granted">Permiso non concedido</string>
     <string name="permission_expanation_no_allow">Non poderá detectar automaticamente os multimedia nin usar subtítulos externos</string>
     <string name="permission_expanation_allow">Só poderá reproducir fluxos ou multimedia da rede</string>
-    <string name="exit_app">Pechar o VLC</string>
-    <string name="exit_app_msg">Confirma que quere pechar o VLC?</string>
+    <string name="exit_app">Pechar o SyncNuke</string>
+    <string name="exit_app_msg">Confirma que quere pechar o SyncNuke?</string>
     <!-- fast scroller -->
     <string name="fastscroller_track">Barra de desprazamento rápido</string>
     <string name="fastscroller_handle">Manexador do desprazamento rápido</string>
@@ -533,7 +533,7 @@
     <string name="length">Duración</string>
     <string name="tv_settings_hint">Presión longa en Aceptar para marcar/desmarcar cartafoles</string>
     <string name="ml_external_storage_title">Detectouse un dispositivo de almacenamento externo</string>
-    <string name="ml_external_storage_msg">Desexa que o VLC engada o dispositivo %1$s á biblioteca multimedia?</string>
+    <string name="ml_external_storage_msg">Desexa que o SyncNuke engada o dispositivo %1$s á biblioteca multimedia?</string>
     <string name="ml_external_storage_accept">Si</string>
     <string name="ml_external_storage_decline">Non</string>
     <string name="auto_last_added_media">Últimas incorporacións</string>
@@ -563,8 +563,8 @@
     <string name="browser_storages">Almacenaxes</string>
     <string name="msg_delete_failed">Produciuse un fallo eliminando o multimedia%1$s</string>
     <string name="renderer_list_title">Pantallas</string>
-    <string name="sdcard_permission_dialog_title">Ten que concederlle ao VLC acceso de escritura á tarxeta SD</string>
-    <string name="sdcard_permission_dialog_message">O VLC non pode eliminar este ficheiro sen permiso de acceso para escritura.\nVaia á tarxeta SD e prema en «Seleccionar».\nPode que teña que premer primeiro en «Mostrar tarxeta SD» no menú superior dereito</string>
+    <string name="sdcard_permission_dialog_title">Ten que concederlle ao SyncNuke acceso de escritura á tarxeta SD</string>
+    <string name="sdcard_permission_dialog_message">O SyncNuke non pode eliminar este ficheiro sen permiso de acceso para escritura.\nVaia á tarxeta SD e prema en «Seleccionar».\nPode que teña que premer primeiro en «Mostrar tarxeta SD» no menú superior dereito</string>
     <string name="dialog_sd_wizard">Mostrarme</string>
     <string name="renderers_disconnect">Desconectar</string>
     <string name="audio_digital_failed">Produciuse un fallo cambiando o estado da saída dixital de son</string>
@@ -578,7 +578,7 @@
     <string name="playback_rewind">Rebobinar</string>
     <string name="playback_forward">Avance rápido</string>
     <string name="ml_wizard_scan_checkbox">Buscar no dispositivo contidos multimedia</string>
-    <string name="ml_wizard_description">Seleccione se o VLC debe analizar o dispositivo para organizar a biblioteca multimedia ou só funcionar como un reprodutor cun explorador integrado.</string>
+    <string name="ml_wizard_description">Seleccione se o SyncNuke debe analizar o dispositivo para organizar a biblioteca multimedia ou só funcionar como un reprodutor cun explorador integrado.</string>
     <string name="tv_my_new_videos">Vídeos novos meus</string>
     <string name="otg_device_title">Dispositivo OTG</string>
     <string name="browser">Navegador</string>
@@ -612,26 +612,26 @@
     <string name="ctx_player_subs_track">Pista dos subtítulos</string>
     <string name="ctx_pip_title">Reprodutor emerxente</string>
     <string name="device_dialog_title">Dispositivo externo conectado</string>
-    <string name="device_dialog_message">Acaba de conectar un novo dispositivo de almacenamento ao seu TV box, quere abrilo con VLC?</string>
+    <string name="device_dialog_message">Acaba de conectar un novo dispositivo de almacenamento ao seu TV box, quere abrilo con SyncNuke?</string>
     <string name="videos_folders_title">Vídeos por cartafol</string>
     <string name="videos_groups_title">Grupos de vídeos</string>
     <string name="video_save_clone_mode">Activar automaticamente o modo clonar?</string>
     <string name="video_remote_enable">Cambiar a control remoto</string>
     <string name="video_remote_disable">Duplicar pantalla</string>
     <string name="removed_from_playlist_anonymous">Elemento(s) eliminados da lista de reprodución</string>
-    <string name="welcome_title">Benvido ao VLC</string>
+    <string name="welcome_title">Benvido ao SyncNuke</string>
     <string name="welcome_subtitle">O reprodutor multimedia de fontes libres e abertas</string>
-    <string name="permission_media">O VLC necesita permiso para acceder aos multimedia do dispositivo</string>
-    <string name="medialibrary_scan_explanation">O VLC pode examinar automaticamente o dispositivo para organizar a colección multimedia.</string>
+    <string name="permission_media">O SyncNuke necesita permiso para acceder aos multimedia do dispositivo</string>
+    <string name="medialibrary_scan_explanation">O SyncNuke pode examinar automaticamente o dispositivo para organizar a colección multimedia.</string>
     <string name="onboarding_theme_title">Síntase como na casa</string>
     <string name="done">Feito</string>
     <string name="onboarding_scan_title">Detectar multimedia automaticamente</string>
-    <string name="onboarding_all_set">VLC está configurado.</string>
+    <string name="onboarding_all_set">SyncNuke está configurado.</string>
     <string name="onboarding_permission_given">Agora pode detectar automaticamente os multimedia, usar subtítulos externos así como reproducir fluxos ou multimedia da rede</string>
-    <string name="daynight_system_explanation">O VLC cambiará automaticamente ao modo escuro de acordo aos axustes do sistema</string>
-    <string name="daynight_legacy_explanation">O VLC cambiará automaticamente ao modo noite no momento axeitado</string>
-    <string name="onboarding_scanning_enable">Permitir que o VLC busque contido multimedia no meu dispositivo</string>
-    <string name="onboarding_scan_customize">Permitirme escoller que cartafoles examinará o VLC</string>
+    <string name="daynight_system_explanation">O SyncNuke cambiará automaticamente ao modo escuro de acordo aos axustes do sistema</string>
+    <string name="daynight_legacy_explanation">O SyncNuke cambiará automaticamente ao modo noite no momento axeitado</string>
+    <string name="onboarding_scanning_enable">Permitir que o SyncNuke busque contido multimedia no meu dispositivo</string>
+    <string name="onboarding_scan_customize">Permitirme escoller que cartafoles examinará o SyncNuke</string>
     <string name="button_medialibrary_preferences">Ir ás preferencias da biblioteca multimedia</string>
     <string name="light_theme">Tema claro</string>
     <string name="add">Engadir</string>
@@ -665,13 +665,13 @@
     <string name="display_in_grid">Mostrar en grella</string>
     <string name="dump_db_succes">Base de datos copiada na raíz de almacenamento interno</string>
     <string name="dump_db_failure">Produciuse un fallo copiando a base de datos</string>
-    <string name="send_crash_title">Informador de fallos do VLC</string>
-    <string name="send_crash_description">Enviando este fallo, axudará a mellorar a estabilidade do VLC.</string>
+    <string name="send_crash_title">Informador de fallos do SyncNuke</string>
+    <string name="send_crash_description">Enviando este fallo, axudará a mellorar a estabilidade do SyncNuke.</string>
     <string name="send_crash_warning">Asegúrese de retirar todos os datos sensíbeis que non desexe enviar.</string>
     <string name="include_medialib">Incluír a base de datos</string>
     <string name="vlc_reporter">Informador de fallos do VLC</string>
-    <string name="welcome_beta_title">VLC Beta</string>
-    <string name="welcome_beta_description"> Benvido ao programa VLC beta.\nTeña en conta que esta versión pode ter algúns erros.</string>
+    <string name="welcome_beta_title">SyncNuke Beta</string>
+    <string name="welcome_beta_description"> Benvido ao programa SyncNuke beta.\nTeña en conta que esta versión pode ter algúns erros.</string>
     <string name="welcome_beta_description_bugs">Se detecta algún fallo comuníquenolo no foro ou no rastrexador de erros.</string>
     <string name="send">Enviar</string>
     <string name="send_crash_action_title">Que desexa facer?</string>
@@ -711,8 +711,8 @@
     <string name="recently_played">Reproducido recentemente</string>
     <string name="recently_added">Engadido recentemente</string>
     <string name="playback_multiple_errors">Non é posíbel reproducir múltiples multimedia</string>
-    <string name="clear_media_db_message">Perderá os progresos, marcadores e listas de reprodución que creou pero manterá os axustes do VLC para Android.</string>
-    <string name="clear_app_data_message">Perderá os progresos, marcadores, listas de reprodución e todos os axustes do VLC.</string>
+    <string name="clear_media_db_message">Perderá os progresos, marcadores e listas de reprodución que creou pero manterá os axustes do SyncNuke para Android.</string>
+    <string name="clear_app_data_message">Perderá os progresos, marcadores, listas de reprodución e todos os axustes do SyncNuke.</string>
     <string name="clear">Limpar</string>
     <string name="abrepeat_add_first_marker">Estabelecer o punto de inicio</string>
     <string name="abrepeat_add_second_marker">Estabelecer o punto de remate</string>
@@ -793,7 +793,7 @@
     <string name="air_action_next">Seguinte elemento a reproducir</string>
     <string name="air_action_previous">Elemento anterior a reproducir</string>
     <string name="allow_otg">Permitir acceso OTG</string>
-    <string name="allow_otg_description">Seleccione o dispositivo OTG que acceda ao VLC.</string>
+    <string name="allow_otg_description">Seleccione o dispositivo OTG que acceda ao SyncNuke.</string>
     <string name="timeout_infinite">Infinito</string>
     <string name="video_hud_timeout">Atraso no ocultamento dos controis do reprodutor</string>
     <string name="video_hud_timeout_summary">%ss</string>
@@ -832,7 +832,7 @@
     <string name="optional_features">Características opcionais</string>
     <string name="optional_features_summary">As caracterísiticas beta están en probas e pode que non sexan estábeis</string>
     <string name="optional_features_warning">Esta característica está en fase beta e pode causar incidencias e inestabilidade</string>
-    <string name="start_vlc">Iniciar VLC</string>
+    <string name="start_vlc">Iniciar SyncNuke</string>
     <string name="jump_delay_summary">%s segundos</string>
     <string name="play_media">Reproducir %s</string>
     <!-- Duplication Warning Dialog -->
@@ -854,7 +854,7 @@
     <string name="widget_type_normal">Normal</string>
     <string name="opacity">Opacidade</string>
     <string name="widget_show_cover">Mostrar portada</string>
-    <string name="open_vlc">Abrir VLC</string>
+    <string name="open_vlc">Abrir SyncNuke</string>
     <string name="disabled">Desactivado</string>
     <string name="talkback_genre">Xénero: %s</string>
     <string name="talkback_favorite">Favorito: %s</string>

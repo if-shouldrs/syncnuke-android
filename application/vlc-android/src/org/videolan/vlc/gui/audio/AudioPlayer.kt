@@ -1038,7 +1038,7 @@ class AudioPlayer : Fragment(), PlaylistAdapter.IPlayer, TextWatcher, IAudioPlay
 
             if (playlistModel.videoTrackCount > 0) onResumeToVideoClick()
             else {
-                requireActivity().copy("VLC - song name", trackInfo)
+                requireActivity().copy("SyncNuke - song name", trackInfo)
                 UiTools.snacker(requireActivity(), R.string.track_info_copied_to_clipboard)
             }
         }

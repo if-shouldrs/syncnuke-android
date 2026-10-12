@@ -118,7 +118,7 @@ object TranslationMapping {
         ABOUT(R.string.about),
         CONNECTED_DEVICE(R.string.connected_device),
         DEVICE_MODEL(R.string.model),
-        VLC_VERSION(R.string.app_name_full),
+        VLC_VERSION(R.string.app_name),
         REMOTE_ACCESS_TITLE(R.string.remote_access),
         REMOTE_ACCESS_HASH_TITLE(R.string.remote_access_hash_title),
         REMOTE_ACCESS_VERSION_TITLE(R.string.remote_access_version_title),

@@ -29,6 +29,7 @@ android {
         resValue "string", "build_revision", build_revision
         resValue "string", "changelog", changelog()
         resValue "string", "dav1d_version", dav1dVersion()
+        resValue 'string', 'tv_search_intent_data', "content://${rootProject.ext.appId}.tv/media_database"
         resValue 'string', 'tv_provider_authority', "${rootProject.ext.appId}.tv"
         buildConfigField 'String', 'LIBVLC_VERSION', "\"${rootProject.ext.libvlcVersion}\""
         buildConfigField 'String', 'ML_VERSION', "\"${rootProject.ext.medialibraryVersion}\""
@@ -76,6 +77,7 @@ android {
             buildConfigField "boolean", "BETA", "false"
             resValue 'string', 'benchmark_package_name', 'org.videolan.vlcbenchmark.debug'
             buildConfigField "String", "APP_ID", "\"${rootProject.ext.appId}.debug\""
+            resValue 'string', 'tv_search_intent_data', "content://${rootProject.ext.appId}.debug.tv/media_database"
             resValue 'string', 'tv_provider_authority', "${rootProject.ext.appId}.debug.tv"
             buildConfigField "boolean", "NO_TV", "false"
             multiDexEnabled = true

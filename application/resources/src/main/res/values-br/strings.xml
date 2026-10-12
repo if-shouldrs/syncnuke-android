@@ -50,7 +50,7 @@
     <string name="play_as_video">Lenn evel video</string>
     <string name="return_to_video">Pouezañ pell war ar golo evit adderaouekaat ar video</string>
     <string name="video_app_switch_title">Mod drekleur/PiP</string>
-    <string name="video_app_switch_summary">Diuzit emzalc\'h VLC pa dremenit d\'un arload all adalek al lenn video</string>
+    <string name="video_app_switch_summary">Diuzit emzalc\'h SyncNuke pa dremenit d\'un arload all adalek al lenn video</string>
     <string name="play_pip_title">Lenn ar videoioù e mod skeudenn-er-skeudenn</string>
     <string name="play_as_audio_background">Lenn videoioù en drekleur</string>
     <string name="append">Ouzhpennañ d\'ar roll-lenn</string>
@@ -291,7 +291,7 @@
     <string name="hold_to_stop">Pouezit evit paouez</string>
 
     <!-- About -->
-    <string name="app_name_full">VLC evit Android</string>
+    <string name="app_name_full">SyncNuke</string>
     <string name="revision">Adwel</string>
     <string name="about">Diwar-benn</string>
     <string name="about_vlc_text">VLC evit Android™ zo ur porzh eus al lenner mediaoù VLC, al lenner mediaoù digor brudet. Ar stumm AndroidTM a c\'hell lenn an holl restroù hag ar froudoù rouedad.</string>
@@ -450,7 +450,7 @@
     <string name="replaygain_track">Roudenn</string>
     <string name="replaygain_album">Albom</string>
     <string name="aout">Ezvont aodio</string>
-    <string name="audio_ducking_title">Izelaat live-son VLC da vare ar c\'hemennoù</string>
+    <string name="audio_ducking_title">Izelaat live-son SyncNuke da vare ar c\'hemennoù</string>
     <string name="casting_category">Skignañ</string>
     <string name="remote_access">Haeziñ a-bell</string>
     <string name="remote_access_version_title">Stumm an haeziñ a-bell</string>
@@ -489,7 +489,7 @@
     <string name="dump_media_db">Ezporzhiañ diaz-roadennoù ar mediaoù</string>
     <string name="clear_media_db">Sklaeraat diaz-roadennoù ar mediaoù</string>
     <string name="clear_app_data">Dilemel roadennoù an arload</string>
-    <string name="clear_app_data_summary">Dilemel roadennoù VLC evit Android</string>
+    <string name="clear_app_data_summary">Dilemel roadennoù SyncNuke evit Android</string>
     <string name="clear_history">Sklaeraat ar roll-istor</string>
     <string name="set_locale">Termeniñ ar yezh</string>
     <string name="network_caching">Talvoudegezh krubuilh ar genrouedad</string>
@@ -507,7 +507,7 @@
     <string name="start_logging">Loc\'hañ an enrollañ</string>
     <string name="stop_logging">Paouez an enrollañ</string>
     <string name="clear_log">Skarzhañ ar renabl</string>
-    <string name="log_service_title">Enrollañ renabloù VLC</string>
+    <string name="log_service_title">Enrollañ renabloù SyncNuke</string>
     <string name="log_service_text">Digeriñ koñsol ar renabl</string>
     <string name="copy_to_clipboard">Eilañ er golver</string>
     <string name="copied_to_clipboard">Renabl eilet er golver.</string>
@@ -515,7 +515,7 @@
     <string name="dump_logcat_failure">C\'hwitet ez eus bet war tapadenn logcat.</string>
     <string name="custom_libvlc_options">Dibarzhioù libVLC personelaet</string>
     <string name="custom_libvlc_options_invalid">Dibarzhioù libVLC direizh!</string>
-    <string name="restart_vlc">Adloc\'hañ VLC</string>
+    <string name="restart_vlc">Adloc\'hañ SyncNuke</string>
     <string name="send_log">Kas ar renabl</string>
     <string name="sending_log">O kas ar renabl...</string>
 
@@ -556,19 +556,19 @@
     <string name="music_now_playing">O lenn</string>
 
     <!-- Widget -->
-    <string name="widget_name_w">Widget VLC gwenn</string>
-    <string name="widget_name_b">Widget VLC teñval</string>
-    <string name="allow_storage_access_title">Aotren VLC da dizhout ar restroù video hag aodio</string>
-    <string name="allow_settings_access_ringtone_title">Aotren VLC da dermeniñ ar soniri</string>
-    <string name="allow_settings_access_ringtone_description">VLC en deus ezhomm ec\'h aotrefec\'h an arload-mañ evit lakaat ar sonenn-mañ evel soniri.</string>
-    <string name="allow_settings_access_brightness_title">Aotren VLC da cheñch ar mod lintr</string>
-    <string name="allow_settings_access_brightness_description">VLC en deus ezhomm ec\'h aotrefec\'h an arload-mañ da cheñch al lintr.</string>
-    <string name="allow_draw_overlays_title">Aotren pop-up al lenner VLC a-us an arloadoù all</string>
-    <string name="allow_sdraw_overlays_description">Ezhomm en deus VLC da gaout hoc\'h aotre da ziskouez ho video en ur pop-up a-us d\'an arloadoù all.</string>
+    <string name="widget_name_w">Widget SyncNuke gwenn</string>
+    <string name="widget_name_b">Widget SyncNuke teñval</string>
+    <string name="allow_storage_access_title">Aotren SyncNuke da dizhout ar restroù video hag aodio</string>
+    <string name="allow_settings_access_ringtone_title">Aotren SyncNuke da dermeniñ ar soniri</string>
+    <string name="allow_settings_access_ringtone_description">SyncNuke en deus ezhomm ec\'h aotrefec\'h an arload-mañ evit lakaat ar sonenn-mañ evel soniri.</string>
+    <string name="allow_settings_access_brightness_title">Aotren SyncNuke da cheñch ar mod lintr</string>
+    <string name="allow_settings_access_brightness_description">SyncNuke en deus ezhomm ec\'h aotrefec\'h an arload-mañ da cheñch al lintr.</string>
+    <string name="allow_draw_overlays_title">Aotren pop-up al lenner SyncNuke a-us an arloadoù all</string>
+    <string name="allow_sdraw_overlays_description">Ezhomm en deus SyncNuke da gaout hoc\'h aotre da ziskouez ho video en ur pop-up a-us d\'an arloadoù all.</string>
     <string name="permission_ask_again">Aotren</string>
     <string name="permission_not_granted">Aotre nac\'het</string>
-    <string name="exit_app">Serriñ VLC</string>
-    <string name="exit_app_msg">Ha sur oc\'h da gaout c\'hoant da guitaat VLC?</string>
+    <string name="exit_app">Serriñ SyncNuke</string>
+    <string name="exit_app_msg">Ha sur oc\'h da gaout c\'hoant da guitaat SyncNuke?</string>
     <!-- fast scroller -->
     <string name="fastscroller_track">Roud FastScroller</string>
     <string name="fastscroller_handle">Reti an dibunañ herrek</string>
@@ -602,7 +602,7 @@
     <string name="length">Padelezh</string>
     <string name="tv_settings_hint">Pouezit hir war ar bouton Mat eo evit kochiñ/digochiñ ar c\'havlec\'hioù</string>
     <string name="ml_external_storage_title">Lec\'h-stokañ nevez diguzhet</string>
-    <string name="ml_external_storage_msg">Ha c\'hoant ho peus ec\'h ouzhpennfe VLC an trevnad %1$s d\'ho levraoueg mediaoù?</string>
+    <string name="ml_external_storage_msg">Ha c\'hoant ho peus ec\'h ouzhpennfe SyncNuke an trevnad %1$s d\'ho levraoueg mediaoù?</string>
     <string name="ml_external_storage_accept">Ya</string>
     <string name="ml_external_storage_decline">Ket</string>
     <string name="auto_last_added_media">Ouzhpennet da ziwezhañ</string>
@@ -631,7 +631,7 @@
     <string name="browser_storages">Stokadurioù</string>
     <string name="msg_delete_failed">C\'hwitet ez eus bet war dilemel ar media %1$s</string>
     <string name="renderer_list_title">Doareoù diskouez</string>
-    <string name="sdcard_permission_dialog_title">Rankout a rit reiñ da VLC an aotre da skrivañ en ho kartenn SD</string>
+    <string name="sdcard_permission_dialog_title">Rankout a rit reiñ da SyncNuke an aotre da skrivañ en ho kartenn SD</string>
     <string name="dialog_sd_wizard">Diskouez din</string>
     <string name="renderers_disconnect">Digevreañ</string>
     <string name="audio_digital_failed">C\'hwitet ez eus bet war gemmañ ar stad ezvont aodio niverel</string>
@@ -677,16 +677,16 @@
     <string name="video_remote_enable">Tremen d\'ar mod kontroll a-bell</string>
     <string name="video_remote_disable">Eilañ ar skramm</string>
     <string name="removed_from_playlist_anonymous">Elfenn(où) dilamet diwar ar roll-lenn</string>
-    <string name="welcome_title">Degemer e-barzh VLC!</string>
+    <string name="welcome_title">Degemer e-barzh SyncNuke!</string>
     <string name="welcome_subtitle">Al lenner liesvedia frank hag en open source</string>
-    <string name="permission_media">Ezhomm en deus VLC hoc\'h aotre evit tizhout ar mediaoù a zo en hoc\'h aparailh</string>
-    <string name="medialibrary_scan_explanation">VLC a c\'hall skanañ hoc\'h aparailh evit aozañ ho tastumad mediaoù.</string>
+    <string name="permission_media">Ezhomm en deus SyncNuke hoc\'h aotre evit tizhout ar mediaoù a zo en hoc\'h aparailh</string>
+    <string name="medialibrary_scan_explanation">SyncNuke a c\'hall skanañ hoc\'h aparailh evit aozañ ho tastumad mediaoù.</string>
     <string name="onboarding_theme_title">Grit evel ma vefec\'h en ho ti</string>
     <string name="done">Graet</string>
     <string name="onboarding_scan_title">Em-zizoleiñ ho mediaoù</string>
-    <string name="onboarding_all_set">Prest eo VLC!</string>
-    <string name="onboarding_scanning_enable">Lezel VLC skanañ ma aparailh evit kavout endalc\'hadoù media</string>
-    <string name="onboarding_scan_customize">Lezel ac\'hanon dibab peseurt teuliadoù a c\'hall bezañ skanet gant VLC</string>
+    <string name="onboarding_all_set">Prest eo SyncNuke!</string>
+    <string name="onboarding_scanning_enable">Lezel SyncNuke skanañ ma aparailh evit kavout endalc\'hadoù media</string>
+    <string name="onboarding_scan_customize">Lezel ac\'hanon dibab peseurt teuliadoù a c\'hall bezañ skanet gant SyncNuke</string>
     <string name="button_medialibrary_preferences">Mont da arventennoù ar Vediaoueg</string>
     <string name="light_theme">Tem sklaer</string>
     <string name="add">Ouzhpennañ</string>
@@ -723,10 +723,10 @@
     <string name="validation_delete_playlist_text">N\'hall ket bezañ nullet.</string>
     <string name="display_in_list">Diskouez en ul listenn</string>
     <string name="display_in_grid">Diskouez e kael</string>
-    <string name="send_crash_title">Daneveller sac\'hadennoù VLC</string>
+    <string name="send_crash_title">Daneveller sac\'hadennoù SyncNuke</string>
     <string name="include_medialib">Enklozañ ho tiaz-roadennoù</string>
     <string name="vlc_reporter">Daneveller VLC</string>
-    <string name="welcome_beta_title">VLC beta</string>
+    <string name="welcome_beta_title">SyncNuke beta</string>
     <string name="send">Kas</string>
     <string name="send_crash_action_title">Petra ho peus c\'hoant d\'ober?</string>
     <string name="report_a_bug">Danevelliñ ur veugenn</string>
@@ -855,7 +855,7 @@
     <string name="bookmarks_title">Sinedoù</string>
     <string name="bookmark_name">Sined %s</string>
     <string name="optional_features">Arc\'hweladurioù ouzhpenn</string>
-    <string name="start_vlc">Loc\'hañ VLC</string>
+    <string name="start_vlc">Loc\'hañ SyncNuke</string>
     <!-- Duplication Warning Dialog -->
     <string name="message_primary_default">Ouzhpennañ un elfenn(où) e doubl?</string>
     <string name="add_button">Ouzhpennañ</string>

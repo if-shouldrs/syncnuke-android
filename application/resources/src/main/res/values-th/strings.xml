@@ -32,7 +32,7 @@
     <string name="play_as_audio">เล่นแต่เสียง</string>
     <string name="play_as_video">เล่นทั้งภาพและเสียง</string>
     <string name="video_app_switch_title">โหมดพื้นหลัง/PiP</string>
-    <string name="video_app_switch_summary">เลือกลักษณะการทำงานของ VLC เมื่อคุณสลับไปใช้แอปพลิเคชันอื่นจากการเล่นวิดีโอ</string>
+    <string name="video_app_switch_summary">เลือกลักษณะการทำงานของ SyncNuke เมื่อคุณสลับไปใช้แอปพลิเคชันอื่นจากการเล่นวิดีโอ</string>
     <string name="play_pip_title">เล่นวิดีโอในโหมดภาพควบคู่</string>
     <string name="play_as_audio_background">เล่นวิดีโอในเบื้องหลัง</string>
     <string name="insert_next">แทรกถัดไป</string>
@@ -167,7 +167,7 @@
     <string name="streams">สตรีม</string>
     <string name="open_mrl_dialog_msg">ป้อนที่อยู่เครือข่าย: เช่น http://, mms:// หรือ rtsp://</string>
     <string name="encountered_error_title">ข้อผิดพลาดการเล่น</string>
-    <string name="encountered_error_message">VLC พบว่าสื่อนี้มีข้อผิดพลาด\nกรุณาลองรีเฟรชคลังสื่ออีกครั้ง</string>
+    <string name="encountered_error_message">SyncNuke พบว่าสื่อนี้มีข้อผิดพลาด\nกรุณาลองรีเฟรชคลังสื่ออีกครั้ง</string>
     <string name="invalid_location">ไม่สามารถเล่นตำแหน่ง %1$s ได้</string>
     <string name="search">ค้นหา</string>
 
@@ -191,7 +191,7 @@
     <string name="hold_to_stop">กดค้างเพื่อหยุด</string>
 
     <!-- About -->
-    <string name="app_name_full">VLC สำหรับ Android</string>
+    <string name="app_name_full">SyncNuke</string>
     <string name="revision">การปรับปรุง</string>
     <string name="about">เกี่ยวกับ</string>
     <string name="vlc_authors">และผู้จัดทำ VLC</string>
@@ -279,8 +279,8 @@
     <string name="enable_play_on_headset_insertion">เล่นต่อหลังจากเสียบชุดหูฟัง</string>
     <string name="enable_play_on_headset_insertion_summary">พักต่อไป</string>
     <string name="aout">เอาต์พุตเสียง</string>
-    <string name="aout_summary">เปลี่ยนวิธีที่ VLC ใช้ในการแสดงผลเสียง</string>
-    <string name="audio_ducking_title">ลดระดับเสียง VLC เมื่อมีการแจ้งเตือน</string>
+    <string name="aout_summary">เปลี่ยนวิธีที่ SyncNuke ใช้ในการแสดงผลเสียง</string>
+    <string name="audio_ducking_title">ลดระดับเสียง SyncNuke เมื่อมีการแจ้งเตือน</string>
     <string name="audio_ducking_summary">ช่วยให้ได้ยินเสียงการแจ้งเตือน การนำทาง หรือเสียงผู้ช่วยได้ชัดเจนขึ้น</string>
     <string name="casting_category">การแคสต์</string>
     <string name="casting_switch_title">การแคสต์แบบไร้สาย</string>
@@ -340,7 +340,7 @@
     <string name="start_logging">เริ่มการบันทึก</string>
     <string name="stop_logging">หยุดการบันทึก</string>
     <string name="clear_log">ล้างบันทึก</string>
-    <string name="log_service_title">การบันทึกการทำงานของ VLC</string>
+    <string name="log_service_title">การบันทึกการทำงานของ SyncNuke</string>
     <string name="log_service_text">เปิดคอนโซลการบันทึก</string>
     <string name="copy_to_clipboard">คัดลอกไปยังคลิปบอร์ด</string>
     <string name="copied_to_clipboard">คัดลอกบันทึกไปยังคลิปบอร์ดแล้ว</string>
@@ -349,9 +349,9 @@
     <string name="dump_logcat_failure">การถ่ายโอนข้อมูล Logcat ล้มเหลว</string>
     <string name="custom_libvlc_options">ตัวเลือก libVLC ที่กำหนดเอง</string>
     <string name="custom_libvlc_options_invalid">ตัวเลือก libVLC ไม่ถูกต้อง!</string>
-    <string name="serious_crash">ขออภัย เกิดข้อผิดพลาดร้ายแรงขึ้นซึ่งทำให้ VLC ต้องปิดไป</string>
-    <string name="help_us_send_log">ช่วยเราปรับปรุง VLC ได้โดยการส่งไฟล์บันทึกความล้มเหลวดังกล่าวมาให้เรา:</string>
-    <string name="restart_vlc">เปิด VLC ใหม่</string>
+    <string name="serious_crash">ขออภัย เกิดข้อผิดพลาดร้ายแรงขึ้นซึ่งทำให้ SyncNuke ต้องปิดไป</string>
+    <string name="help_us_send_log">ช่วยเราปรับปรุง SyncNuke ได้โดยการส่งไฟล์บันทึกความล้มเหลวดังกล่าวมาให้เรา:</string>
+    <string name="restart_vlc">เปิด SyncNuke ใหม่</string>
     <string name="send_log">ส่งไฟล์บันทึก</string>
     <string name="sending_log">กำลังส่งไฟล์บันทึก…</string>
 
@@ -392,19 +392,19 @@
     <string name="music_now_playing">กำลังเล่นอยู่</string>
 
     <!-- Widget -->
-    <string name="widget_name_w">วิดเจ็ต VLC สีขาว</string>
-    <string name="widget_name_b">วิดเจ็ต VLC สีเข้ม</string>
-    <string name="allow_storage_access_title">อนุญาตให้ VLC เข้าถึงไฟล์วิดีโอและเสียง</string>
-    <string name="allow_storage_access_description">VLC จำเป็นต้องให้คุณอนุญาตสิทธิ์การเข้าถึงนี้เพื่อเข้าถึงไฟล์สื่อบนอุปกรณ์นี้</string>
-    <string name="allow_settings_access_ringtone_title">อนุญาตให้ VLC ตั้งค่าเสียงเรียกเข้า</string>
-    <string name="allow_settings_access_ringtone_description">VLC จำเป็นต้องให้คุณอนุญาตสิทธิ์การเข้าถึงนี้เพื่อตั้งเพลงนี้เป็นเสียงเรียกเข้าของคุณ</string>
-    <string name="allow_settings_access_brightness_title">อนุญาตให้ VLC เปลี่ยนโหมดความสว่าง</string>
-    <string name="allow_settings_access_brightness_description">VLC จำเป็นต้องให้คุณอนุญาตสิทธิ์การเข้าถึงนี้เพื่อเปลี่ยนโหมดความสว่างของคุณ</string>
-    <string name="allow_draw_overlays_title">อนุญาตให้แสดงป๊อปอัพโปรแกรมเล่น VLC บนแอปอื่นๆ</string>
-    <string name="allow_sdraw_overlays_description">VLC จำเป็นต้องให้คุณอนุญาตสิทธิ์การเข้าถึงนี้เพื่อแสดงวิดีโอของคุณในป๊อปอัพบนแอปพลิเคชันอื่นๆ</string>
+    <string name="widget_name_w">วิดเจ็ต SyncNuke สีขาว</string>
+    <string name="widget_name_b">วิดเจ็ต SyncNuke สีเข้ม</string>
+    <string name="allow_storage_access_title">อนุญาตให้ SyncNuke เข้าถึงไฟล์วิดีโอและเสียง</string>
+    <string name="allow_storage_access_description">SyncNuke จำเป็นต้องให้คุณอนุญาตสิทธิ์การเข้าถึงนี้เพื่อเข้าถึงไฟล์สื่อบนอุปกรณ์นี้</string>
+    <string name="allow_settings_access_ringtone_title">อนุญาตให้ SyncNuke ตั้งค่าเสียงเรียกเข้า</string>
+    <string name="allow_settings_access_ringtone_description">SyncNuke จำเป็นต้องให้คุณอนุญาตสิทธิ์การเข้าถึงนี้เพื่อตั้งเพลงนี้เป็นเสียงเรียกเข้าของคุณ</string>
+    <string name="allow_settings_access_brightness_title">อนุญาตให้ SyncNuke เปลี่ยนโหมดความสว่าง</string>
+    <string name="allow_settings_access_brightness_description">SyncNuke จำเป็นต้องให้คุณอนุญาตสิทธิ์การเข้าถึงนี้เพื่อเปลี่ยนโหมดความสว่างของคุณ</string>
+    <string name="allow_draw_overlays_title">อนุญาตให้แสดงป๊อปอัพโปรแกรมเล่น SyncNuke บนแอปอื่นๆ</string>
+    <string name="allow_sdraw_overlays_description">SyncNuke จำเป็นต้องให้คุณอนุญาตสิทธิ์การเข้าถึงนี้เพื่อแสดงวิดีโอของคุณในป๊อปอัพบนแอปพลิเคชันอื่นๆ</string>
     <string name="permission_ask_again">อนุญาตสิทธิ์การเข้าถึง</string>
-    <string name="exit_app">ปิด VLC</string>
-    <string name="exit_app_msg">คุณแน่ใจหรือไม่ว่าคุณต้องการออกจาก VLC</string>
+    <string name="exit_app">ปิด SyncNuke</string>
+    <string name="exit_app_msg">คุณแน่ใจหรือไม่ว่าคุณต้องการออกจาก SyncNuke</string>
     <!-- fast scroller -->
     <string name="fastscroller_track">แทร็ก FastScroller</string>
     <string name="fastscroller_handle">ตัวจัดการ FastScroller</string>
@@ -439,7 +439,7 @@
     <string name="length">ความยาว</string>
     <string name="tv_settings_hint">กดปุ่ม \"ตกลง\" เพื่อทำเครื่องหมาย/เอาเครื่องหมายไดเรกทอรีออก</string>
     <string name="ml_external_storage_title">พบที่เก็บข้อมูลภายนอกใหม่</string>
-    <string name="ml_external_storage_msg">คุณต้องการให้ VLC เพิ่มอุปกรณ์ %1$s ลงในคลังสื่อของคุณหรือไม่</string>
+    <string name="ml_external_storage_msg">คุณต้องการให้ SyncNuke เพิ่มอุปกรณ์ %1$s ลงในคลังสื่อของคุณหรือไม่</string>
     <string name="ml_external_storage_accept">ใช่</string>
     <string name="ml_external_storage_decline">ไม่ใช่</string>
     <string name="auto_last_added_media">เพิ่มล่าสุด</string>
@@ -468,8 +468,8 @@
     <string name="browser_storages">ที่เก็บข้อมูล</string>
     <string name="msg_delete_failed">การลบสื่อ %1$s ล้มเหลว</string>
     <string name="renderer_list_title">จอแสดงผล</string>
-    <string name="sdcard_permission_dialog_title">คุณต้องอนุญาตให้ VLC เขียนการเข้าถึงลงใน SD การ์ดของคุณ</string>
-    <string name="sdcard_permission_dialog_message">VLC ไม่สามารถลบไฟล์นี้ได้โดยไม่ได้เขียนสิทธิ์การเข้าถึง\nกรุณาไปที่ SD การ์ดของคุณและคลิก \"เลือก\"\nคุณอาจต้องคลิก \"แสดง SD การ์ด\" ในเมนูบนขวาก่อน</string>
+    <string name="sdcard_permission_dialog_title">คุณต้องอนุญาตให้ SyncNuke เขียนการเข้าถึงลงใน SD การ์ดของคุณ</string>
+    <string name="sdcard_permission_dialog_message">SyncNuke ไม่สามารถลบไฟล์นี้ได้โดยไม่ได้เขียนสิทธิ์การเข้าถึง\nกรุณาไปที่ SD การ์ดของคุณและคลิก \"เลือก\"\nคุณอาจต้องคลิก \"แสดง SD การ์ด\" ในเมนูบนขวาก่อน</string>
     <string name="dialog_sd_wizard">แสดงวิธีการ</string>
     <string name="renderers_disconnect">ยกเลิกการเชื่อมต่อ</string>
     <string name="audio_digital_failed">ไม่สามารถเปลี่ยนสถานะของเอาต์พุตดิจิทัลเสียงได้</string>
@@ -483,7 +483,7 @@
     <string name="playback_rewind">กรอกลับ</string>
     <string name="playback_forward">กรอไปข้างหน้า</string>
     <string name="ml_wizard_scan_checkbox">สแกนอุปกรณ์สำหรับเนื้อหาสื่อ</string>
-    <string name="ml_wizard_description">เลือกว่าจะให้ VLC สแกนที่เก็บข้อมูลอุปกรณ์ของคุณเพื่อจัดระเบียบไลบรารีสื่อของคุณหรือใช้เป็นเพียงโปรแกรมเล่นอย่างง่ายที่มีเบราว์เซอร์แบบรวม</string>
+    <string name="ml_wizard_description">เลือกว่าจะให้ SyncNuke สแกนที่เก็บข้อมูลอุปกรณ์ของคุณเพื่อจัดระเบียบไลบรารีสื่อของคุณหรือใช้เป็นเพียงโปรแกรมเล่นอย่างง่ายที่มีเบราว์เซอร์แบบรวม</string>
     <string name="tv_my_new_videos">วิดีโอใหม่ของฉัน</string>
     <string name="otg_device_title">อุปกรณ์ OTG</string>
     <string name="browser">เบราว์เซอร์</string>
@@ -510,24 +510,24 @@
     <string name="ctx_player_subs_track">แทร็กบทบรรยาย</string>
     <string name="ctx_pip_title">โปรแกรมเล่นแบบผุดขึ้น</string>
     <string name="device_dialog_title">ใส่อุปกรณ์ภายนอกแล้ว</string>
-    <string name="device_dialog_message">คุณเพิ่งเสียบอุปกรณ์เก็บข้อมูลใหม่กับกล่องทีวีของคุณ คุณต้องการเปิดด้วย VLC หรือไม่?</string>
+    <string name="device_dialog_message">คุณเพิ่งเสียบอุปกรณ์เก็บข้อมูลใหม่กับกล่องทีวีของคุณ คุณต้องการเปิดด้วย SyncNuke หรือไม่?</string>
     <string name="videos_folders_title">วิดีโอตามโฟลเดอร์</string>
     <string name="videos_groups_title">กลุ่มวิดีโอ</string>
     <string name="video_save_clone_mode">เปิดใช้งานโหมดโคลนโดยอัตโนมัติหรือไม่?</string>
     <string name="video_remote_enable">สลับไปยังโหมดรีโมทคอนโทรล</string>
     <string name="video_remote_disable">แสดงทั้งสองหน้าจอเหมือนกัน</string>
     <string name="removed_from_playlist_anonymous">เอารายการออกจากเพลย์ลิสต์แล้ว</string>
-    <string name="welcome_title">ยินดีต้อนรับสู่ VLC!</string>
+    <string name="welcome_title">ยินดีต้อนรับสู่ SyncNuke!</string>
     <string name="welcome_subtitle">โปรแกรมเล่นสื่อฟรีและโอเพนซอร์ส</string>
-    <string name="permission_media">VLC จำเป็นต้องมีสิทธิอนุญาตของคุณเพื่อเข้าถึงไฟล์สื่อบนอุปกรณ์ของคุณ</string>
-    <string name="medialibrary_scan_explanation">VLC สามารถสแกนอุปกรณ์ของคุณโดยอัตโนมัติเพื่อจัดระเบียบชุดสะสมสื่อของคุณได้</string>
+    <string name="permission_media">SyncNuke จำเป็นต้องมีสิทธิอนุญาตของคุณเพื่อเข้าถึงไฟล์สื่อบนอุปกรณ์ของคุณ</string>
+    <string name="medialibrary_scan_explanation">SyncNuke สามารถสแกนอุปกรณ์ของคุณโดยอัตโนมัติเพื่อจัดระเบียบชุดสะสมสื่อของคุณได้</string>
     <string name="onboarding_theme_title">ทำตัวตามสบาย</string>
     <string name="done">เสร็จสิ้น</string>
     <string name="onboarding_scan_title">ค้นพบสื่อของคุณอัตโนมัติ</string>
-    <string name="daynight_system_explanation">VLC จะสลับไปใช้โหมดมืดตามการตั้งค่าระบบโดยอัตโนมัติ</string>
-    <string name="daynight_legacy_explanation">VLC จะสลับไปใช้โหมดกลางคืนโดยอัตโนมัติเมื่อถึงเวลาที่เหมาะสม</string>
-    <string name="onboarding_scanning_enable">ให้ VLC สแกนอุปกรณ์ของฉันสำหรับเนื้อหาสื่</string>
-    <string name="onboarding_scan_customize">ให้ฉันเลือกโฟลเดอร์ที่ VLC จะสแกน</string>
+    <string name="daynight_system_explanation">SyncNuke จะสลับไปใช้โหมดมืดตามการตั้งค่าระบบโดยอัตโนมัติ</string>
+    <string name="daynight_legacy_explanation">SyncNuke จะสลับไปใช้โหมดกลางคืนโดยอัตโนมัติเมื่อถึงเวลาที่เหมาะสม</string>
+    <string name="onboarding_scanning_enable">ให้ SyncNuke สแกนอุปกรณ์ของฉันสำหรับเนื้อหาสื่</string>
+    <string name="onboarding_scan_customize">ให้ฉันเลือกโฟลเดอร์ที่ SyncNuke จะสแกน</string>
     <string name="button_medialibrary_preferences">ไปยังค่ากำหนดไลบรารีสื่อ</string>
     <string name="light_theme">ธีมสว่าง</string>
     <string name="add">เพิ่</string>
@@ -559,13 +559,13 @@
     <string name="display_in_grid">แสดงเป็นเส้นตาราง</string>
     <string name="dump_db_succes">บันทึกฐานข้อมูลบนรากที่เก็บข้อมูลภายในแล้ว</string>
     <string name="dump_db_failure">ไม่สามารถถ่ายโอนฐานข้อมูลได้</string>
-    <string name="send_crash_title">โปรแกรมรายงานข้อขัดข้องของ VLC</string>
-    <string name="send_crash_description">การส่งข้อขัดข้องของคุณจะช่วยเราปรับปรุงความเสถียรของ VLC ได้</string>
+    <string name="send_crash_title">โปรแกรมรายงานข้อขัดข้องของ SyncNuke</string>
+    <string name="send_crash_description">การส่งข้อขัดข้องของคุณจะช่วยเราปรับปรุงความเสถียรของ SyncNuke ได้</string>
     <string name="send_crash_warning">ตรวจสอบให้แน่ใจว่าคุณเอาข้อมูลที่ละเอียดอ่อนใด ๆ ที่คุณไม่ต้องการส่งออกแล้ว</string>
     <string name="include_medialib">รวมฐานข้อมูลของคุณ</string>
     <string name="vlc_reporter">โปรแกรมรายงานของ VLC</string>
-    <string name="welcome_beta_title">VLC เบต้า</string>
-    <string name="welcome_beta_description">ยินดีต้อนรับสู่โปรแกรมเบต้าของ VLC\nโปรดทราบว่ารุ่นนี้อาจมีจุดบกพร่องบางประการ</string>
+    <string name="welcome_beta_title">SyncNuke เบต้า</string>
+    <string name="welcome_beta_description">ยินดีต้อนรับสู่โปรแกรมเบต้าของ SyncNuke\nโปรดทราบว่ารุ่นนี้อาจมีจุดบกพร่องบางประการ</string>
     <string name="welcome_beta_description_bugs">หากคุณพบจุดบกพร่อง โปรดรายงานในฟอรัมของเราหรือโปรแกรมติดตามจุดบกพร่อง</string>
     <string name="send">ส่ง</string>
     <string name="send_crash_action_title">คุณต้องการทำอะไร</string>
@@ -681,7 +681,7 @@
     <string name="air_action_next">รายการถัดไปในเพลย์ลิสต์</string>
     <string name="air_action_previous">รายการก่อนหน้าในเพลย์ลิสต์</string>
     <string name="allow_otg">อนุญาตการเข้าถึง OTG</string>
-    <string name="allow_otg_description">โปรดเลือกไดรฟ์ OTG ของคุณเพื่ออนุญาตการเข้าถึง VLC</string>
+    <string name="allow_otg_description">โปรดเลือกไดรฟ์ OTG ของคุณเพื่ออนุญาตการเข้าถึง SyncNuke</string>
     <string name="timeout_infinite">ไม่จำกัด</string>
     <string name="video_hud_timeout">การหน่วงเวลาการซ่อนส่วนควบคุมตัวเล่นวิดีโอ</string>
     <string name="remove_from_history">เอาออกจากประวัติ</string>
