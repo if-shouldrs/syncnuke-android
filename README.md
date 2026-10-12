@@ -1,6 +1,6 @@
-# VLC for Android
+# SyncNuke for Android (VLC Fork)
 
-This is the official **Android** port of [VLC](https://videolan.org/vlc/).
+This is a work-in-progress fork of [VLC](https://videolan.org/vlc/), adding [SyncNuke](https://syncnuke.com/) support; the original README is preserved below.
 
 VLC on Android plays all the same files as the classical version of VLC, and features a media database
 for Audio and Video files and stream.
