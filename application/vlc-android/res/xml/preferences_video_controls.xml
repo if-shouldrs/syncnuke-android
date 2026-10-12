@@ -199,17 +199,17 @@
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference app:iconSpaceReserved="false"
-            app:key="syncPassword"
-            app:defaultValue=""
-            app:title="@string/pref_sync_password"
-            app:dependency="syncEnabled" />
-
-        <EditTextPreference app:iconSpaceReserved="false"
             app:key="syncRoom"
             app:defaultValue="Default"
             app:title="@string/pref_sync_room"
             app:dependency="syncEnabled"
             app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference app:iconSpaceReserved="false"
+            app:key="syncPassword"
+            app:defaultValue=""
+            app:title="@string/pref_sync_password"
+            app:dependency="syncEnabled" />
 
         <EditTextPreference app:iconSpaceReserved="false"
             app:key="syncProtocol"
