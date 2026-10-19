@@ -211,8 +211,10 @@
             app:title="@string/pref_sync_password"
             app:dependency="syncEnabled" />
 
-        <EditTextPreference app:iconSpaceReserved="false"
+        <DropDownPreference app:iconSpaceReserved="false"
             app:key="syncProtocol"
+            app:entries="@array/sync_protocols"
+            app:entryValues="@array/sync_protocols"
             app:defaultValue="datasaver"
             app:title="@string/pref_sync_protocol"
             app:dependency="syncEnabled"

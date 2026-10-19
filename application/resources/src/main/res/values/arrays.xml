@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="sync_protocols" translatable="false">
+        <item>datasaver</item>
+        <item>syncplay</item>
+    </string-array>
+
     <string-array name="server_protocols">
         <item>FTP</item>
         <item>FTPS</item>
