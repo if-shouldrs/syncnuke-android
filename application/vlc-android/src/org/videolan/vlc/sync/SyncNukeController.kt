@@ -115,6 +115,8 @@ private class VlcPlayerAdapter(private val service: PlaybackService) : MediaPlay
 
     private fun capture() {
         status = PlayerState().apply {
+            fileName = service.currentMediaWrapper?.fileName
+            duration = service.length.coerceAtLeast(0) / 1000.0
             playbackState = if (service.isPlaying) PlaybackState.PLAYING else PlaybackState.PAUSED
             // The service's UI progress cache advances only every ~950 ms.
             // Pair this sample's timestamp with the live player clock instead.
